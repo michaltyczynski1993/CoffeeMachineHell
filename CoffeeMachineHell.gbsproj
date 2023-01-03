@@ -876,7 +876,8 @@
                         {
                             "command": "EVENT_ACTOR_PUSH",
                             "args": {
-                                "continue": false
+                                "continue": false,
+                                "__collapse": true
                             },
                             "id": "fe965525-e6a8-4249-a6cc-ab180c327edc"
                         }
@@ -887,7 +888,13 @@
                             "command": "EVENT_CALL_CUSTOM_EVENT",
                             "args": {
                                 "customEventId": "d57aec05-3682-4107-8664-9450d1d1698b",
-                                "$actor[0]$": "$self$"
+                                "$actor[0]$": "$self$",
+                                "$variable[V1]$": {
+                                    "type": "variable",
+                                    "value": "L1"
+                                },
+                                "$actor[1]$": "player",
+                                "__collapse": false
                             },
                             "id": "31d8ad78-3328-4085-af5d-f069762d7b48"
                         }
@@ -921,6 +928,48 @@
                     "id": "9fa41a79-8203-49d3-970e-2854625076e8",
                     "x": 2,
                     "y": 9
+                },
+                {
+                    "name": "EmptySprite",
+                    "frame": 0,
+                    "animate": false,
+                    "spriteSheetId": "2f9f18bb-13ad-4561-b79c-c85ba5e2abdf",
+                    "direction": "down",
+                    "moveSpeed": 1,
+                    "animSpeed": 15,
+                    "paletteId": "",
+                    "isPinned": false,
+                    "persistent": false,
+                    "collisionGroup": "",
+                    "symbol": "actor_3",
+                    "script": [
+                        {
+                            "command": "EVENT_ACTOR_GET_POSITION",
+                            "args": {
+                                "actorId": "$self$",
+                                "vectorX": "L0",
+                                "vectorY": "L0",
+                                "units": "tiles"
+                            },
+                            "id": "89bf1ab4-491a-4745-9cfb-df9c2ac0a661"
+                        }
+                    ],
+                    "startScript": [
+                        {
+                            "command": "EVENT_ACTOR_COLLISIONS_DISABLE",
+                            "args": {
+                                "actorId": "$self$"
+                            },
+                            "id": "b8b82d15-03be-4a3a-98fc-c15571e0d32a"
+                        }
+                    ],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "0d1f1242-a6d2-4b11-885f-6a37cf6ca8cd",
+                    "x": 0,
+                    "y": 7
                 }
             ],
             "triggers": [],
@@ -998,6 +1047,18 @@
                         "__collapse": true
                     },
                     "id": "0ff18a36-4fb7-46a6-b252-5881f9afe2db"
+                },
+                {
+                    "command": "EVENT_SET_VALUE",
+                    "args": {
+                        "variable": "L0",
+                        "value": {
+                            "type": "number",
+                            "value": 1
+                        },
+                        "__collapse": true
+                    },
+                    "id": "4060b966-ab8c-4e2c-9923-69a41c822f8c"
                 }
             ],
             "playerHit1Script": [],
@@ -1860,6 +1921,134 @@
             "numTiles": 0,
             "canvasWidth": 32,
             "canvasHeight": 32,
+            "boundsX": 0,
+            "boundsY": 0,
+            "boundsWidth": 16,
+            "boundsHeight": 16,
+            "animSpeed": 15
+        },
+        {
+            "id": "2f9f18bb-13ad-4561-b79c-c85ba5e2abdf",
+            "name": "Empty_Sprite",
+            "symbol": "sprite_empty_sprite",
+            "numFrames": 1,
+            "type": "static",
+            "filename": "Empty_Sprite.png",
+            "checksum": "0c32947f2d7c625d022ed6eb9d59398e19836dbb",
+            "width": 16,
+            "height": 16,
+            "states": [
+                {
+                    "id": "858920ed-9cd8-4159-a13c-155e77592d5f",
+                    "name": "",
+                    "animationType": "fixed",
+                    "flipLeft": false,
+                    "animations": [
+                        {
+                            "id": "78080b51-de19-43ce-ac72-f524a1862304",
+                            "frames": [
+                                {
+                                    "id": "114342a1-0f9e-4b85-962d-cfaf5648866c",
+                                    "tiles": [
+                                        {
+                                            "id": "afc64928-92c6-4ef3-b009-33d0d77000de",
+                                            "x": 0,
+                                            "y": 0,
+                                            "sliceX": 0,
+                                            "sliceY": 0,
+                                            "flipX": false,
+                                            "flipY": false,
+                                            "palette": 0,
+                                            "paletteIndex": 0,
+                                            "objPalette": "OBP0",
+                                            "priority": false
+                                        },
+                                        {
+                                            "id": "31d642ae-5b51-4161-8d26-7c9ae7e7fe87",
+                                            "x": 8,
+                                            "y": 0,
+                                            "sliceX": 8,
+                                            "sliceY": 0,
+                                            "flipX": false,
+                                            "flipY": false,
+                                            "palette": 0,
+                                            "paletteIndex": 0,
+                                            "objPalette": "OBP0",
+                                            "priority": false
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "e0a63bdf-2e46-44d3-8ddb-3bd08236ef41",
+                            "frames": [
+                                {
+                                    "id": "4ed4354b-a47a-4bbc-af42-4483005dc660",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "9da4af85-c019-4481-a583-f13d20825159",
+                            "frames": [
+                                {
+                                    "id": "b83a80cf-24b9-492a-9259-dae0be7a4d26",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "ad58df5a-bf41-4c8b-bc01-4701719e9c69",
+                            "frames": [
+                                {
+                                    "id": "ebd40fcf-7e67-46d3-a184-f9db59c2996a",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "5332109a-5cb8-4b50-8cab-eb1748899fff",
+                            "frames": [
+                                {
+                                    "id": "9aeed9a2-83e3-475d-b1f4-c8c0fbfa0e63",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "92ba7c8a-7211-4fe2-8c9f-6d3ab49094b6",
+                            "frames": [
+                                {
+                                    "id": "e04dcfbe-b5fa-4c75-b44c-5976ffcdf6de",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "99920b2e-c4ce-4f03-a91a-72d7711f8869",
+                            "frames": [
+                                {
+                                    "id": "a9de7eeb-bae1-42a1-895c-c285f1b7e2cf",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "edc3c8bf-fdf9-4f76-bc78-ae3f77510824",
+                            "frames": [
+                                {
+                                    "id": "5b1d5656-6c76-48bb-b9a7-7289a0477a10",
+                                    "tiles": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "numTiles": 0,
+            "canvasWidth": 16,
+            "canvasHeight": 16,
             "boundsX": 0,
             "boundsY": 0,
             "boundsWidth": 16,
@@ -3536,51 +3725,91 @@
             "id": "d57aec05-3682-4107-8664-9450d1d1698b",
             "name": "Win Condition",
             "description": "",
-            "variables": {},
+            "variables": {
+                "V0": {
+                    "id": "V0",
+                    "name": "CoffeeMachineQuantity",
+                    "passByReference": true
+                },
+                "V1": {
+                    "id": "V1",
+                    "name": "CoffeeMachineDelivered",
+                    "passByReference": true
+                }
+            },
             "actors": {
                 "0": {
                     "id": "0",
-                    "name": "Actor A"
+                    "name": "Ekspres"
+                },
+                "1": {
+                    "id": "1",
+                    "name": "EmptySprite"
                 }
             },
             "symbol": "script_1",
             "script": [
                 {
-                    "command": "EVENT_IF_ACTOR_AT_POSITION",
+                    "command": "EVENT_IF_ACTOR_DISTANCE_FROM_ACTOR",
                     "args": {
                         "actorId": "0",
-                        "x": 0,
-                        "y": 7,
-                        "__collapseElse": true,
-                        "__collapse": false
+                        "operator": "==",
+                        "distance": {
+                            "type": "number",
+                            "value": 0
+                        },
+                        "otherActorId": "1",
+                        "__collapseElse": true
                     },
                     "children": {
                         "true": [
                             {
-                                "command": "EVENT_TEXT",
+                                "command": "EVENT_INC_VALUE",
                                 "args": {
-                                    "text": [
-                                        "You won!"
-                                    ],
-                                    "avatarId": ""
+                                    "variable": "V1"
                                 },
-                                "id": "55441a70-afd1-4d9d-8a68-3813a0f639c8"
+                                "id": "ebbc08e0-fe32-4d92-935d-c47bfb11a537"
                             },
                             {
-                                "command": "EVENT_SWITCH_SCENE",
+                                "command": "EVENT_IF_VALUE_COMPARE",
                                 "args": {
-                                    "sceneId": "d41cc798-3ef5-43d0-90ce-57d86e3271b4",
-                                    "x": 14,
-                                    "y": 3,
-                                    "direction": "",
-                                    "fadeSpeed": "2"
+                                    "vectorX": "V0",
+                                    "operator": "==",
+                                    "vectorY": "V1",
+                                    "__collapseElse": true
                                 },
-                                "id": "fc84671e-c34c-4a50-8ee6-1ecaab7539bb"
+                                "children": {
+                                    "true": [
+                                        {
+                                            "command": "EVENT_TEXT",
+                                            "args": {
+                                                "text": [
+                                                    "You won!"
+                                                ],
+                                                "avatarId": ""
+                                            },
+                                            "id": "55441a70-afd1-4d9d-8a68-3813a0f639c8"
+                                        },
+                                        {
+                                            "command": "EVENT_SWITCH_SCENE",
+                                            "args": {
+                                                "sceneId": "d41cc798-3ef5-43d0-90ce-57d86e3271b4",
+                                                "x": 14,
+                                                "y": 3,
+                                                "direction": "",
+                                                "fadeSpeed": "2"
+                                            },
+                                            "id": "fc84671e-c34c-4a50-8ee6-1ecaab7539bb"
+                                        }
+                                    ],
+                                    "false": []
+                                },
+                                "id": "40e30ab3-3fba-469a-a99a-e35a05c29da0"
                             }
                         ],
                         "false": []
                     },
-                    "id": "0e6cd37c-b872-4d00-9f9e-5416530bc5db"
+                    "id": "dce1cf8b-a757-48e2-81a2-627c67ced27c"
                 }
             ]
         },
@@ -3960,8 +4189,8 @@
     "variables": [
         {
             "id": "5ac31df9-32c0-40e2-9963-af0bcf063345__L0",
-            "name": "Local 0",
-            "symbol": "var_local_0"
+            "name": "coffeeMachine_quantity",
+            "symbol": "var_coffeemachine_quantity"
         }
     ],
     "engineFieldValues": [
@@ -3979,8 +4208,8 @@
         "startDirection": "down",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 119.19999694824219,
-        "worldScrollY": 0.800000011920929,
+        "worldScrollX": 128.8000030517578,
+        "worldScrollY": 0,
         "zoom": 198.656862616539,
         "customColorsEnabled": true,
         "sgbEnabled": false,
