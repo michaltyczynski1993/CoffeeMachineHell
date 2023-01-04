@@ -876,7 +876,8 @@
                         {
                             "command": "EVENT_ACTOR_PUSH",
                             "args": {
-                                "continue": false
+                                "continue": false,
+                                "__collapse": true
                             },
                             "id": "fe965525-e6a8-4249-a6cc-ab180c327edc"
                         }
@@ -892,7 +893,7 @@
                                     "type": "variable",
                                     "value": "L1"
                                 },
-                                "$actor[1]$": "9fa41a79-8203-49d3-970e-2854625076e8",
+                                "$actor[1]$": "player",
                                 "__collapse": false
                             },
                             "id": "31d8ad78-3328-4085-af5d-f069762d7b48"
@@ -981,7 +982,7 @@
                         ],
                         "override": true,
                         "__scriptTabs": "press",
-                        "__collapse": true
+                        "__collapse": false
                     },
                     "children": {
                         "true": [
@@ -4207,8 +4208,8 @@
         "startDirection": "down",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 130.39999389648438,
-        "worldScrollY": 7.199999809265137,
+        "worldScrollX": 128.8000030517578,
+        "worldScrollY": 0,
         "zoom": 198.656862616539,
         "customColorsEnabled": true,
         "sgbEnabled": false,
