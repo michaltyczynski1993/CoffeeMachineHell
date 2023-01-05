@@ -885,18 +885,82 @@
                     "startScript": [],
                     "updateScript": [
                         {
-                            "command": "EVENT_CALL_CUSTOM_EVENT",
+                            "command": "EVENT_GROUP",
                             "args": {
-                                "customEventId": "d57aec05-3682-4107-8664-9450d1d1698b",
-                                "$actor[0]$": "$self$",
-                                "$variable[V1]$": {
-                                    "type": "variable",
-                                    "value": "L1"
-                                },
-                                "$actor[1]$": "player",
-                                "__collapse": false
+                                "__collapse": false,
+                                "__label": "Win Condition"
                             },
-                            "id": "31d8ad78-3328-4085-af5d-f069762d7b48"
+                            "children": {
+                                "true": [
+                                    {
+                                        "command": "EVENT_IF_ACTOR_AT_POSITION",
+                                        "args": {
+                                            "actorId": "$self$",
+                                            "x": 0,
+                                            "y": 7,
+                                            "__collapseElse": true,
+                                            "__collapse": false
+                                        },
+                                        "children": {
+                                            "true": [
+                                                {
+                                                    "command": "EVENT_CALL_CUSTOM_EVENT",
+                                                    "args": {
+                                                        "customEventId": "d57aec05-3682-4107-8664-9450d1d1698b",
+                                                        "$actor[0]$": "$self$",
+                                                        "$variable[V1]$": {
+                                                            "type": "variable",
+                                                            "value": "1"
+                                                        },
+                                                        "$actor[1]$": "player",
+                                                        "__collapse": false
+                                                    },
+                                                    "id": "31d8ad78-3328-4085-af5d-f069762d7b48"
+                                                },
+                                                {
+                                                    "command": "EVENT_IF_VALUE_COMPARE",
+                                                    "args": {
+                                                        "vectorX": "0",
+                                                        "operator": "==",
+                                                        "vectorY": "1",
+                                                        "__collapseElse": true
+                                                    },
+                                                    "children": {
+                                                        "true": [
+                                                            {
+                                                                "command": "EVENT_TEXT",
+                                                                "args": {
+                                                                    "text": [
+                                                                        "you won!"
+                                                                    ],
+                                                                    "avatarId": ""
+                                                                },
+                                                                "id": "c2720848-7e7f-4598-b0d4-200622b065dc"
+                                                            },
+                                                            {
+                                                                "command": "EVENT_SWITCH_SCENE",
+                                                                "args": {
+                                                                    "sceneId": "d41cc798-3ef5-43d0-90ce-57d86e3271b4",
+                                                                    "x": 7,
+                                                                    "y": 5,
+                                                                    "direction": "",
+                                                                    "fadeSpeed": "2"
+                                                                },
+                                                                "id": "773aba28-bb1f-48df-81c0-3abf624fc319"
+                                                            }
+                                                        ],
+                                                        "false": []
+                                                    },
+                                                    "id": "57228149-e10c-43e4-84aa-5ee272d3c39c"
+                                                }
+                                            ],
+                                            "false": []
+                                        },
+                                        "id": "792826ee-b31a-4f4e-8a55-5ce77ae96349"
+                                    }
+                                ]
+                            },
+                            "id": "eeb5f344-d4ca-4de6-ab5a-f13274c8f359"
                         }
                     ],
                     "hit1Script": [],
@@ -928,48 +992,6 @@
                     "id": "9fa41a79-8203-49d3-970e-2854625076e8",
                     "x": 2,
                     "y": 9
-                },
-                {
-                    "name": "EmptySprite",
-                    "frame": 0,
-                    "animate": false,
-                    "spriteSheetId": "2f9f18bb-13ad-4561-b79c-c85ba5e2abdf",
-                    "direction": "down",
-                    "moveSpeed": 1,
-                    "animSpeed": 15,
-                    "paletteId": "",
-                    "isPinned": false,
-                    "persistent": false,
-                    "collisionGroup": "",
-                    "symbol": "actor_3",
-                    "script": [
-                        {
-                            "command": "EVENT_ACTOR_GET_POSITION",
-                            "args": {
-                                "actorId": "$self$",
-                                "vectorX": "L0",
-                                "vectorY": "L0",
-                                "units": "tiles"
-                            },
-                            "id": "89bf1ab4-491a-4745-9cfb-df9c2ac0a661"
-                        }
-                    ],
-                    "startScript": [
-                        {
-                            "command": "EVENT_ACTOR_COLLISIONS_DISABLE",
-                            "args": {
-                                "actorId": "$self$"
-                            },
-                            "id": "b8b82d15-03be-4a3a-98fc-c15571e0d32a"
-                        }
-                    ],
-                    "updateScript": [],
-                    "hit1Script": [],
-                    "hit2Script": [],
-                    "hit3Script": [],
-                    "id": "0d1f1242-a6d2-4b11-885f-6a37cf6ca8cd",
-                    "x": 0,
-                    "y": 7
                 }
             ],
             "triggers": [],
@@ -982,7 +1004,7 @@
                         ],
                         "override": true,
                         "__scriptTabs": "press",
-                        "__collapse": false
+                        "__collapse": true
                     },
                     "children": {
                         "true": [
@@ -1027,26 +1049,38 @@
                     "id": "a8f01b59-6973-421e-81e7-c5634b211223"
                 },
                 {
-                    "command": "EVENT_TEXT",
+                    "command": "EVENT_GROUP",
                     "args": {
-                        "text": [
-                            "Hello my friend!\nI'm glad that \nyou decided to \nhelp us with \ncoffee machines \nbecause we have\nhere one big\nmess."
-                        ],
-                        "avatarId": "fdf12627-85ca-4252-83b3-9a8a4b45722d",
-                        "__collapse": true
+                        "__collapse": true,
+                        "__label": "Rules explanation"
                     },
-                    "id": "6afff555-bd27-4200-bf01-c3d007543b3f"
-                },
-                {
-                    "command": "EVENT_TEXT",
-                    "args": {
-                        "text": [
-                            "Your goal is to\ndeliver\ncoffee machines\ninto spot signed\nby \"X\" symbol.\nWhen you complete\nlevel you'll\npass to the next\none."
-                        ],
-                        "avatarId": "fdf12627-85ca-4252-83b3-9a8a4b45722d",
-                        "__collapse": true
+                    "children": {
+                        "true": [
+                            {
+                                "command": "EVENT_TEXT",
+                                "args": {
+                                    "text": [
+                                        "Hello my friend!\nI'm glad that \nyou decided to \nhelp us with \ncoffee machines \nbecause we have\nhere one big\nmess."
+                                    ],
+                                    "avatarId": "fdf12627-85ca-4252-83b3-9a8a4b45722d",
+                                    "__collapse": false
+                                },
+                                "id": "6afff555-bd27-4200-bf01-c3d007543b3f"
+                            },
+                            {
+                                "command": "EVENT_TEXT",
+                                "args": {
+                                    "text": [
+                                        "Your goal is to\ndeliver\ncoffee machines\ninto spot signed\nby \"X\" symbol.\nWhen you complete\nlevel you'll\npass to the next\none."
+                                    ],
+                                    "avatarId": "fdf12627-85ca-4252-83b3-9a8a4b45722d",
+                                    "__collapse": false
+                                },
+                                "id": "0ff18a36-4fb7-46a6-b252-5881f9afe2db"
+                            }
+                        ]
                     },
-                    "id": "0ff18a36-4fb7-46a6-b252-5881f9afe2db"
+                    "id": "bd7e45fe-4615-46d5-91ad-28dde60c8222"
                 },
                 {
                     "command": "EVENT_SET_VALUE",
@@ -1059,6 +1093,15 @@
                         "__collapse": true
                     },
                     "id": "4060b966-ab8c-4e2c-9923-69a41c822f8c"
+                },
+                {
+                    "command": "EVENT_VARIABLE_MATH_EVALUATE",
+                    "args": {
+                        "variable": "0",
+                        "expression": "$L0$",
+                        "__collapse": true
+                    },
+                    "id": "1cd3bfb1-6724-4300-9631-78bb43ea6821"
                 }
             ],
             "playerHit1Script": [],
@@ -3723,93 +3766,24 @@
     "customEvents": [
         {
             "id": "d57aec05-3682-4107-8664-9450d1d1698b",
-            "name": "Win Condition",
+            "name": "Increment Coffee Machines",
             "description": "",
             "variables": {
-                "V0": {
-                    "id": "V0",
-                    "name": "CoffeeMachineQuantity",
-                    "passByReference": true
-                },
                 "V1": {
                     "id": "V1",
                     "name": "CoffeeMachineDelivered",
                     "passByReference": true
                 }
             },
-            "actors": {
-                "0": {
-                    "id": "0",
-                    "name": "Ekspres"
-                },
-                "1": {
-                    "id": "1",
-                    "name": "EmptySprite"
-                }
-            },
+            "actors": {},
             "symbol": "script_1",
             "script": [
                 {
-                    "command": "EVENT_IF_ACTOR_DISTANCE_FROM_ACTOR",
+                    "command": "EVENT_INC_VALUE",
                     "args": {
-                        "actorId": "0",
-                        "operator": "==",
-                        "distance": {
-                            "type": "number",
-                            "value": 0
-                        },
-                        "otherActorId": "1",
-                        "__collapseElse": true
+                        "variable": "V1"
                     },
-                    "children": {
-                        "true": [
-                            {
-                                "command": "EVENT_INC_VALUE",
-                                "args": {
-                                    "variable": "V1"
-                                },
-                                "id": "ebbc08e0-fe32-4d92-935d-c47bfb11a537"
-                            },
-                            {
-                                "command": "EVENT_IF_VALUE_COMPARE",
-                                "args": {
-                                    "vectorX": "V0",
-                                    "operator": "==",
-                                    "vectorY": "V1",
-                                    "__collapseElse": true
-                                },
-                                "children": {
-                                    "true": [
-                                        {
-                                            "command": "EVENT_TEXT",
-                                            "args": {
-                                                "text": [
-                                                    "You won!"
-                                                ],
-                                                "avatarId": ""
-                                            },
-                                            "id": "55441a70-afd1-4d9d-8a68-3813a0f639c8"
-                                        },
-                                        {
-                                            "command": "EVENT_SWITCH_SCENE",
-                                            "args": {
-                                                "sceneId": "d41cc798-3ef5-43d0-90ce-57d86e3271b4",
-                                                "x": 14,
-                                                "y": 3,
-                                                "direction": "",
-                                                "fadeSpeed": "2"
-                                            },
-                                            "id": "fc84671e-c34c-4a50-8ee6-1ecaab7539bb"
-                                        }
-                                    ],
-                                    "false": []
-                                },
-                                "id": "40e30ab3-3fba-469a-a99a-e35a05c29da0"
-                            }
-                        ],
-                        "false": []
-                    },
-                    "id": "dce1cf8b-a757-48e2-81a2-627c67ced27c"
+                    "id": "ebbc08e0-fe32-4d92-935d-c47bfb11a537"
                 }
             ]
         },
@@ -4191,6 +4165,21 @@
             "id": "5ac31df9-32c0-40e2-9963-af0bcf063345__L0",
             "name": "coffeeMachine_quantity",
             "symbol": "var_coffeemachine_quantity"
+        },
+        {
+            "id": "2326182d-9a56-43a1-a753-3b274dda897d__L0",
+            "name": "Local 0",
+            "symbol": "var_local_0"
+        },
+        {
+            "id": "0",
+            "name": "Coffee Machines quantity",
+            "symbol": "var_coffee_machines_quantit_0"
+        },
+        {
+            "id": "1",
+            "name": "Coffee Machines delivered",
+            "symbol": "var_coffee_machines_deliver"
         }
     ],
     "engineFieldValues": [
@@ -4208,7 +4197,7 @@
         "startDirection": "down",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 128.8000030517578,
+        "worldScrollX": 47.20000076293945,
         "worldScrollY": 0,
         "zoom": 198.656862616539,
         "customColorsEnabled": true,
