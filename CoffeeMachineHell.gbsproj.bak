@@ -5,7 +5,7 @@
     "_release": "3",
     "scenes": [
         {
-            "name": "Level 1-1",
+            "name": "Level 1-1 TEMP",
             "backgroundId": "a5ed2231-5564-4035-af76-1dca11169769",
             "width": 20,
             "height": 18,
@@ -383,8 +383,8 @@
             "autoFadeSpeed": 1,
             "id": "d41cc798-3ef5-43d0-90ce-57d86e3271b4",
             "symbol": "scene_1",
-            "x": 85.16902730740966,
-            "y": 38.785462612068784,
+            "x": 261.4875759462343,
+            "y": 236.51645357785986,
             "actors": [
                 {
                     "name": "EKSPRES",
@@ -427,7 +427,7 @@
                         ],
                         "override": true,
                         "__scriptTabs": "press",
-                        "__collapse": false
+                        "__collapse": true
                     },
                     "children": {
                         "true": [
@@ -470,6 +470,54 @@
                         ]
                     },
                     "id": "90966b7e-5a53-4330-9e73-c06b39bb5ea2"
+                },
+                {
+                    "command": "EVENT_SET_INPUT_SCRIPT",
+                    "args": {
+                        "input": [
+                            "select"
+                        ],
+                        "override": true,
+                        "__scriptTabs": "press",
+                        "__collapse": true
+                    },
+                    "children": {
+                        "true": [
+                            {
+                                "command": "EVENT_COMMENT",
+                                "args": {
+                                    "text": "This script is just a placeholder to test loading from menu",
+                                    "__collapse": true
+                                },
+                                "id": "b06bfa23-db20-4069-a3b2-285c31578c76"
+                            },
+                            {
+                                "command": "EVENT_SAVE_DATA",
+                                "args": {
+                                    "saveSlot": 0,
+                                    "__scriptTabs": "save",
+                                    "__collapse": false
+                                },
+                                "children": {
+                                    "true": [
+                                        {
+                                            "command": "EVENT_TEXT",
+                                            "args": {
+                                                "text": [
+                                                    "Game has been saved"
+                                                ],
+                                                "avatarId": "",
+                                                "__collapse": false
+                                            },
+                                            "id": "a7b31e35-c639-4e28-875b-270e5033e791"
+                                        }
+                                    ]
+                                },
+                                "id": "53713b5c-061e-4d2d-b21e-f7f6d895f15f"
+                            }
+                        ]
+                    },
+                    "id": "92be2298-da51-4968-8568-8267565da7b9"
                 }
             ],
             "playerHit1Script": [],
@@ -479,7 +527,7 @@
             "autoFadeEventCollapse": true
         },
         {
-            "name": "Level 1-1 [TEST]",
+            "name": "Level 1-1",
             "backgroundId": "0da98439-9871-4b77-ac65-6eeb80869602",
             "width": 20,
             "height": 18,
@@ -856,8 +904,8 @@
             "autoFadeSpeed": 1,
             "id": "5ac31df9-32c0-40e2-9963-af0bcf063345",
             "symbol": "scene_3",
-            "x": 288.513086249652,
-            "y": 31.83390128006115,
+            "x": 261.0637775521422,
+            "y": 50.6000303386708,
             "actors": [
                 {
                     "name": "Ekspres",
@@ -1109,6 +1157,367 @@
             "playerHit3Script": [],
             "playerSpriteSheetId": "d888bc5e-b692-4449-8a3c-67716e7f7b18",
             "autoFadeEventCollapse": true
+        },
+        {
+            "name": "Logo Screen",
+            "backgroundId": "5826822c-11ae-465e-bfa7-f3fcbffc3857",
+            "width": 20,
+            "height": 18,
+            "type": "LOGO",
+            "paletteIds": [],
+            "spritePaletteIds": [],
+            "collisions": [],
+            "autoFadeSpeed": 1,
+            "id": "54cffd48-f421-47ad-bb45-19ef8185d7fb",
+            "symbol": "scene_0",
+            "x": 60,
+            "y": 57.828720635711214,
+            "actors": [],
+            "triggers": [],
+            "script": [
+                {
+                    "command": "EVENT_WAIT",
+                    "args": {
+                        "time": 1.5,
+                        "frames": 30
+                    },
+                    "id": "ef65ceba-2709-4104-8398-ff58d10d2d8a"
+                },
+                {
+                    "command": "EVENT_SWITCH_SCENE",
+                    "args": {
+                        "sceneId": "2c9895a0-a575-4ac8-8cdc-4eaa167cc07d",
+                        "x": 0,
+                        "y": 0,
+                        "direction": "",
+                        "fadeSpeed": "2"
+                    },
+                    "id": "c38dc275-0b5d-4a1f-a9f5-495834a7fcb0"
+                }
+            ],
+            "playerHit1Script": [],
+            "playerHit2Script": [],
+            "playerHit3Script": []
+        },
+        {
+            "name": "Menu",
+            "backgroundId": "1b60c120-7d8c-464a-8f13-a5d98f87a517",
+            "width": 20,
+            "height": 18,
+            "type": "TOPDOWN",
+            "paletteIds": [],
+            "spritePaletteIds": [],
+            "collisions": [],
+            "autoFadeSpeed": 1,
+            "id": "2c9895a0-a575-4ac8-8cdc-4eaa167cc07d",
+            "symbol": "scene_4",
+            "x": 60,
+            "y": 235.99193575750905,
+            "actors": [],
+            "triggers": [],
+            "script": [
+                {
+                    "command": "EVENT_ACTOR_HIDE",
+                    "args": {
+                        "actorId": "$self$",
+                        "__collapse": true
+                    },
+                    "id": "a92e9656-0f10-4505-9805-73f8d5975204"
+                },
+                {
+                    "command": "EVENT_IF_SAVED_DATA",
+                    "args": {
+                        "saveSlot": 0,
+                        "__collapseElse": true,
+                        "__collapse": false
+                    },
+                    "children": {
+                        "true": [
+                            {
+                                "command": "EVENT_LOOP_WHILE",
+                                "args": {
+                                    "expression": "$L0$ == 0"
+                                },
+                                "children": {
+                                    "true": [
+                                        {
+                                            "command": "EVENT_MENU",
+                                            "args": {
+                                                "variable": "L0",
+                                                "items": 3,
+                                                "option1": "Continue",
+                                                "option2": "How to play",
+                                                "option3": "New Game",
+                                                "option4": "",
+                                                "option5": "",
+                                                "option6": "",
+                                                "option7": "",
+                                                "option8": "",
+                                                "cancelOnB": true,
+                                                "layout": "dialogue",
+                                                "__collapse": false,
+                                                "cancelOnLastOption": false,
+                                                "__label": "Display Menu - continue"
+                                            },
+                                            "id": "7c2e9ce7-7b5a-4c74-bed7-ad792de046ac"
+                                        },
+                                        {
+                                            "command": "EVENT_SWITCH",
+                                            "args": {
+                                                "variable": "L0",
+                                                "choices": 3,
+                                                "__collapseCase0": false,
+                                                "value0": 1,
+                                                "__collapseCase1": false,
+                                                "value1": 2,
+                                                "__collapseCase2": true,
+                                                "value2": 3,
+                                                "__collapseCase3": false,
+                                                "value3": 4,
+                                                "__collapseCase4": false,
+                                                "value4": 5,
+                                                "__collapseCase5": false,
+                                                "value5": 6,
+                                                "__collapseCase6": false,
+                                                "value6": 7,
+                                                "__collapseCase7": false,
+                                                "value7": 8,
+                                                "__collapseCase8": false,
+                                                "value8": 9,
+                                                "__collapseCase9": false,
+                                                "value9": 10,
+                                                "__collapseCase10": false,
+                                                "value10": 11,
+                                                "__collapseCase11": false,
+                                                "value11": 12,
+                                                "__collapseCase12": false,
+                                                "value12": 13,
+                                                "__collapseCase13": false,
+                                                "value13": 14,
+                                                "__collapseCase14": false,
+                                                "value14": 15,
+                                                "__collapseCase15": false,
+                                                "value15": 16,
+                                                "__collapseElse": true
+                                            },
+                                            "children": {
+                                                "true0": [
+                                                    {
+                                                        "command": "EVENT_LOAD_DATA",
+                                                        "args": {
+                                                            "saveSlot": 0
+                                                        },
+                                                        "id": "bd8b9c78-3239-4727-a092-9eb39e1e0a60"
+                                                    }
+                                                ],
+                                                "true1": [
+                                                    {
+                                                        "command": "EVENT_SWITCH_SCENE",
+                                                        "args": {
+                                                            "sceneId": "3621fbb7-2709-4893-94bd-7697946023af",
+                                                            "x": 0,
+                                                            "y": 0,
+                                                            "direction": "",
+                                                            "fadeSpeed": "2",
+                                                            "__collapse": true
+                                                        },
+                                                        "id": "1af9128f-0277-4a78-98d8-2fe480593b63"
+                                                    }
+                                                ],
+                                                "true2": [
+                                                    {
+                                                        "command": "EVENT_CLEAR_DATA",
+                                                        "args": {
+                                                            "saveSlot": 0
+                                                        },
+                                                        "id": "cff84b0b-912b-4692-83ca-3bbf05b5f050"
+                                                    },
+                                                    {
+                                                        "command": "EVENT_SWITCH_SCENE",
+                                                        "args": {
+                                                            "sceneId": "5ac31df9-32c0-40e2-9963-af0bcf063345",
+                                                            "x": 0,
+                                                            "y": 0,
+                                                            "direction": "",
+                                                            "fadeSpeed": "2"
+                                                        },
+                                                        "id": "7e2f2fb3-8e7e-4b06-b14e-78003cfcb356"
+                                                    }
+                                                ],
+                                                "true3": [],
+                                                "true4": [],
+                                                "true5": [],
+                                                "true6": [],
+                                                "true7": [],
+                                                "true8": [],
+                                                "true9": [],
+                                                "true10": [],
+                                                "true11": [],
+                                                "true12": [],
+                                                "true13": [],
+                                                "true14": [],
+                                                "true15": [],
+                                                "false": []
+                                            },
+                                            "id": "0b3bba3f-bef1-4a62-b8f4-d9b6cbc293e0"
+                                        }
+                                    ]
+                                },
+                                "id": "3c5afbac-b114-44cd-b1b6-8da0aeaddee4"
+                            }
+                        ],
+                        "false": [
+                            {
+                                "command": "EVENT_LOOP_WHILE",
+                                "args": {
+                                    "expression": "$L0$ == 0",
+                                    "__collapse": false,
+                                    "__label": "While (choice ==0)"
+                                },
+                                "children": {
+                                    "true": [
+                                        {
+                                            "command": "EVENT_MENU",
+                                            "args": {
+                                                "variable": "L0",
+                                                "items": 2,
+                                                "option1": "New Game",
+                                                "option2": "How to play",
+                                                "option3": "",
+                                                "option4": "",
+                                                "option5": "",
+                                                "option6": "",
+                                                "option7": "",
+                                                "option8": "",
+                                                "cancelOnB": true,
+                                                "layout": "dialogue",
+                                                "__collapse": true,
+                                                "cancelOnLastOption": false,
+                                                "__label": "Display Menu - new game"
+                                            },
+                                            "id": "10eef850-7f42-4a4c-8422-f4698092e321"
+                                        },
+                                        {
+                                            "command": "EVENT_SWITCH",
+                                            "args": {
+                                                "variable": "L0",
+                                                "choices": 2,
+                                                "__collapseCase0": false,
+                                                "value0": 1,
+                                                "__collapseCase1": false,
+                                                "value1": 2,
+                                                "__collapseCase2": false,
+                                                "value2": 3,
+                                                "__collapseCase3": false,
+                                                "value3": 4,
+                                                "__collapseCase4": false,
+                                                "value4": 5,
+                                                "__collapseCase5": false,
+                                                "value5": 6,
+                                                "__collapseCase6": false,
+                                                "value6": 7,
+                                                "__collapseCase7": false,
+                                                "value7": 8,
+                                                "__collapseCase8": false,
+                                                "value8": 9,
+                                                "__collapseCase9": false,
+                                                "value9": 10,
+                                                "__collapseCase10": false,
+                                                "value10": 11,
+                                                "__collapseCase11": false,
+                                                "value11": 12,
+                                                "__collapseCase12": false,
+                                                "value12": 13,
+                                                "__collapseCase13": false,
+                                                "value13": 14,
+                                                "__collapseCase14": false,
+                                                "value14": 15,
+                                                "__collapseCase15": false,
+                                                "value15": 16,
+                                                "__collapseElse": true,
+                                                "__collapse": true
+                                            },
+                                            "children": {
+                                                "true0": [
+                                                    {
+                                                        "command": "EVENT_SWITCH_SCENE",
+                                                        "args": {
+                                                            "sceneId": "5ac31df9-32c0-40e2-9963-af0bcf063345",
+                                                            "x": 2,
+                                                            "y": 4,
+                                                            "direction": "",
+                                                            "fadeSpeed": "2",
+                                                            "__collapse": true
+                                                        },
+                                                        "id": "52c8af3b-765a-4bc5-831a-f15321f47334"
+                                                    }
+                                                ],
+                                                "true1": [
+                                                    {
+                                                        "command": "EVENT_SWITCH_SCENE",
+                                                        "args": {
+                                                            "sceneId": "3621fbb7-2709-4893-94bd-7697946023af",
+                                                            "x": 0,
+                                                            "y": 0,
+                                                            "direction": "",
+                                                            "fadeSpeed": "2",
+                                                            "__collapse": true
+                                                        },
+                                                        "id": "3012c03c-ec69-4ab8-b537-abffcd84c774"
+                                                    }
+                                                ],
+                                                "true2": [],
+                                                "true3": [],
+                                                "true4": [],
+                                                "true5": [],
+                                                "true6": [],
+                                                "true7": [],
+                                                "true8": [],
+                                                "true9": [],
+                                                "true10": [],
+                                                "true11": [],
+                                                "true12": [],
+                                                "true13": [],
+                                                "true14": [],
+                                                "true15": [],
+                                                "false": []
+                                            },
+                                            "id": "368d2f81-7e6b-47ad-ba49-9bc49daccaa6"
+                                        }
+                                    ]
+                                },
+                                "id": "74e6cb8f-3803-45b3-b1af-7aee7eecaa1a"
+                            }
+                        ]
+                    },
+                    "id": "3e7d186f-c012-49e5-8e1e-a59a6751d0fa"
+                }
+            ],
+            "playerHit1Script": [],
+            "playerHit2Script": [],
+            "playerHit3Script": [],
+            "autoFadeEventCollapse": true
+        },
+        {
+            "name": "How to play",
+            "backgroundId": "1e5f9d6a-bdbc-43e6-8c34-22f5bb5dea05",
+            "width": 20,
+            "height": 18,
+            "type": "TOPDOWN",
+            "paletteIds": [],
+            "spritePaletteIds": [],
+            "collisions": [],
+            "autoFadeSpeed": 1,
+            "id": "3621fbb7-2709-4893-94bd-7697946023af",
+            "symbol": "scene_5",
+            "x": 61.142857142857146,
+            "y": 432,
+            "actors": [],
+            "triggers": [],
+            "script": [],
+            "playerHit1Script": [],
+            "playerHit2Script": [],
+            "playerHit3Script": []
         }
     ],
     "backgrounds": [
@@ -1855,6 +2264,389 @@
                 6,
                 6
             ]
+        },
+        {
+            "id": "5826822c-11ae-465e-bfa7-f3fcbffc3857",
+            "name": "logo_background",
+            "symbol": "bg_logo_background",
+            "width": 20,
+            "height": 18,
+            "imageWidth": 160,
+            "imageHeight": 144,
+            "filename": "logo_background.png",
+            "tileColors": [
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6
+            ]
+        },
+        {
+            "id": "1b60c120-7d8c-464a-8f13-a5d98f87a517",
+            "name": "menu_background",
+            "symbol": "bg_menu_background",
+            "width": 20,
+            "height": 18,
+            "imageWidth": 160,
+            "imageHeight": 144,
+            "filename": "menu_background.png",
+            "tileColors": []
         },
         {
             "id": "1e5f9d6a-bdbc-43e6-8c34-22f5bb5dea05",
@@ -4054,6 +4846,15 @@
                     "id": "a66c3b39-6007-44fe-bad6-64603164bcc5"
                 }
             ]
+        },
+        {
+            "id": "ea50aeff-de15-4a10-bdda-5e10023f62ab",
+            "name": "Display new game menu",
+            "description": "",
+            "variables": {},
+            "actors": {},
+            "symbol": "script_6",
+            "script": []
         }
     ],
     "music": [
@@ -4162,6 +4963,16 @@
     ],
     "variables": [
         {
+            "id": "0",
+            "name": "Coffee Machines quantity",
+            "symbol": "var_coffee_machines_quantit"
+        },
+        {
+            "id": "1",
+            "name": "Coffee Machines delivered",
+            "symbol": "var_coffee_machines_deliver"
+        },
+        {
             "id": "5ac31df9-32c0-40e2-9963-af0bcf063345__L0",
             "name": "coffeeMachine_quantity",
             "symbol": "var_coffeemachine_quantity"
@@ -4172,14 +4983,9 @@
             "symbol": "var_local_0"
         },
         {
-            "id": "0",
-            "name": "Coffee Machines quantity",
-            "symbol": "var_coffee_machines_quantit_0"
-        },
-        {
-            "id": "1",
-            "name": "Coffee Machines delivered",
-            "symbol": "var_coffee_machines_deliver"
+            "id": "2c9895a0-a575-4ac8-8cdc-4eaa167cc07d__L0",
+            "name": "choice",
+            "symbol": "var_choice"
         }
     ],
     "engineFieldValues": [
@@ -4189,18 +4995,18 @@
         }
     ],
     "settings": {
-        "startSceneId": "5ac31df9-32c0-40e2-9963-af0bcf063345",
-        "startX": 14,
-        "startY": 12,
+        "startSceneId": "2c9895a0-a575-4ac8-8cdc-4eaa167cc07d",
+        "startX": 1,
+        "startY": 2,
         "startMoveSpeed": 1,
         "startAnimSpeed": 15,
         "startDirection": "down",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 47.20000076293945,
+        "worldScrollX": 0,
         "worldScrollY": 0,
-        "zoom": 198.656862616539,
-        "customColorsEnabled": true,
+        "zoom": 87.5,
+        "customColorsEnabled": false,
         "sgbEnabled": false,
         "customHead": "",
         "defaultBackgroundPaletteIds": [
