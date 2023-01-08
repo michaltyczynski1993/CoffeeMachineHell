@@ -1229,14 +1229,15 @@
                     "args": {
                         "saveSlot": 0,
                         "__collapseElse": true,
-                        "__collapse": false
+                        "__collapse": true
                     },
                     "children": {
                         "true": [
                             {
                                 "command": "EVENT_LOOP_WHILE",
                                 "args": {
-                                    "expression": "$L0$ == 0"
+                                    "expression": "$L0$ == 0",
+                                    "__collapse": true
                                 },
                                 "children": {
                                     "true": [
@@ -1255,7 +1256,7 @@
                                                 "option8": "",
                                                 "cancelOnB": true,
                                                 "layout": "dialogue",
-                                                "__collapse": false,
+                                                "__collapse": true,
                                                 "cancelOnLastOption": false,
                                                 "__label": "Display Menu - continue"
                                             },
@@ -1298,7 +1299,8 @@
                                                 "value14": 15,
                                                 "__collapseCase15": false,
                                                 "value15": 16,
-                                                "__collapseElse": true
+                                                "__collapseElse": true,
+                                                "__collapse": true
                                             },
                                             "children": {
                                                 "true0": [
@@ -1336,8 +1338,8 @@
                                                         "command": "EVENT_SWITCH_SCENE",
                                                         "args": {
                                                             "sceneId": "5ac31df9-32c0-40e2-9963-af0bcf063345",
-                                                            "x": 0,
-                                                            "y": 0,
+                                                            "x": 2,
+                                                            "y": 5,
                                                             "direction": "",
                                                             "fadeSpeed": "2"
                                                         },
@@ -4995,9 +4997,9 @@
         }
     ],
     "settings": {
-        "startSceneId": "2c9895a0-a575-4ac8-8cdc-4eaa167cc07d",
-        "startX": 1,
-        "startY": 2,
+        "startSceneId": "54cffd48-f421-47ad-bb45-19ef8185d7fb",
+        "startX": 2,
+        "startY": 1,
         "startMoveSpeed": 1,
         "startAnimSpeed": 15,
         "startDirection": "down",

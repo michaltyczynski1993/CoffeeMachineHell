@@ -1229,7 +1229,7 @@
                     "args": {
                         "saveSlot": 0,
                         "__collapseElse": true,
-                        "__collapse": true
+                        "__collapse": false
                     },
                     "children": {
                         "true": [
@@ -1271,7 +1271,7 @@
                                                 "value0": 1,
                                                 "__collapseCase1": false,
                                                 "value1": 2,
-                                                "__collapseCase2": true,
+                                                "__collapseCase2": false,
                                                 "value2": 3,
                                                 "__collapseCase3": false,
                                                 "value3": 4,
@@ -1300,7 +1300,7 @@
                                                 "__collapseCase15": false,
                                                 "value15": 16,
                                                 "__collapseElse": true,
-                                                "__collapse": true
+                                                "__collapse": false
                                             },
                                             "children": {
                                                 "true0": [
