@@ -1,0 +1,106 @@
+{
+  "_resourceType": "scene",
+  "id": "5ac31df9-32c0-40e2-9963-af0bcf063345",
+  "_index": 1,
+  "type": "TOPDOWN",
+  "name": "Level 1-1",
+  "symbol": "scene_3",
+  "x": 259.0637775521422,
+  "y": 55,
+  "width": 20,
+  "height": 18,
+  "backgroundId": "0da98439-9871-4b77-ac65-6eeb80869602",
+  "tilesetId": "",
+  "paletteIds": [
+    "2b646dce-cdfe-4f70-9888-f8183c5221ef",
+    "e446e7f5-fe78-4464-a6a0-d12aba54ebbf"
+  ],
+  "spritePaletteIds": [
+    "dmg"
+  ],
+  "autoFadeSpeed": 1,
+  "autoFadeEventCollapse": true,
+  "playerSpriteSheetId": "d888bc5e-b692-4449-8a3c-67716e7f7b18",
+  "script": [
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "bae20c23-dc3f-4c92-9b3c-d3fc34ecc526",
+        "__collapse": false
+      },
+      "id": "c0fbdf88-31df-4ab7-8b68-670cfe1a44d1"
+    },
+    {
+      "command": "EVENT_SCENE_PUSH_STATE",
+      "args": {
+        "__collapse": true
+      },
+      "id": "ec4e9090-c979-499c-bad2-9f43c8b09d75"
+    },
+    {
+      "command": "EVENT_GROUP",
+      "args": {
+        "__collapse": false,
+        "__label": "Rules explanation"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Hello my friend!",
+                "I'm glad that \nyou decided to \nhelp us ...",
+                "coffee machines\nare in one big\nmess..."
+              ],
+              "avatarId": "fdf12627-85ca-4252-83b3-9a8a4b45722d",
+              "__collapse": true
+            },
+            "id": "6afff555-bd27-4200-bf01-c3d007543b3f"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Your goal is to\ndeliver\ncoffee machines..\n",
+                "into spot signed\nby \"X\" symbol.\n",
+                "When you complete\nlevel ",
+                "you'll\npass to the next\none.",
+                "Good luck!"
+              ],
+              "avatarId": "fdf12627-85ca-4252-83b3-9a8a4b45722d",
+              "__collapse": true
+            },
+            "id": "0ff18a36-4fb7-46a6-b252-5881f9afe2db"
+          }
+        ]
+      },
+      "id": "bd7e45fe-4615-46d5-91ad-28dde60c8222"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "L0",
+        "value": {
+          "type": "number",
+          "value": 1
+        },
+        "__collapse": false
+      },
+      "id": "4060b966-ab8c-4e2c-9923-69a41c822f8c"
+    },
+    {
+      "command": "EVENT_VARIABLE_MATH_EVALUATE",
+      "args": {
+        "variable": "0",
+        "expression": "$L0$",
+        "__collapse": true
+      },
+      "id": "1cd3bfb1-6724-4300-9631-78bb43ea6821"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "collisions": "0f2a+008+0f2+006+0f4+008+0f2+006+0f4+002+0f2+004+0f2+006+0f4+002+0f2+004+0f2+006+0f2+00a+0f2+006+0f2+00a+0f2+006+0f2+004+0f2+004+0f2+006+0f2+004+0f2+004+0f2+006+0f4+002+0f2+00c+0f4+002+0f2+00c+0f4+002+0f2+00c+0f4+002+0f2+00c+0f4+0010+0f4+0010+0f2a+"
+}

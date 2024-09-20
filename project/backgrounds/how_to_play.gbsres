@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "c41c1cac-2215-48c5-9481-8d0dd980a8dd",
+  "name": "how to play",
+  "symbol": "bg_how_to_play",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "how to play.png",
+  "tileColors": "",
+  "autoColor": false
+}

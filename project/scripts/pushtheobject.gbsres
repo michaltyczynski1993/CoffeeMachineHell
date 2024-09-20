@@ -1,0 +1,44 @@
+{
+  "_resourceType": "script",
+  "id": "d113adb3-4c36-47f3-b6fc-c625bf93ee78",
+  "name": "PushTheObject",
+  "description": "implementation of the pushing mechanic to make it reusable",
+  "variables": {},
+  "actors": {
+    "0": {
+      "id": "0",
+      "name": "Actor A"
+    }
+  },
+  "symbol": "script_4",
+  "script": [
+    {
+      "command": "EVENT_IF_ACTOR_DISTANCE_FROM_ACTOR",
+      "args": {
+        "actorId": "player",
+        "operator": "<=",
+        "distance": {
+          "type": "number",
+          "value": 2
+        },
+        "otherActorId": "0",
+        "__collapseElse": true,
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_PUSH",
+            "args": {
+              "continue": false,
+              "__collapse": false
+            },
+            "id": "65935cff-bed6-476b-b64e-0b7babcbb389"
+          }
+        ],
+        "false": []
+      },
+      "id": "e7779ec5-dd88-4758-b6bc-2a6f84ffff68"
+    }
+  ]
+}

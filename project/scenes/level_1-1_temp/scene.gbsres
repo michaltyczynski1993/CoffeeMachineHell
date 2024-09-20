@@ -1,0 +1,79 @@
+{
+  "_resourceType": "scene",
+  "id": "d41cc798-3ef5-43d0-90ce-57d86e3271b4",
+  "_index": 0,
+  "type": "TOPDOWN",
+  "name": "Level 1-1 TEMP",
+  "symbol": "scene_1",
+  "x": 261.4875759462343,
+  "y": 236.51645357785986,
+  "width": 20,
+  "height": 18,
+  "backgroundId": "a5ed2231-5564-4035-af76-1dca11169769",
+  "tilesetId": "",
+  "paletteIds": [
+    "2b646dce-cdfe-4f70-9888-f8183c5221ef",
+    "e446e7f5-fe78-4464-a6a0-d12aba54ebbf"
+  ],
+  "spritePaletteIds": [
+    "dmg",
+    "dmg"
+  ],
+  "autoFadeSpeed": 1,
+  "autoFadeEventCollapse": true,
+  "playerSpriteSheetId": "d888bc5e-b692-4449-8a3c-67716e7f7b18",
+  "script": [
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "select"
+        ],
+        "override": true,
+        "__scriptTabs": "press",
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_COMMENT",
+            "args": {
+              "text": "This script is just a placeholder to test loading from menu",
+              "__collapse": true
+            },
+            "id": "b06bfa23-db20-4069-a3b2-285c31578c76"
+          },
+          {
+            "command": "EVENT_SAVE_DATA",
+            "args": {
+              "saveSlot": 0,
+              "__scriptTabs": "save",
+              "__collapse": false
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "Game has been saved"
+                    ],
+                    "avatarId": "",
+                    "__collapse": false
+                  },
+                  "id": "a7b31e35-c639-4e28-875b-270e5033e791"
+                }
+              ]
+            },
+            "id": "53713b5c-061e-4d2d-b21e-f7f6d895f15f"
+          }
+        ]
+      },
+      "id": "92be2298-da51-4968-8568-8267565da7b9"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "collisions": "0f2a+008+0f2+006+0f4+008+0f2+006+0f4+002+0f2+004+0f2+006+0f4+002+0f2+004+0f2+006+0f2+00a+0f2+006+0f2+00a+0f2+006+0f2+004+0f2+004+0f2+006+0f2+004+0f2+004+0f2+006+0f4+002+0f2+00c+0f4+002+0f2+00c+0f4+002+0f2+00c+0f4+002+0f2+00c+0f4+0010+0f4+0010+0f2a+"
+}

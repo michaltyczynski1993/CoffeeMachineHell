@@ -1,0 +1,52 @@
+{
+  "_resourceType": "actor",
+  "id": "e6f92007-e41a-43b9-8add-2230f5748b03",
+  "_index": 0,
+  "symbol": "actor_0",
+  "prefabId": "",
+  "name": "EKSPRES",
+  "x": 11,
+  "y": 11,
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "11b5452b-187c-43a3-afb1-a1f4f74ffda2",
+  "paletteId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "script": [],
+  "startScript": [
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "b"
+        ],
+        "override": true,
+        "__scriptTabs": "press",
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_PUSH",
+            "args": {
+              "continue": false,
+              "__collapse": true
+            },
+            "id": "bb65e053-8c5c-49a2-8192-47bdb5abc431"
+          }
+        ]
+      },
+      "id": "5b5a29c4-ae3d-4d1a-a8df-bacccde3202b"
+    }
+  ],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": []
+}

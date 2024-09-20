@@ -1,0 +1,40 @@
+{
+  "_resourceType": "variables",
+  "variables": [
+    {
+      "id": "0",
+      "name": "Coffee Machines quantity",
+      "symbol": "var_coffee_machines_quantit"
+    },
+    {
+      "id": "1",
+      "name": "Coffee Machines delivered",
+      "symbol": "var_coffee_machines_deliver"
+    },
+    {
+      "id": "2",
+      "name": "Menu_choice",
+      "symbol": "var_menu_choice"
+    },
+    {
+      "id": "5ac31df9-32c0-40e2-9963-af0bcf063345__L0",
+      "name": "coffeeMachine_quantity",
+      "symbol": "var_coffeemachine_quantity"
+    },
+    {
+      "id": "2326182d-9a56-43a1-a753-3b274dda897d__L0",
+      "name": "Local 0",
+      "symbol": "var_local_0"
+    },
+    {
+      "id": "2c9895a0-a575-4ac8-8cdc-4eaa167cc07d__L0",
+      "name": "choice",
+      "symbol": "var_choice"
+    },
+    {
+      "id": "3621fbb7-2709-4893-94bd-7697946023af__L0",
+      "name": "choice",
+      "symbol": "var_choice_0"
+    }
+  ]
+}

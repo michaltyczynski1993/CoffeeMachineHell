@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "0da98439-9871-4b77-ac65-6eeb80869602",
+  "name": "Warehouse 1-1_v.2",
+  "symbol": "bg_warehouse_1_1_v_2",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "Warehouse 1-1_v.2.png",
+  "tileColors": "06168+",
+  "autoColor": false
+}

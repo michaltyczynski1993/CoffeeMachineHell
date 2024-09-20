@@ -1,0 +1,154 @@
+{
+  "_resourceType": "actor",
+  "id": "2326182d-9a56-43a1-a753-3b274dda897d",
+  "_index": 0,
+  "symbol": "actor_1",
+  "prefabId": "",
+  "name": "Ekspres",
+  "x": 10,
+  "y": 13,
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "cc9c8dbd-cdbc-477e-b061-66c1929fc686",
+  "paletteId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "script": [],
+  "startScript": [
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "b"
+        ],
+        "override": true,
+        "__scriptTabs": "press",
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "d113adb3-4c36-47f3-b6fc-c625bf93ee78",
+              "__collapse": true
+            },
+            "id": "aec35e19-7c30-4916-8eec-0dc50ede3639"
+          }
+        ]
+      },
+      "id": "b451ebad-9af9-4c60-9a8e-42eb999d0791"
+    }
+  ],
+  "updateScript": [
+    {
+      "command": "EVENT_GROUP",
+      "args": {
+        "__collapse": false,
+        "__label": "Win Condition"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_IF_ACTOR_AT_POSITION",
+            "args": {
+              "actorId": "$self$",
+              "x": {
+                "type": "number",
+                "value": 0
+              },
+              "y": {
+                "type": "number",
+                "value": 7
+              },
+              "__collapseElse": true,
+              "__collapse": false
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_CALL_CUSTOM_EVENT",
+                  "args": {
+                    "customEventId": "d57aec05-3682-4107-8664-9450d1d1698b",
+                    "$actor[0]$": "$self$",
+                    "$variable[V1]$": {
+                      "type": "variable",
+                      "value": "1"
+                    },
+                    "$actor[1]$": "player",
+                    "__collapse": false
+                  },
+                  "id": "31d8ad78-3328-4085-af5d-f069762d7b48"
+                },
+                {
+                  "command": "EVENT_IF",
+                  "args": {
+                    "vectorX": "0",
+                    "operator": "==",
+                    "vectorY": "1",
+                    "__collapseElse": true,
+                    "condition": {
+                      "type": "eq",
+                      "valueA": {
+                        "type": "variable",
+                        "value": "0"
+                      },
+                      "valueB": {
+                        "type": "variable",
+                        "value": "1"
+                      }
+                    }
+                  },
+                  "children": {
+                    "true": [
+                      {
+                        "command": "EVENT_TEXT",
+                        "args": {
+                          "text": [
+                            "you won!"
+                          ],
+                          "avatarId": ""
+                        },
+                        "id": "c2720848-7e7f-4598-b0d4-200622b065dc"
+                      },
+                      {
+                        "command": "EVENT_SWITCH_SCENE",
+                        "args": {
+                          "sceneId": "d41cc798-3ef5-43d0-90ce-57d86e3271b4",
+                          "x": {
+                            "type": "number",
+                            "value": 7
+                          },
+                          "y": {
+                            "type": "number",
+                            "value": 5
+                          },
+                          "direction": "",
+                          "fadeSpeed": "2"
+                        },
+                        "id": "773aba28-bb1f-48df-81c0-3abf624fc319"
+                      }
+                    ],
+                    "false": []
+                  },
+                  "id": "57228149-e10c-43e4-84aa-5ee272d3c39c"
+                }
+              ],
+              "false": []
+            },
+            "id": "792826ee-b31a-4f4e-8a55-5ce77ae96349"
+          }
+        ]
+      },
+      "id": "eeb5f344-d4ca-4de6-ab5a-f13274c8f359"
+    }
+  ],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": []
+}

@@ -1,0 +1,24 @@
+{
+  "_resourceType": "script",
+  "id": "d57aec05-3682-4107-8664-9450d1d1698b",
+  "name": "Increment Coffee Machines",
+  "symbol": "script_1",
+  "description": "",
+  "variables": {
+    "V1": {
+      "id": "V1",
+      "name": "CoffeeMachineDelivered",
+      "passByReference": true
+    }
+  },
+  "actors": {},
+  "script": [
+    {
+      "command": "EVENT_INC_VALUE",
+      "args": {
+        "variable": "V1"
+      },
+      "id": "ebbc08e0-fe32-4d92-935d-c47bfb11a537"
+    }
+  ]
+}
