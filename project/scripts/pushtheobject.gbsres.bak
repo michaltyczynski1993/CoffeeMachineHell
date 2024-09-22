@@ -23,17 +23,33 @@
         },
         "otherActorId": "player",
         "__collapseElse": true,
-        "__collapse": true
+        "__collapse": false
       },
       "children": {
         "true": [
           {
-            "command": "EVENT_ACTOR_PUSH",
+            "command": "EVENT_SET_INPUT_SCRIPT",
             "args": {
-              "continue": false,
-              "__collapse": true
+              "input": [
+                "b"
+              ],
+              "override": true,
+              "__scriptTabs": "press",
+              "__collapse": false
             },
-            "id": "65935cff-bed6-476b-b64e-0b7babcbb389"
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_ACTOR_PUSH",
+                  "args": {
+                    "continue": false,
+                    "__collapse": true
+                  },
+                  "id": "65935cff-bed6-476b-b64e-0b7babcbb389"
+                }
+              ]
+            },
+            "id": "0e885d16-0329-4d75-9da6-6082a2283ef2"
           }
         ],
         "false": []

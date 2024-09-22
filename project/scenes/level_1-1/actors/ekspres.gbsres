@@ -5,7 +5,7 @@
   "symbol": "actor_1",
   "prefabId": "",
   "name": "Ekspres",
-  "x": 10,
+  "x": 8,
   "y": 13,
   "frame": 0,
   "animate": false,
@@ -18,7 +18,52 @@
   "persistent": false,
   "collisionGroup": "",
   "prefabScriptOverrides": {},
-  "script": [],
+  "script": [
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "b"
+        ],
+        "override": true,
+        "__scriptTabs": "press",
+        "__collapse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_IF_ACTOR_DISTANCE_FROM_ACTOR",
+            "args": {
+              "actorId": "0",
+              "operator": "<=",
+              "distance": {
+                "type": "number",
+                "value": 2
+              },
+              "otherActorId": "player",
+              "__collapseElse": true,
+              "__collapse": true
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_ACTOR_PUSH",
+                  "args": {
+                    "continue": false,
+                    "__collapse": true
+                  },
+                  "id": "7cafba93-9436-4e62-b6a1-03fe3241c794"
+                }
+              ],
+              "false": []
+            },
+            "id": "b9eb3bb0-5265-47c4-baae-7f97b18f50b2"
+          }
+        ]
+      },
+      "id": "2aef0793-88b0-4825-a7ef-51628376d870"
+    }
+  ],
   "startScript": [
     {
       "command": "EVENT_SET_INPUT_SCRIPT",
@@ -36,7 +81,7 @@
             "command": "EVENT_CALL_CUSTOM_EVENT",
             "args": {
               "customEventId": "d113adb3-4c36-47f3-b6fc-c625bf93ee78",
-              "__collapse": true
+              "__collapse": false
             },
             "id": "aec35e19-7c30-4916-8eec-0dc50ede3639"
           }
@@ -74,7 +119,7 @@
                 }
               },
               "__collapseElse": true,
-              "__collapse": true
+              "__collapse": false
             },
             "children": {
               "true": [
@@ -88,7 +133,7 @@
                       "value": "1"
                     },
                     "$actor[1]$": "player",
-                    "__collapse": false
+                    "__collapse": true
                   },
                   "id": "31d8ad78-3328-4085-af5d-f069762d7b48"
                 },
@@ -109,7 +154,8 @@
                         "type": "variable",
                         "value": "1"
                       }
-                    }
+                    },
+                    "__collapse": true
                   },
                   "children": {
                     "true": [
@@ -129,11 +175,11 @@
                           "sceneId": "d41cc798-3ef5-43d0-90ce-57d86e3271b4",
                           "x": {
                             "type": "number",
-                            "value": 7
+                            "value": 6
                           },
                           "y": {
                             "type": "number",
-                            "value": 5
+                            "value": 13
                           },
                           "direction": "",
                           "fadeSpeed": "2"

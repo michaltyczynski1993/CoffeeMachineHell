@@ -5,7 +5,7 @@
   "symbol": "actor_1",
   "prefabId": "",
   "name": "Ekspres",
-  "x": 10,
+  "x": 7,
   "y": 13,
   "frame": 0,
   "animate": false,
@@ -36,7 +36,7 @@
             "command": "EVENT_CALL_CUSTOM_EVENT",
             "args": {
               "customEventId": "d113adb3-4c36-47f3-b6fc-c625bf93ee78",
-              "__collapse": true
+              "__collapse": false
             },
             "id": "aec35e19-7c30-4916-8eec-0dc50ede3639"
           }
@@ -63,8 +63,15 @@
                 "value": 0
               },
               "y": {
-                "type": "number",
-                "value": 7
+                "type": "or",
+                "valueA": {
+                  "type": "number",
+                  "value": 7
+                },
+                "valueB": {
+                  "type": "number",
+                  "value": 9
+                }
               },
               "__collapseElse": true,
               "__collapse": false
@@ -122,11 +129,11 @@
                           "sceneId": "d41cc798-3ef5-43d0-90ce-57d86e3271b4",
                           "x": {
                             "type": "number",
-                            "value": 7
+                            "value": 6
                           },
                           "y": {
                             "type": "number",
-                            "value": 5
+                            "value": 13
                           },
                           "direction": "",
                           "fadeSpeed": "2"

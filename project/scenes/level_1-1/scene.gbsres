@@ -16,11 +16,13 @@
     "e446e7f5-fe78-4464-a6a0-d12aba54ebbf"
   ],
   "spritePaletteIds": [
-    "dmg"
+    "",
+    "e1892923-d141-40cf-8eac-d840088460d2",
+    ""
   ],
   "autoFadeSpeed": 1,
   "autoFadeEventCollapse": true,
-  "playerSpriteSheetId": "d888bc5e-b692-4449-8a3c-67716e7f7b18",
+  "playerSpriteSheetId": "",
   "script": [
     {
       "command": "EVENT_CALL_CUSTOM_EVENT",

@@ -16,11 +16,13 @@
     "e446e7f5-fe78-4464-a6a0-d12aba54ebbf"
   ],
   "spritePaletteIds": [
-    "dmg"
+    "",
+    "e1892923-d141-40cf-8eac-d840088460d2",
+    ""
   ],
   "autoFadeSpeed": 1,
   "autoFadeEventCollapse": true,
-  "playerSpriteSheetId": "d888bc5e-b692-4449-8a3c-67716e7f7b18",
+  "playerSpriteSheetId": "",
   "script": [
     {
       "command": "EVENT_CALL_CUSTOM_EVENT",
@@ -54,7 +56,7 @@
                 "coffee machines\nare in one big\nmess..."
               ],
               "avatarId": "fdf12627-85ca-4252-83b3-9a8a4b45722d",
-              "__collapse": false
+              "__collapse": true
             },
             "id": "6afff555-bd27-4200-bf01-c3d007543b3f"
           },
@@ -69,7 +71,7 @@
                 "Good luck!"
               ],
               "avatarId": "fdf12627-85ca-4252-83b3-9a8a4b45722d",
-              "__collapse": false
+              "__collapse": true
             },
             "id": "0ff18a36-4fb7-46a6-b252-5881f9afe2db"
           }
@@ -94,7 +96,7 @@
       "args": {
         "variable": "0",
         "expression": "$L0$",
-        "__collapse": false
+        "__collapse": true
       },
       "id": "1cd3bfb1-6724-4300-9631-78bb43ea6821"
     }
@@ -102,5 +104,5 @@
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
-  "collisions": "0f2a+008+0f2+006+0f4+008+0f2+006+0f4+002+0f2+004+0f2+006+0f4+002+0f2+004+0f2+006+0f2+00a+0f2+006+0f2+00a+0f2+006+0f2+004+0f2+004+0f2+006+0f2+004+0f2+004+0f2+006+0f4+002+0f2+00c+0f4+002+0f2+00c+0f4+002+0f2+00c+0f4+002+0f2+00c+0f4+0010+0f4+0010+0f2a+"
+  "collisions": "0f2a+008+0f2+006+0f4+008+0f2+006+0f4+002+0f2+004+0f2+006+0f4+002+0f2+004+0f2+006+0f2+00a+0f2+006+0f2+00a+0f2+006+0f2+004+0f2+004+0f2+006+0f2+004+0f2+004+0f2+006+0f4+002+0f2+00c+0f4+002+0f2+00c+0f4+002+0f2+009+0f!002+0f4+002+0f2+00c+0f4+0010+0f4+0010+0f2a+"
 }
