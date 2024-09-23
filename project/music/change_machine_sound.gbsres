@@ -1,0 +1,9 @@
+{
+  "_resourceType": "music",
+  "id": "3367bc21-144d-4867-8116-3e1d70d473c5",
+  "name": "change_machine_sound",
+  "symbol": "song_song_template",
+  "filename": "change_machine_sound.uge",
+  "settings": {},
+  "type": "uge"
+}

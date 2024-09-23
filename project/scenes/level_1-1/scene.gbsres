@@ -28,7 +28,7 @@
       "command": "EVENT_CALL_CUSTOM_EVENT",
       "args": {
         "customEventId": "bae20c23-dc3f-4c92-9b3c-d3fc34ecc526",
-        "__collapse": false
+        "__collapse": true
       },
       "id": "c0fbdf88-31df-4ab7-8b68-670cfe1a44d1"
     },
@@ -51,12 +51,17 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "Hello my friend!",
-                "I'm glad that \nyou decided to \nhelp us ...",
+                "Hello my friend!\nI'm glad that \nyou decided to \nhelp us ...",
                 "coffee machines\nare in one big\nmess..."
               ],
               "avatarId": "fdf12627-85ca-4252-83b3-9a8a4b45722d",
-              "__collapse": true
+              "__collapse": false,
+              "__section": "text",
+              "closeWhen": "text",
+              "closeDelayTime": 0.7,
+              "minHeight": 4,
+              "maxHeight": 10,
+              "textHeight": 8
             },
             "id": "6afff555-bd27-4200-bf01-c3d007543b3f"
           },
@@ -64,14 +69,15 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "Your goal is to\ndeliver\ncoffee machines..\n",
-                "into spot signed\nby \"X\" symbol.\n",
-                "When you complete\nlevel ",
-                "you'll\npass to the next\none.",
+                "Your goal is to\ndeliver\ncoffee machines..\ninto spot signed\nby \"X\" symbol.\n",
+                "When you \ncomplete level \nyou'll pass to \nthe next one.",
                 "Good luck!"
               ],
               "avatarId": "fdf12627-85ca-4252-83b3-9a8a4b45722d",
-              "__collapse": true
+              "__collapse": true,
+              "__section": "text",
+              "closeWhen": "text",
+              "closeDelayTime": 0.7
             },
             "id": "0ff18a36-4fb7-46a6-b252-5881f9afe2db"
           }
@@ -87,7 +93,7 @@
           "type": "number",
           "value": 1
         },
-        "__collapse": false
+        "__collapse": true
       },
       "id": "4060b966-ab8c-4e2c-9923-69a41c822f8c"
     },
