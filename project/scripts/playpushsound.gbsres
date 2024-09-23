@@ -1,0 +1,35 @@
+{
+  "_resourceType": "script",
+  "id": "4360f631-33f6-4e4a-ac29-df4b8a669df8",
+  "name": "PlayPushSound",
+  "description": "Sound played after machine is pushed.",
+  "variables": {},
+  "actors": {},
+  "symbol": "script_0",
+  "script": [
+    {
+      "command": "EVENT_MUSIC_PLAY",
+      "args": {
+        "musicId": "299055ed-cd55-41fc-bf99-6cb02137ca22",
+        "__collapse": true
+      },
+      "id": "08b90cfc-30ad-4d06-91ac-cf77800ef26d"
+    },
+    {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": 0.5,
+        "frames": 30,
+        "__collapse": true
+      },
+      "id": "8d280b0a-b3c4-4360-bf80-9450eebba9a9"
+    },
+    {
+      "command": "EVENT_MUSIC_STOP",
+      "args": {
+        "__collapse": true
+      },
+      "id": "f3d06c61-7c62-4984-925b-7ece790ce13a"
+    }
+  ]
+}

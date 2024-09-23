@@ -1,0 +1,10 @@
+{
+  "_resourceType": "script",
+  "id": "6ccfa9e5-a99f-49cc-9169-1c2d46a17fad",
+  "name": "PlayInteractionSound",
+  "description": "Play and stop playing interaction sound.",
+  "variables": {},
+  "actors": {},
+  "symbol": "script_5",
+  "script": []
+}

@@ -66,15 +66,23 @@
     {
       "command": "EVENT_MUSIC_PLAY",
       "args": {
-        "musicId": "3367bc21-144d-4867-8116-3e1d70d473c5",
+        "musicId": "3367bc21-144d-4867-8116-3e1d70d473c5"
+      },
+      "id": "dc832740-7cfb-48ca-98e9-594cac9c05ea"
+    },
+    {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": 1,
+        "frames": 30,
         "__collapse": true
       },
-      "id": "2b5d179c-3534-4e29-977f-2a693d3b0272"
+      "id": "1a54742c-f800-4c18-8c65-51b7fc89cf0c"
     },
     {
       "command": "EVENT_MUSIC_STOP",
       "args": {},
-      "id": "d6c4bc95-935c-495a-9fb8-e90146d21f00"
+      "id": "723815af-56e3-49bf-af06-f04ac28d606c"
     }
   ],
   "startScript": [
