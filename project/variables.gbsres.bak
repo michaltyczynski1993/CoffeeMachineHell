@@ -35,6 +35,16 @@
       "id": "3621fbb7-2709-4893-94bd-7697946023af__L0",
       "name": "choice",
       "symbol": "var_choice_0"
+    },
+    {
+      "id": "d41cc798-3ef5-43d0-90ce-57d86e3271b4__L0",
+      "name": "isEkspres1Visible",
+      "symbol": "var_isekspres1visible"
+    },
+    {
+      "id": "d41cc798-3ef5-43d0-90ce-57d86e3271b4__L1",
+      "name": "isEkspres2Visible",
+      "symbol": "var_isekspres2visible"
     }
   ]
 }

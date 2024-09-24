@@ -56,7 +56,7 @@
               ],
               "avatarId": "fdf12627-85ca-4252-83b3-9a8a4b45722d",
               "__collapse": false,
-              "__section": "text",
+              "__section": "behavior",
               "closeWhen": "text",
               "closeDelayTime": 0.7,
               "minHeight": 4,
