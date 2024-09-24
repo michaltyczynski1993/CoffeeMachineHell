@@ -27,7 +27,7 @@
         ],
         "override": true,
         "__scriptTabs": "press",
-        "__collapse": true
+        "__collapse": false
       },
       "children": {
         "true": [
@@ -42,10 +42,18 @@
               },
               "otherActorId": "player",
               "__collapseElse": true,
-              "__collapse": true
+              "__collapse": false
             },
             "children": {
               "true": [
+                {
+                  "command": "EVENT_CALL_CUSTOM_EVENT",
+                  "args": {
+                    "customEventId": "4360f631-33f6-4e4a-ac29-df4b8a669df8",
+                    "__collapse": true
+                  },
+                  "id": "4b6d5749-b1d6-48a7-b4c4-7ca53b60a7ac"
+                },
                 {
                   "command": "EVENT_ACTOR_PUSH",
                   "args": {

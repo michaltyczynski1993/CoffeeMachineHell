@@ -6,5 +6,30 @@
   "variables": {},
   "actors": {},
   "symbol": "script_5",
-  "script": []
+  "script": [
+    {
+      "command": "EVENT_MUSIC_PLAY",
+      "args": {
+        "musicId": "3367bc21-144d-4867-8116-3e1d70d473c5",
+        "__collapse": true
+      },
+      "id": "b4fe61ab-4edd-42b3-a988-49ff33da529b"
+    },
+    {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": 0.5,
+        "frames": 30,
+        "__collapse": true
+      },
+      "id": "77cb8a01-4a30-41d7-9318-7d14074f2f09"
+    },
+    {
+      "command": "EVENT_MUSIC_STOP",
+      "args": {
+        "__collapse": true
+      },
+      "id": "c03ac33a-27f0-469f-8550-ff69b6335ab4"
+    }
+  ]
 }

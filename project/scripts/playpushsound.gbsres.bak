@@ -18,7 +18,7 @@
     {
       "command": "EVENT_WAIT",
       "args": {
-        "time": 0.3,
+        "time": 0.5,
         "frames": 30,
         "__collapse": true
       },
