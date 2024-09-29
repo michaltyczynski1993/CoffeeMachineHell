@@ -1,13 +1,16 @@
 {
   "_resourceType": "scene",
-  "id": "4e0e3c72-2307-4417-8a91-df46589e72b3",
-  "_index": 6,
-  "name": "Level 1-3",
-  "backgroundId": "753cae42-f7f9-4b55-8127-77c24e72b03b",
-  "tilesetId": "",
+  "id": "d41cc798-3ef5-43d0-90ce-57d86e3271b4",
+  "_index": 0,
+  "type": "TOPDOWN",
+  "name": "Level 1-6",
+  "symbol": "scene_1",
+  "x": 264,
+  "y": 424,
   "width": 20,
   "height": 18,
-  "type": "TOPDOWN",
+  "backgroundId": "9376efbc-f8f0-4d01-afda-ef17e99c7887",
+  "tilesetId": "",
   "paletteIds": [
     "2b646dce-cdfe-4f70-9888-f8183c5221ef",
     "e446e7f5-fe78-4464-a6a0-d12aba54ebbf"
@@ -16,11 +19,7 @@
     "",
     "e1892923-d141-40cf-8eac-d840088460d2"
   ],
-  "collisions": "0028+0f6+002+0f12+002+0fc+004+0f2+002+0f2+00e+0f2+002+0f2+00e+0f2+002+0f2+004+0f2+008+0f2+002+0f2+004+0f2+008+0f2+002+0f2+004+0f2+008+0f2+002+0f2+004+0f2+002c+0fa+00a+0fa+0032+0f2+006+0f8+004+0f2+006+0f8+004+",
   "autoFadeSpeed": 1,
-  "symbol": "scene_7",
-  "x": 448,
-  "y": 256,
   "autoFadeEventCollapse": true,
   "playerSpriteSheetId": "d888bc5e-b692-4449-8a3c-67716e7f7b18",
   "script": [
@@ -28,16 +27,16 @@
       "command": "EVENT_CALL_CUSTOM_EVENT",
       "args": {
         "customEventId": "bae20c23-dc3f-4c92-9b3c-d3fc34ecc526",
-        "__collapse": true
+        "__collapse": false
       },
-      "id": "f86ee2c2-f14a-4a98-9467-dc51ec58cb0b"
+      "id": "402b8466-41f3-4d8e-85a8-597eea84a5b4"
     },
     {
       "command": "EVENT_SCENE_PUSH_STATE",
       "args": {
         "__collapse": true
       },
-      "id": "bcb25133-eb77-4646-8f60-11001725d85d"
+      "id": "d9a88e91-de3e-43d3-985c-ee86e2fbc61a"
     },
     {
       "command": "EVENT_SET_VALUE",
@@ -45,11 +44,11 @@
         "variable": "0",
         "value": {
           "type": "number",
-          "value": 1
+          "value": 2
         },
         "__collapse": true
       },
-      "id": "d7e4a256-639a-4cf5-8f8a-f5d4f0be35b8"
+      "id": "1b108193-d0f1-49bc-b2d6-53279492effb"
     },
     {
       "command": "EVENT_SET_VALUE",
@@ -61,7 +60,7 @@
         },
         "__collapse": true
       },
-      "id": "f2599c17-47df-420e-bda3-09b2e2889e9e"
+      "id": "5b1bfbf4-fefd-4166-bf2f-b392c351fe08"
     },
     {
       "command": "EVENT_SET_VALUE",
@@ -72,10 +71,22 @@
         },
         "__collapse": true
       },
-      "id": "9f771ad7-2d2b-4e2b-a5bb-e5d26e21b83b"
+      "id": "9597f10d-168f-4056-9aa6-1e227f3ed5d1"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "L1",
+        "value": {
+          "type": "true"
+        },
+        "__collapse": true
+      },
+      "id": "103c4f1f-650c-4911-acd1-48983d3f15d8"
     }
   ],
   "playerHit1Script": [],
   "playerHit2Script": [],
-  "playerHit3Script": []
+  "playerHit3Script": [],
+  "collisions": "0f2+006+0fe+006+0fc+0012+0f2+0012+0f2+004+0f2+002+0f8+002+0f2+004+0f2+002+0f8+002+0f2+004+0f2+008+0f2+002+0f2+004+0f2+008+0f2+002+0f2+004+0f2+004+0f2+002+0f2+002+0f2+004+0f2+004+0f2+002+0f2+002+0f2+004+0f8+002+0f2+002+0f2+004+0f8+002+0f2+002+0f2+004+0f2+008+0f2+002+0f2+004+0f2+008+0f2+002+0f8+002+0f8+002+0f8+002+0f8+002+0f2+0012+0f2+0012+0f2+"
 }

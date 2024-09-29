@@ -56,7 +56,7 @@
               ],
               "avatarId": "fdf12627-85ca-4252-83b3-9a8a4b45722d",
               "__collapse": false,
-              "__section": "behavior",
+              "__section": "text",
               "closeWhen": "text",
               "closeDelayTime": 0.7,
               "minHeight": 4,
@@ -74,7 +74,7 @@
                 "Good luck!"
               ],
               "avatarId": "fdf12627-85ca-4252-83b3-9a8a4b45722d",
-              "__collapse": true,
+              "__collapse": false,
               "__section": "text",
               "closeWhen": "text",
               "closeDelayTime": 0.7
