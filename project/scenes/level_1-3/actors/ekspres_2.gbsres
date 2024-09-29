@@ -160,7 +160,7 @@
                       }
                     },
                     "__collapseElse": true,
-                    "__collapse": true
+                    "__collapse": false
                   },
                   "children": {
                     "true": [
@@ -189,6 +189,24 @@
                           "__collapse": true
                         },
                         "id": "97c23f5d-c744-43b8-ba95-2112911c817d"
+                      },
+                      {
+                        "command": "EVENT_SWITCH_SCENE",
+                        "args": {
+                          "sceneId": "a96ec659-0956-4385-a360-1980e7d770e9",
+                          "x": {
+                            "type": "number",
+                            "value": 17
+                          },
+                          "y": {
+                            "type": "number",
+                            "value": 8
+                          },
+                          "direction": "",
+                          "fadeSpeed": "2",
+                          "__collapse": true
+                        },
+                        "id": "1d01a909-8dbb-4185-b5b6-38ace9597899"
                       }
                     ],
                     "false": [
@@ -221,18 +239,18 @@
                     ]
                   },
                   "id": "79125c31-4a6f-403e-a909-53dfa0e2a31d"
+                },
+                {
+                  "command": "EVENT_ACTOR_DEACTIVATE",
+                  "args": {
+                    "actorId": "$self$",
+                    "__collapse": true
+                  },
+                  "id": "ea638a27-a151-4e19-8959-0a33e13628c3"
                 }
               ]
             },
             "id": "18223e45-4cf6-4bb6-8b42-7e16a2c831df"
-          },
-          {
-            "command": "EVENT_ACTOR_DEACTIVATE",
-            "args": {
-              "actorId": "$self$",
-              "__collapse": true
-            },
-            "id": "ea638a27-a151-4e19-8959-0a33e13628c3"
           }
         ],
         "false": []

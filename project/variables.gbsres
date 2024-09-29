@@ -55,6 +55,16 @@
       "id": "eeff5bdb-aeee-4234-9783-8d39fe9bfd59__L1",
       "name": "isEkspres2Visible",
       "symbol": "var_isekspres2visible_0"
+    },
+    {
+      "id": "a96ec659-0956-4385-a360-1980e7d770e9__L0",
+      "name": "isEkspres1Visible",
+      "symbol": "var_isekspres1visible_1"
+    },
+    {
+      "id": "a96ec659-0956-4385-a360-1980e7d770e9__L1",
+      "name": "isEkspres2Visible",
+      "symbol": "var_isekspres2visible_1"
     }
   ]
 }

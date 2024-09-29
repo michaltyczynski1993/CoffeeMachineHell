@@ -110,7 +110,7 @@
     {
       "command": "EVENT_GROUP",
       "args": {
-        "__collapse": true,
+        "__collapse": false,
         "__label": "Win Condition"
       },
       "children": {
@@ -171,7 +171,7 @@
                         "value": "1"
                       }
                     },
-                    "__collapse": true
+                    "__collapse": false
                   },
                   "children": {
                     "true": [
@@ -188,14 +188,14 @@
                       {
                         "command": "EVENT_SWITCH_SCENE",
                         "args": {
-                          "sceneId": "d41cc798-3ef5-43d0-90ce-57d86e3271b4",
+                          "sceneId": "a96ec659-0956-4385-a360-1980e7d770e9",
                           "x": {
                             "type": "number",
-                            "value": 6
+                            "value": 17
                           },
                           "y": {
                             "type": "number",
-                            "value": 13
+                            "value": 8
                           },
                           "direction": "",
                           "fadeSpeed": "2"
