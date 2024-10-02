@@ -70,7 +70,7 @@
         "value": {
           "type": "true"
         },
-        "__collapse": false
+        "__collapse": true
       },
       "id": "7f4c31a4-8679-4730-b118-403ea63abf34"
     }

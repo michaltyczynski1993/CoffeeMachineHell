@@ -5,7 +5,7 @@
   "symbol": "actor_1",
   "prefabId": "",
   "name": "Ekspres",
-  "x": 8,
+  "x": 9,
   "y": 13,
   "frame": 0,
   "animate": false,
@@ -47,12 +47,19 @@
             "children": {
               "true": [
                 {
-                  "command": "EVENT_CALL_CUSTOM_EVENT",
+                  "command": "EVENT_SOUND_PLAY_EFFECT",
                   "args": {
-                    "customEventId": "4360f631-33f6-4e4a-ac29-df4b8a669df8",
+                    "type": "62965be8-8eb1-4a9b-9b44-23e555d5053a",
+                    "priority": "medium",
+                    "pitch": 4,
+                    "frequency": 200,
+                    "duration": 0.5,
+                    "wait": true,
+                    "effect": 0,
+                    "__label": "play_push_sound",
                     "__collapse": true
                   },
-                  "id": "4b6d5749-b1d6-48a7-b4c4-7ca53b60a7ac"
+                  "id": "02a9bf2c-42b4-4309-af24-5bd12eb3a9f2"
                 },
                 {
                   "command": "EVENT_ACTOR_PUSH",
@@ -72,12 +79,18 @@
       "id": "2aef0793-88b0-4825-a7ef-51628376d870"
     },
     {
-      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "command": "EVENT_SOUND_PLAY_EFFECT",
       "args": {
-        "customEventId": "6ccfa9e5-a99f-49cc-9169-1c2d46a17fad",
+        "type": "a14e9970-7d41-4d11-8a22-f4168ce0937c",
+        "priority": "medium",
+        "pitch": 4,
+        "frequency": 200,
+        "duration": 0.5,
+        "wait": true,
+        "effect": 0,
         "__collapse": true
       },
-      "id": "3e579845-7d11-4131-b01c-20a7aa227621"
+      "id": "d0d1f30d-62b0-4790-a851-39e05634e14c"
     }
   ],
   "startScript": [

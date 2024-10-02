@@ -1,0 +1,8 @@
+{
+  "_resourceType": "sound",
+  "id": "a14e9970-7d41-4d11-8a22-f4168ce0937c",
+  "name": "change_machine_sound.vgm",
+  "symbol": "sound_change_machine_sound_",
+  "filename": "change_machine_sound.vgm",
+  "type": "vgm"
+}

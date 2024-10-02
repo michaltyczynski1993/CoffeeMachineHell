@@ -14,13 +14,19 @@
   "_index": 2,
   "script": [
     {
-      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "command": "EVENT_SOUND_PLAY_EFFECT",
       "args": {
-        "customEventId": "6ccfa9e5-a99f-49cc-9169-1c2d46a17fad",
+        "type": "a14e9970-7d41-4d11-8a22-f4168ce0937c",
+        "priority": "medium",
+        "pitch": 4,
+        "frequency": 200,
+        "duration": 0.5,
+        "wait": true,
+        "effect": 0,
+        "__label": "play_interaction_sound",
         "__collapse": true
       },
-      "id": "7fd12059-fc7c-42f2-8efb-e666650b4ee8",
-      "children": {}
+      "id": "dcd31804-2f48-40d3-b5f0-ea2b05815440"
     },
     {
       "command": "EVENT_TEXT",
@@ -45,7 +51,7 @@
         "closeButton": "a",
         "closeDelayTime": 1.3,
         "closeDelayFrames": 30,
-        "__collapse": false
+        "__collapse": true
       },
       "id": "b3cefe0e-bb36-4e56-959f-bff5b1728f7a",
       "children": {}

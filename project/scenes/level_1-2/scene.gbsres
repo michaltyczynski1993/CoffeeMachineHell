@@ -19,7 +19,7 @@
   "collisions": "0f6+002+0f12+002+0fc+002c+0f2+002+0fa+006+0f2+002+0fa+006+0f2+002+0f2+00e+0f2+002+0f2+00e+0f2+002+0f2+00e+0f2+002+0f2+00e+0f2+002+0f2+00e+0f2+002+0f2+00c+0f4+002+0f2+00c+0f4+002+0f2+0032+0f4+004+0f10+004+0fc+",
   "autoFadeSpeed": 1,
   "symbol": "scene_6",
-  "x": 264,
+  "x": 256,
   "y": 232,
   "autoFadeEventCollapse": true,
   "playerSpriteSheetId": "d888bc5e-b692-4449-8a3c-67716e7f7b18",

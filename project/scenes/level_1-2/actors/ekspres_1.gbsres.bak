@@ -194,14 +194,6 @@
             "id": "d339e6c8-b8f8-4691-9db6-bf8b7cbfb73f"
           },
           {
-            "command": "EVENT_ACTOR_DEACTIVATE",
-            "args": {
-              "actorId": "$self$",
-              "__collapse": true
-            },
-            "id": "890b0c72-2ab8-4769-b526-f8f0df38ee20"
-          },
-          {
             "command": "EVENT_SWITCH_SCENE",
             "args": {
               "sceneId": "d41cc798-3ef5-43d0-90ce-57d86e3271b4",

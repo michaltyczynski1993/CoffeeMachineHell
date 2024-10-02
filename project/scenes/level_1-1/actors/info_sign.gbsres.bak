@@ -17,6 +17,14 @@
   "symbol": "actor_6",
   "script": [
     {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "6ccfa9e5-a99f-49cc-9169-1c2d46a17fad",
+        "__collapse": true
+      },
+      "id": "050741dd-d750-4a73-b39d-34fecfcd2233"
+    },
+    {
       "command": "EVENT_TEXT",
       "args": {
         "text": [
