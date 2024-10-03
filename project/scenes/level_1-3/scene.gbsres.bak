@@ -16,7 +16,7 @@
     "",
     "e1892923-d141-40cf-8eac-d840088460d2"
   ],
-  "collisions": "00168+",
+  "collisions": "0028+0f6+002+0f12+002+0fc+004+0f2+002+0f2+00e+0f2+002+0f2+00e+0f2+002+0f2+004+0f2+008+0f2+002+0f2+004+0f2+008+0f2+002+0f2+004+0f2+008+0f2+002+0f2+004+0f2+002c+0fa+00a+0fa+0032+0f2+006+0f8+004+0f2+006+0f8+004+",
   "autoFadeSpeed": 1,
   "symbol": "scene_7",
   "x": 448,
@@ -66,13 +66,13 @@
     {
       "command": "EVENT_SET_VALUE",
       "args": {
-        "variable": "L0",
+        "variable": "3",
         "value": {
-          "type": "true"
+          "type": "false"
         },
-        "__collapse": true
+        "__collapse": false
       },
-      "id": "9f771ad7-2d2b-4e2b-a5bb-e5d26e21b83b"
+      "id": "16b51fcd-a86a-48bb-a560-054fde04888e"
     }
   ],
   "playerHit1Script": [],

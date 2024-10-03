@@ -54,7 +54,7 @@
                     "wait": true,
                     "effect": 0,
                     "__label": "play_push_sound",
-                    "__collapse": true
+                    "__collapse": false
                   },
                   "id": "7d9cf817-1ccb-4942-beeb-c4b24ac0638f"
                 },
@@ -85,7 +85,7 @@
         "duration": 0.5,
         "wait": true,
         "effect": 0,
-        "__collapse": true,
+        "__collapse": false,
         "__label": "play_interaction_sound"
       },
       "id": "a329b576-f833-4ab4-9a07-52456540ba26"
