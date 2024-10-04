@@ -17,6 +17,11 @@
       "symbol": "var_menu_choice"
     },
     {
+      "id": "3",
+      "name": "isTriggerFired",
+      "symbol": "var_istriggerfired_0"
+    },
+    {
       "id": "5ac31df9-32c0-40e2-9963-af0bcf063345__L0",
       "name": "coffeeMachine_quantity",
       "symbol": "var_coffeemachine_quantity"
@@ -70,11 +75,6 @@
       "id": "4e0e3c72-2307-4417-8a91-df46589e72b3__L0",
       "name": "isEkspres1Visible",
       "symbol": "var_isekspres1visible_2"
-    },
-    {
-      "id": "3",
-      "name": "isTriggerFired",
-      "symbol": "var_istriggerfired_0"
     }
   ]
 }

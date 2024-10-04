@@ -39,7 +39,7 @@
               },
               "otherActorId": "player",
               "__collapseElse": true,
-              "__collapse": false
+              "__collapse": true
             },
             "children": {
               "true": [
@@ -85,7 +85,7 @@
         "duration": 0.5,
         "wait": true,
         "effect": 0,
-        "__collapse": true,
+        "__collapse": false,
         "__label": "play_interaction_sound"
       },
       "id": "a329b576-f833-4ab4-9a07-52456540ba26"
@@ -99,11 +99,11 @@
         "actorId": "$self$",
         "x": {
           "type": "number",
-          "value": 6
+          "value": 2
         },
         "y": {
           "type": "number",
-          "value": 9
+          "value": 5
         },
         "__collapseElse": true,
         "__collapse": false
@@ -141,7 +141,7 @@
                       }
                     },
                     "__collapseElse": true,
-                    "__collapse": true
+                    "__collapse": false
                   },
                   "children": {
                     "true": [

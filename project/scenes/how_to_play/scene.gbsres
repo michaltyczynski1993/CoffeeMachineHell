@@ -41,7 +41,7 @@
         "option8": "",
         "cancelOnB": false,
         "layout": "dialogue",
-        "__collapse": true
+        "__collapse": false
       },
       "id": "97bffade-aae0-41e3-8a9f-089be343b95a"
     },
@@ -52,7 +52,7 @@
         "choices": 2,
         "__collapseCase0": false,
         "value0": 1,
-        "__collapseCase1": true,
+        "__collapseCase1": false,
         "value1": 2,
         "__collapseCase2": false,
         "value2": 3,
@@ -108,12 +108,12 @@
         ],
         "true1": [
           {
-            "command": "EVENT_SCENE_POP_ALL_STATE",
+            "command": "EVENT_SCENE_POP_STATE",
             "args": {
               "fadeSpeed": "2",
               "__collapse": true
             },
-            "id": "6bfc507b-7374-4aa2-a90a-e39d450a2214"
+            "id": "96dc0908-8c82-4cf9-9915-19c4a1fc224e"
           }
         ],
         "true2": [],

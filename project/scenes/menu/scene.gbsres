@@ -39,18 +39,11 @@
       "id": "a92e9656-0f10-4505-9805-73f8d5975204"
     },
     {
-      "command": "EVENT_SCENE_PUSH_STATE",
-      "args": {
-        "__collapse": true
-      },
-      "id": "13f368df-9afa-465b-afa6-8a5e3cba9fb9"
-    },
-    {
       "command": "EVENT_IF_SAVED_DATA",
       "args": {
         "saveSlot": 0,
-        "__collapseElse": true,
-        "__collapse": true
+        "__collapseElse": false,
+        "__collapse": false
       },
       "children": {
         "true": [
@@ -125,14 +118,15 @@
                     "__collapseCase15": false,
                     "value15": 16,
                     "__collapseElse": true,
-                    "__collapse": false
+                    "__collapse": true
                   },
                   "children": {
                     "true0": [
                       {
                         "command": "EVENT_LOAD_DATA",
                         "args": {
-                          "saveSlot": 0
+                          "saveSlot": 0,
+                          "__collapse": true
                         },
                         "id": "bd8b9c78-3239-4727-a092-9eb39e1e0a60"
                       }
@@ -210,7 +204,7 @@
             "command": "EVENT_LOOP_WHILE",
             "args": {
               "expression": "$L0$ == 0",
-              "__collapse": false,
+              "__collapse": true,
               "__label": "While (choice ==0)",
               "condition": {
                 "type": "expression",

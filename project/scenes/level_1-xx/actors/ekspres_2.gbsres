@@ -207,18 +207,18 @@
                       {
                         "command": "EVENT_SWITCH_SCENE",
                         "args": {
-                          "sceneId": "a96ec659-0956-4385-a360-1980e7d770e9",
+                          "sceneId": "4e0e3c72-2307-4417-8a91-df46589e72b3",
                           "x": {
                             "type": "number",
-                            "value": 17
+                            "value": 13
                           },
                           "y": {
                             "type": "number",
-                            "value": 8
+                            "value": 11
                           },
                           "direction": "",
                           "fadeSpeed": "2",
-                          "__collapse": true
+                          "__collapse": false
                         },
                         "id": "1d01a909-8dbb-4185-b5b6-38ace9597899"
                       }
