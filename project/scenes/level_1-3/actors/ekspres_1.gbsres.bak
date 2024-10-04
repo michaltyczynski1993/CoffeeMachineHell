@@ -24,7 +24,7 @@
         ],
         "override": true,
         "__scriptTabs": "press",
-        "__collapse": false
+        "__collapse": true
       },
       "children": {
         "true": [
@@ -85,7 +85,7 @@
         "duration": 0.5,
         "wait": true,
         "effect": 0,
-        "__collapse": false,
+        "__collapse": true,
         "__label": "play_interaction_sound"
       },
       "id": "a329b576-f833-4ab4-9a07-52456540ba26"
@@ -234,7 +234,7 @@
   "hit1Script": [],
   "hit2Script": [],
   "hit3Script": [],
-  "x": 12,
-  "y": 9,
+  "x": 4,
+  "y": 15,
   "_index": 0
 }
