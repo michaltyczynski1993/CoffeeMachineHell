@@ -21,7 +21,7 @@
   "autoFadeSpeed": 1,
   "symbol": "scene_6",
   "x": 256,
-  "y": 232,
+  "y": 216,
   "autoFadeEventCollapse": true,
   "playerSpriteSheetId": "d888bc5e-b692-4449-8a3c-67716e7f7b18",
   "script": [
