@@ -16,8 +16,7 @@
     {
       "command": "EVENT_INC_VALUE",
       "args": {
-        "variable": "V1",
-        "__collapse": true
+        "variable": "V1"
       },
       "id": "ebbc08e0-fe32-4d92-935d-c47bfb11a537"
     }

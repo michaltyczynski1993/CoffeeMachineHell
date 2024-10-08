@@ -21,7 +21,7 @@
   "autoFadeSpeed": 1,
   "symbol": "scene_6",
   "x": 256,
-  "y": 216,
+  "y": 200,
   "autoFadeEventCollapse": true,
   "playerSpriteSheetId": "d888bc5e-b692-4449-8a3c-67716e7f7b18",
   "script": [
@@ -32,6 +32,13 @@
         "__collapse": true
       },
       "id": "7c5f4024-0c7c-4f08-8c35-d777788f304f"
+    },
+    {
+      "command": "EVENT_SCENE_RESET_STATE",
+      "args": {
+        "__collapse": true
+      },
+      "id": "da21a76b-db1f-42a9-a4c8-ca9799676dee"
     },
     {
       "command": "EVENT_SCENE_PUSH_STATE",

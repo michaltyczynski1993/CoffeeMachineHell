@@ -4,8 +4,8 @@
   "name": "16 bit rack_2",
   "frame": 0,
   "animate": false,
-  "spriteSheetId": "f2e274bf-56f0-429e-9a88-45167a3c3b30",
-  "prefabId": "",
+  "spriteSheetId": "98d62603-ff8c-422a-8d99-f24773b1ec51",
+  "prefabId": "ff4baa1d-4cea-43bf-b844-5f1105405b00",
   "direction": "down",
   "moveSpeed": 1,
   "animSpeed": 15,
@@ -16,20 +16,12 @@
   "prefabScriptOverrides": {},
   "symbol": "actor_13",
   "script": [],
-  "startScript": [
-    {
-      "command": "EVENT_ACTOR_DEACTIVATE",
-      "args": {
-        "actorId": "$self$"
-      },
-      "id": "960dd979-85e7-4ad5-b2e9-71bbdd3c5466"
-    }
-  ],
+  "startScript": [],
   "updateScript": [],
   "hit1Script": [],
   "hit2Script": [],
   "hit3Script": [],
-  "x": 4,
+  "x": 6,
   "y": 13,
   "_index": 2
 }

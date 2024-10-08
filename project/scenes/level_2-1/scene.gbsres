@@ -3,10 +3,10 @@
   "id": "d41cc798-3ef5-43d0-90ce-57d86e3271b4",
   "_index": 0,
   "type": "TOPDOWN",
-  "name": "Level 1-xx",
+  "name": "Level 2-1",
   "symbol": "scene_1",
-  "x": 248,
-  "y": 1008,
+  "x": 440,
+  "y": 32,
   "width": 20,
   "height": 18,
   "backgroundId": "9376efbc-f8f0-4d01-afda-ef17e99c7887",
@@ -27,9 +27,16 @@
       "command": "EVENT_CALL_CUSTOM_EVENT",
       "args": {
         "customEventId": "bae20c23-dc3f-4c92-9b3c-d3fc34ecc526",
-        "__collapse": false
+        "__collapse": true
       },
       "id": "402b8466-41f3-4d8e-85a8-597eea84a5b4"
+    },
+    {
+      "command": "EVENT_SCENE_RESET_STATE",
+      "args": {
+        "__collapse": true
+      },
+      "id": "98e60bc2-26fe-4a96-9ee6-6321d8e45b2e"
     },
     {
       "command": "EVENT_SCENE_PUSH_STATE",
@@ -61,28 +68,6 @@
         "__collapse": true
       },
       "id": "5b1bfbf4-fefd-4166-bf2f-b392c351fe08"
-    },
-    {
-      "command": "EVENT_SET_VALUE",
-      "args": {
-        "variable": "L0",
-        "value": {
-          "type": "true"
-        },
-        "__collapse": true
-      },
-      "id": "9597f10d-168f-4056-9aa6-1e227f3ed5d1"
-    },
-    {
-      "command": "EVENT_SET_VALUE",
-      "args": {
-        "variable": "L1",
-        "value": {
-          "type": "true"
-        },
-        "__collapse": true
-      },
-      "id": "103c4f1f-650c-4911-acd1-48983d3f15d8"
     }
   ],
   "playerHit1Script": [],

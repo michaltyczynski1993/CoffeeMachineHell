@@ -17,11 +17,11 @@
     "e1892923-d141-40cf-8eac-d840088460d2",
     "e446e7f5-fe78-4464-a6a0-d12aba54ebbf"
   ],
-  "collisions": "007+0f4+0010+0f!002+0f3+00e+0f!004+0f!00e+0f!004+0f!00e+0f!004+0f!00e+0f!004+0f!00e+0f!004+0f!00e+0f!004+0f!00e+0f!004+0f!00e+0f!004+0f5+00a+0f!008+0f!004+0f7+008+0f!004+0f!00e+0f!004+0f!00e+0f!004+0f3+005+0f8+006+0f!00!0f!003+0f!00d+0f7+001e+",
+  "collisions": "007+0f4+0010+0f!002+0f3+00e+0f!004+0f!00e+0f!004+0f!00e+0f!004+0f!00e+0f!004+0f!00e+0f!004+0f!00e+0f!004+0f!00e+0f!004+0f!00e+0f!004+0f5+00a+0f!006+0f!00!0f!004+0f7+006+0f!00!0f!004+0f!00c+0f!00!0f!004+0f!00c+0f!00!0f!004+0f3+005+0f8+006+0f!00!0f!003+0f!00d+0f7+001e+",
   "autoFadeSpeed": 1,
   "symbol": "scene_9",
   "x": 256,
-  "y": 784,
+  "y": 704,
   "autoFadeEventCollapse": true,
   "playerSpriteSheetId": "d888bc5e-b692-4449-8a3c-67716e7f7b18",
   "script": [
@@ -32,6 +32,13 @@
         "__collapse": true
       },
       "id": "567402a6-ce91-4092-a2a3-f26e1774719e"
+    },
+    {
+      "command": "EVENT_SCENE_RESET_STATE",
+      "args": {
+        "__collapse": true
+      },
+      "id": "e9534901-2b7a-4e1b-8012-523daa8d210d"
     },
     {
       "command": "EVENT_SCENE_PUSH_STATE",

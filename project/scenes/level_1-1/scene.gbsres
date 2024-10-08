@@ -34,6 +34,13 @@
       "id": "c0fbdf88-31df-4ab7-8b68-670cfe1a44d1"
     },
     {
+      "command": "EVENT_SCENE_RESET_STATE",
+      "args": {
+        "__collapse": true
+      },
+      "id": "ed36c0bd-57d9-4504-8459-3749058f35ba"
+    },
+    {
       "command": "EVENT_SCENE_PUSH_STATE",
       "args": {
         "__collapse": true
@@ -43,7 +50,7 @@
     {
       "command": "EVENT_GROUP",
       "args": {
-        "__collapse": false,
+        "__collapse": true,
         "__label": "Rules explanation"
       },
       "children": {

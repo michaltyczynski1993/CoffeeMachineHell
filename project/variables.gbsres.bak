@@ -85,6 +85,21 @@
       "id": "fd8a9155-5b03-48bd-b099-3c92553d2010__L1",
       "name": "isEkspres2Visible",
       "symbol": "var_isekspres2visible_2"
+    },
+    {
+      "id": "c90a4582-5ef4-4686-b3fa-709738f032ea__L0",
+      "name": "isEkspres1Visible",
+      "symbol": "var_isekspres1visible_4"
+    },
+    {
+      "id": "ab6a5ffd-d804-4380-88de-ab646d1a3a5d__L0",
+      "name": "isEkspres1Visible",
+      "symbol": "var_isekspres1visible_5"
+    },
+    {
+      "id": "ab6a5ffd-d804-4380-88de-ab646d1a3a5d__L1",
+      "name": "isEkspres2Visible",
+      "symbol": "var_isekspres2visible_3"
     }
   ]
 }

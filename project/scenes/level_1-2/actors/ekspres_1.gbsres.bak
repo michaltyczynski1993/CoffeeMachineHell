@@ -39,7 +39,7 @@
               },
               "otherActorId": "player",
               "__collapseElse": true,
-              "__collapse": false
+              "__collapse": true
             },
             "children": {
               "true": [
@@ -210,18 +210,18 @@
           {
             "command": "EVENT_SWITCH_SCENE",
             "args": {
-              "sceneId": "d41cc798-3ef5-43d0-90ce-57d86e3271b4",
+              "sceneId": "fd8a9155-5b03-48bd-b099-3c92553d2010",
               "x": {
                 "type": "number",
-                "value": 12
+                "value": 5
               },
               "y": {
                 "type": "number",
-                "value": 13
+                "value": 6
               },
               "direction": "",
               "fadeSpeed": "2",
-              "__collapse": true
+              "__collapse": false
             },
             "id": "6d76dc26-3a64-4cf3-9aca-b9ec56c64b5a"
           }
