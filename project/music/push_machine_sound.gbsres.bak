@@ -1,0 +1,9 @@
+{
+  "_resourceType": "music",
+  "id": "299055ed-cd55-41fc-bf99-6cb02137ca22",
+  "name": "push_machine_sound",
+  "symbol": "song_push_machine_sound",
+  "filename": "push_machine_sound.uge",
+  "settings": {},
+  "type": "uge"
+}

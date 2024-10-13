@@ -1,0 +1,8 @@
+{
+  "_resourceType": "sound",
+  "id": "62965be8-8eb1-4a9b-9b44-23e555d5053a",
+  "name": "push_sound.vgm",
+  "symbol": "sound_push_sound_vgm",
+  "filename": "push_sound.vgm",
+  "type": "vgm"
+}

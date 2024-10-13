@@ -8,5 +8,6 @@
   "imageWidth": 160,
   "imageHeight": 144,
   "filename": "Warehouse 2-2.png",
-  "tileColors": "0048+014+0010+014+00108+"
+  "tileColors": "0048+014+0010+014+00108+",
+  "autoColor": false
 }

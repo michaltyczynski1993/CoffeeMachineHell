@@ -2,7 +2,7 @@
   "_resourceType": "trigger",
   "id": "1f8b0a08-fe13-48e2-9dbc-25ccd4b78d56",
   "name": "hide_unhide_trigger",
-  "prefabId": "f8de9093-5789-4995-9aca-9a0f71d77393",
+  "prefabId": "",
   "x": 8,
   "y": 1,
   "symbol": "trigger_1",
@@ -38,7 +38,8 @@
               },
               "__collapse": true
             },
-            "id": "9ed8fd15-fc15-498a-b836-bff9446a7e23"
+            "id": "c1e150cb-669e-4d2f-b075-3fa98496628e",
+            "children": {}
           }
         ],
         "false": [
@@ -51,11 +52,12 @@
               },
               "__collapse": false
             },
-            "id": "0cc11515-ea89-4bdc-964f-c031493678b8"
+            "id": "ebb0a734-4f5e-41dd-966b-7e473fa9cec7",
+            "children": {}
           }
         ]
       },
-      "id": "9aecdda2-3580-42d1-9e3a-3d19dc2d5904"
+      "id": "41a98e50-1ef4-415f-9237-4b1fbfbd7580"
     },
     {
       "command": "EVENT_IF",
@@ -71,7 +73,7 @@
           }
         },
         "__collapseElse": false,
-        "__collapse": true,
+        "__collapse": false,
         "__label": "Show and hide racks"
       },
       "children": {
@@ -82,15 +84,17 @@
               "actorId": "508ef40d-aa6c-475d-bb7f-f65068e353f3",
               "__collapse": true
             },
-            "id": "d33c0f34-4e66-4a4c-99e9-dceb3192d3cf"
+            "id": "401d4121-38db-4f17-84aa-b5771232902b",
+            "children": {}
           },
           {
-            "command": "EVENT_ACTOR_DEACTIVATE",
+            "command": "EVENT_ACTOR_ACTIVATE",
             "args": {
               "actorId": "bd81739d-eec4-4231-ad3e-844a928ad5e8",
               "__collapse": true
             },
-            "id": "baab36a8-4046-4a3e-b8a2-79338175d7b8"
+            "id": "e8d52f64-1e13-408d-b032-5d38a87679ef",
+            "children": {}
           },
           {
             "command": "EVENT_SOUND_PLAY_EFFECT",
@@ -105,7 +109,8 @@
               "__collapse": true,
               "__label": "hide_unhide sound"
             },
-            "id": "247345b3-d6c9-4afc-b68b-dfdb9b8a9988"
+            "id": "ead964b3-371f-4ad8-b4a9-13e72b720888",
+            "children": {}
           }
         ],
         "false": [
@@ -115,15 +120,17 @@
               "actorId": "508ef40d-aa6c-475d-bb7f-f65068e353f3",
               "__collapse": true
             },
-            "id": "fff6fb43-fa1c-4e04-a463-36ee0020f06a"
+            "id": "74091d1a-3b2c-4ff6-82b4-f000484a6717",
+            "children": {}
           },
           {
-            "command": "EVENT_ACTOR_ACTIVATE",
+            "command": "EVENT_ACTOR_DEACTIVATE",
             "args": {
               "actorId": "bd81739d-eec4-4231-ad3e-844a928ad5e8",
               "__collapse": true
             },
-            "id": "1658d17c-1e87-4a32-9d60-3a108726f4fd"
+            "id": "a1c1e1ec-8c66-4a13-ba35-0e766fde2a27",
+            "children": {}
           },
           {
             "command": "EVENT_SOUND_PLAY_EFFECT",
@@ -138,11 +145,12 @@
               "__collapse": true,
               "__label": "hide_unhide sound"
             },
-            "id": "2b193abc-9c73-4345-b91d-fffada457944"
+            "id": "1edee18c-67ae-4976-ae5f-0412807b07a4",
+            "children": {}
           }
         ]
       },
-      "id": "a62faf43-85b4-4196-876e-bcbc6fbd3d26"
+      "id": "18db8c91-2cdf-4db4-9ba1-88127a11b39a"
     }
   ],
   "leaveScript": [],

@@ -103,7 +103,7 @@
         },
         "y": {
           "type": "number",
-          "value": 5
+          "value": 13
         },
         "__collapseElse": true,
         "__collapse": false
@@ -221,7 +221,7 @@
               },
               "direction": "",
               "fadeSpeed": "2",
-              "__collapse": true
+              "__collapse": false
             },
             "id": "df41c9b6-9597-404b-ac20-43b45f388839"
           }
@@ -234,7 +234,7 @@
   "hit1Script": [],
   "hit2Script": [],
   "hit3Script": [],
-  "x": 4,
-  "y": 15,
+  "x": 10,
+  "y": 9,
   "_index": 0
 }

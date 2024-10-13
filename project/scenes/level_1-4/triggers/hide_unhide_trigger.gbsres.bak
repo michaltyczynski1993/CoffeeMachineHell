@@ -2,9 +2,9 @@
   "_resourceType": "trigger",
   "id": "c2469e3f-8657-43bc-9291-fe60ed32a26b",
   "name": "hide_unhide_trigger",
-  "prefabId": "",
+  "prefabId": "f8de9093-5789-4995-9aca-9a0f71d77393",
   "x": 11,
-  "y": 5,
+  "y": 6,
   "symbol": "trigger_0",
   "prefabScriptOverrides": {},
   "width": 2,
@@ -71,7 +71,7 @@
           }
         },
         "__collapseElse": false,
-        "__collapse": false,
+        "__collapse": true,
         "__label": "Show and hide racks"
       },
       "children": {

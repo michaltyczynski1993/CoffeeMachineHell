@@ -100,6 +100,36 @@
       "id": "ab6a5ffd-d804-4380-88de-ab646d1a3a5d__L1",
       "name": "isEkspres2Visible",
       "symbol": "var_isekspres2visible_3"
+    },
+    {
+      "id": "e332bbb9-2adf-4ef9-823d-c568ab94d309__L0",
+      "name": "isPointAdded",
+      "symbol": "var_ispointadded"
+    },
+    {
+      "id": "1984a793-d7a8-4ff5-a8d0-73532b927644__L0",
+      "name": "isPointAdded",
+      "symbol": "var_ispointadded_0"
+    },
+    {
+      "id": "a388daaa-a775-48ec-9f73-191828793523__L0",
+      "name": "isEkspres1Visible",
+      "symbol": "var_isekspres1visible_6"
+    },
+    {
+      "id": "a388daaa-a775-48ec-9f73-191828793523__L1",
+      "name": "isEkspres2Visible",
+      "symbol": "var_isekspres2visible_4"
+    },
+    {
+      "id": "67dc3f48-7428-4bb0-993b-0ee5511bda94__L0",
+      "name": "isPointAdded",
+      "symbol": "var_ispointadded_1"
+    },
+    {
+      "id": "7ce8f183-8d39-4e5b-aa7b-90eee204e687__L0",
+      "name": "isPointAdded",
+      "symbol": "var_ispointadded_2"
     }
   ]
 }

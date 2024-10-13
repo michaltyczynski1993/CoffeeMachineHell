@@ -121,7 +121,7 @@
           {
             "command": "EVENT_GROUP",
             "args": {
-              "__collapse": true,
+              "__collapse": false,
               "__label": "Win Condition"
             },
             "children": {
@@ -141,7 +141,7 @@
                       }
                     },
                     "__collapseElse": true,
-                    "__collapse": true
+                    "__collapse": false
                   },
                   "children": {
                     "true": [
@@ -167,7 +167,7 @@
                           "closeButton": "a",
                           "closeDelayTime": 1,
                           "closeDelayFrames": 30,
-                          "__collapse": true
+                          "__collapse": false
                         },
                         "id": "5ef0a2b2-15ae-40c0-ae13-68f884fd4ee9"
                       }

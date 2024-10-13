@@ -1,0 +1,9 @@
+{
+  "_resourceType": "music",
+  "id": "c5c9462a-68a6-4c83-a7ef-ad970d0f0a8a",
+  "name": "hide_unhide_sound",
+  "symbol": "song_hide_unhide_sound",
+  "filename": "hide_unhide_sound.uge",
+  "settings": {},
+  "type": "uge"
+}

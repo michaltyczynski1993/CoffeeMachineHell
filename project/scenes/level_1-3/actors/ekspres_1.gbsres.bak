@@ -121,7 +121,7 @@
           {
             "command": "EVENT_GROUP",
             "args": {
-              "__collapse": false,
+              "__collapse": true,
               "__label": "Win Condition"
             },
             "children": {

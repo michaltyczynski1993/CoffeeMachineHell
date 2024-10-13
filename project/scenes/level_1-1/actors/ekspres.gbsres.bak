@@ -194,7 +194,10 @@
                           "text": [
                             "you won!"
                           ],
-                          "avatarId": ""
+                          "avatarId": "",
+                          "__section": "behavior",
+                          "closeWhen": "text",
+                          "closeDelayTime": 1
                         },
                         "id": "c2720848-7e7f-4598-b0d4-200622b065dc"
                       },

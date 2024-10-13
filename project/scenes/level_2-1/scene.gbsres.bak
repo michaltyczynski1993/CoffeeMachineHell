@@ -32,6 +32,13 @@
       "id": "402b8466-41f3-4d8e-85a8-597eea84a5b4"
     },
     {
+      "command": "EVENT_SCENE_RESET_STATE",
+      "args": {
+        "__collapse": true
+      },
+      "id": "98e60bc2-26fe-4a96-9ee6-6321d8e45b2e"
+    },
+    {
       "command": "EVENT_SCENE_PUSH_STATE",
       "args": {
         "__collapse": true
