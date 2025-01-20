@@ -1,0 +1,52 @@
+{
+    "Map/SizeTest": {
+        "height": 4300,
+        "width": 2
+    },
+    "activeFile": "level 2-3.tmx",
+    "expandedProjectPaths": [
+    ],
+    "fileStates": {
+        "": {
+            "scaleInDock": 4
+        },
+        "level 2-3.tmx": {
+            "scale": 4,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 70.25,
+                "y": 86
+            }
+        },
+        "level 2-3.tmx#Floor_small": {
+            "scaleInDock": 8
+        },
+        "level 2-3.tmx#Rack 16bit.png": {
+            "scaleInDock": 1
+        },
+        "level 2-3.tmx#background_tiles": {
+            "scaleInDock": 8
+        },
+        "level 2-3.tmx#finish_point": {
+            "scaleInDock": 4
+        }
+    },
+    "last.imagePath": "/home/michal-tyczynski/Dokumenty/GBStudioGames/CoffeeMachineHell/tiled",
+    "map.height": 18,
+    "map.lastUsedFormat": "tmx",
+    "map.tileHeight": 8,
+    "map.tileWidth": 8,
+    "map.width": 20,
+    "openFiles": [
+        "level 2-3.tmx"
+    ],
+    "project": "level2-3.tiled-project",
+    "recentFiles": [
+        "level 2-3.tmx"
+    ],
+    "tileset.embedInMap": true,
+    "tileset.tileSize": {
+        "height": 16,
+        "width": 16
+    }
+}

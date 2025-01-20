@@ -19,7 +19,7 @@
           }
         },
         "__collapseElse": false,
-        "__collapse": true,
+        "__collapse": false,
         "__label": "set is TriggerFired variable to false/true"
       },
       "children": {
@@ -68,7 +68,7 @@
           }
         },
         "__collapseElse": false,
-        "__collapse": true,
+        "__collapse": false,
         "__label": "Show and hide racks"
       },
       "children": {
