@@ -1,9 +1,9 @@
 {
   "_resourceType": "scene",
-  "id": "0e61a26a-65fb-48c3-bc36-77a14ccb6942",
-  "_index": 11,
-  "name": "Level 2-4",
-  "backgroundId": "714af397-666d-4347-96af-81999c791276",
+  "id": "97646796-fa39-4c7c-9ca9-2bc101bbc7c1",
+  "_index": 12,
+  "name": "Level 2-5",
+  "backgroundId": "197805cd-ed20-4320-b768-1e5e6161877c",
   "tilesetId": "",
   "width": 20,
   "height": 18,
@@ -16,11 +16,11 @@
     "",
     "e1892923-d141-40cf-8eac-d840088460d2"
   ],
-  "collisions": "008+0f4+0010+0f!002+0f3+00e+0f!004+0f!00e+0f!004+0f!00e+0f!004+0f!00e+0f!004+0f!00e+0f!004+0f!00e+0f!004+0f!007+0f6+00!0f!002+0f3+007+0f!004+0f3+002+0f9+00!0f!0011+0f!00!0f!0011+0f!00!0f!00c+0f6+00!0f!004+0f2+004+0f3+006+0f!004+0f2+002+0f3+008+0f5+004+0f!00e+0f!004+0f!00e+0f6+009+",
+  "collisions": "002b+0f8+00c+0f!006+0f!00c+0f!006+0f!00c+0f!006+0f!00c+0f!006+0f!00c+0f3+002+0f3+00e+0f!002+0f!002+0f6+008+0f!002+0f!002+0f!004+0f!006+0f3+002+0f4+004+0f!006+0f!00c+0f!006+0f!00c+0f!006+0f!004+0f2+006+0f!006+0f!004+0f2+006+0f!006+0fe+002b+",
   "autoFadeSpeed": 1,
-  "symbol": "scene_12",
+  "symbol": "scene_13",
   "x": 432,
-  "y": 536,
+  "y": 704,
   "autoFadeEventCollapse": true,
   "playerSpriteSheetId": "d888bc5e-b692-4449-8a3c-67716e7f7b18",
   "script": [
@@ -30,21 +30,21 @@
         "customEventId": "bae20c23-dc3f-4c92-9b3c-d3fc34ecc526",
         "__collapse": true
       },
-      "id": "23586c23-d7ba-4f15-adec-57342f825347"
+      "id": "3b6e8290-2067-46d1-96ef-7bb5c2f05c8e"
     },
     {
       "command": "EVENT_SCENE_RESET_STATE",
       "args": {
         "__collapse": true
       },
-      "id": "a23692fc-78f4-44a0-a4b9-84cad9344348"
+      "id": "da815cbc-8f76-43c7-bc39-d20b34986484"
     },
     {
       "command": "EVENT_SCENE_PUSH_STATE",
       "args": {
         "__collapse": true
       },
-      "id": "c6031948-9c23-4685-85dc-9d4b00d1ae0d"
+      "id": "78cdfcbf-89be-4698-8a28-15bb8e92f4c9"
     },
     {
       "command": "EVENT_SET_VALUE",
@@ -56,7 +56,7 @@
         },
         "__collapse": true
       },
-      "id": "d83668be-1680-4141-ae19-eaa1a863851e"
+      "id": "9c7d2d14-d37a-44ac-bca9-824c801a4b01"
     },
     {
       "command": "EVENT_SET_VALUE",
@@ -68,7 +68,7 @@
         },
         "__collapse": true
       },
-      "id": "bc40ac2b-6d84-4fc5-9071-9c75a62de43e"
+      "id": "811bac73-d7ca-4cee-9c1b-db461a26ba24"
     }
   ],
   "playerHit1Script": [],

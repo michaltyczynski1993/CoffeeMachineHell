@@ -1,0 +1,22 @@
+{
+  "_resourceType": "scene",
+  "id": "cb277a0a-fe42-4f80-9dba-dfcc10243a37",
+  "_index": 14,
+  "name": "Thank you page",
+  "backgroundId": "c05a3857-35a9-4bdc-bb03-7d37f2d5141a",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_15",
+  "x": 623,
+  "y": 212,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

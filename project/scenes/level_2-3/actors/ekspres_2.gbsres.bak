@@ -111,14 +111,14 @@
         "actorId": "$self$",
         "x": {
           "type": "number",
-          "value": 12
+          "value": 10
         },
         "y": {
           "type": "number",
-          "value": 4
+          "value": 9
         },
         "__collapseElse": true,
-        "__collapse": true,
+        "__collapse": false,
         "__comment": false
       },
       "children": {
@@ -176,7 +176,7 @@
                 {
                   "command": "EVENT_GROUP",
                   "args": {
-                    "__collapse": true,
+                    "__collapse": false,
                     "__label": "Win Condition"
                   },
                   "children": {
@@ -229,14 +229,14 @@
                             {
                               "command": "EVENT_SWITCH_SCENE",
                               "args": {
-                                "sceneId": "4e0e3c72-2307-4417-8a91-df46589e72b3",
+                                "sceneId": "0e61a26a-65fb-48c3-bc36-77a14ccb6942",
                                 "x": {
                                   "type": "number",
-                                  "value": 14
+                                  "value": 8
                                 },
                                 "y": {
                                   "type": "number",
-                                  "value": 11
+                                  "value": 16
                                 },
                                 "direction": "",
                                 "fadeSpeed": "2"
@@ -306,11 +306,11 @@
         "actorId": "$self$",
         "x": {
           "type": "number",
-          "value": 14
+          "value": 2
         },
         "y": {
           "type": "number",
-          "value": 4
+          "value": 7
         },
         "__collapseElse": true,
         "__collapse": true,
@@ -423,14 +423,14 @@
                             {
                               "command": "EVENT_SWITCH_SCENE",
                               "args": {
-                                "sceneId": "4e0e3c72-2307-4417-8a91-df46589e72b3",
+                                "sceneId": "0e61a26a-65fb-48c3-bc36-77a14ccb6942",
                                 "x": {
                                   "type": "number",
-                                  "value": 14
+                                  "value": 8
                                 },
                                 "y": {
                                   "type": "number",
-                                  "value": 11
+                                  "value": 16
                                 },
                                 "direction": "",
                                 "fadeSpeed": "2"

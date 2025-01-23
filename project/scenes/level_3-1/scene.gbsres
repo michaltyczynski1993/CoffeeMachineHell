@@ -1,9 +1,9 @@
 {
   "_resourceType": "scene",
-  "id": "0e61a26a-65fb-48c3-bc36-77a14ccb6942",
-  "_index": 11,
-  "name": "Level 2-4",
-  "backgroundId": "714af397-666d-4347-96af-81999c791276",
+  "id": "cfdda88d-b394-4414-ae0e-844e2e5549fa",
+  "_index": 13,
+  "name": "Level 3-1",
+  "backgroundId": "57607f39-f899-4143-8474-da9368d866c9",
   "tilesetId": "",
   "width": 20,
   "height": 18,
@@ -16,11 +16,11 @@
     "",
     "e1892923-d141-40cf-8eac-d840088460d2"
   ],
-  "collisions": "008+0f4+0010+0f!002+0f3+00e+0f!004+0f!00e+0f!004+0f!00e+0f!004+0f!00e+0f!004+0f!00e+0f!004+0f!00e+0f!004+0f!007+0f6+00!0f!002+0f3+007+0f!004+0f3+002+0f9+00!0f!0011+0f!00!0f!0011+0f!00!0f!00c+0f6+00!0f!004+0f2+004+0f3+006+0f!004+0f2+002+0f3+008+0f5+004+0f!00e+0f!004+0f!00e+0f6+009+",
+  "collisions": "0015+0f8+00c+0f!006+0f!00c+0f!006+0f7+006+0f!002+0f2+002+0f2+004+0f!006+0f!002+0f2+002+0f2+004+0f!006+0f!00c+0f!006+0f!00c+0f!006+0f3+004+0f7+008+0f!004+0f6+009+0f!009+0f!009+0f!009+0f!009+0f5+005+0f!00d+0f!005+0f!00d+0f7+0042+",
   "autoFadeSpeed": 1,
-  "symbol": "scene_12",
-  "x": 432,
-  "y": 536,
+  "symbol": "scene_14",
+  "x": 776,
+  "y": 32,
   "autoFadeEventCollapse": true,
   "playerSpriteSheetId": "d888bc5e-b692-4449-8a3c-67716e7f7b18",
   "script": [
@@ -30,21 +30,21 @@
         "customEventId": "bae20c23-dc3f-4c92-9b3c-d3fc34ecc526",
         "__collapse": true
       },
-      "id": "23586c23-d7ba-4f15-adec-57342f825347"
+      "id": "13d6f5c5-add9-4681-b7ba-cca601ecc789"
     },
     {
       "command": "EVENT_SCENE_RESET_STATE",
       "args": {
         "__collapse": true
       },
-      "id": "a23692fc-78f4-44a0-a4b9-84cad9344348"
+      "id": "b1538327-f5cb-4b81-a54e-833498d9108f"
     },
     {
       "command": "EVENT_SCENE_PUSH_STATE",
       "args": {
         "__collapse": true
       },
-      "id": "c6031948-9c23-4685-85dc-9d4b00d1ae0d"
+      "id": "2fa1513a-6cb0-4670-85d8-6832dea34744"
     },
     {
       "command": "EVENT_SET_VALUE",
@@ -52,11 +52,11 @@
         "variable": "0",
         "value": {
           "type": "number",
-          "value": 2
+          "value": 3
         },
         "__collapse": true
       },
-      "id": "d83668be-1680-4141-ae19-eaa1a863851e"
+      "id": "ae4b58e3-7de8-46d3-bc68-1f5217ea19a3"
     },
     {
       "command": "EVENT_SET_VALUE",
@@ -68,7 +68,15 @@
         },
         "__collapse": true
       },
-      "id": "bc40ac2b-6d84-4fc5-9071-9c75a62de43e"
+      "id": "fc069ea8-e930-4e4a-b934-7d8459f41c31"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_MOVEMENT_SPEED",
+      "args": {
+        "actorId": "$self$",
+        "speed": 2
+      },
+      "id": "152eee40-71f9-4bc0-99dd-d4a447da4167"
     }
   ],
   "playerHit1Script": [],
