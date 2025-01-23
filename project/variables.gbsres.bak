@@ -130,6 +130,26 @@
       "id": "7ce8f183-8d39-4e5b-aa7b-90eee204e687__L0",
       "name": "isPointAdded",
       "symbol": "var_ispointadded_2"
+    },
+    {
+      "id": "745506a9-fec9-4fa7-b32d-aac579af74f3__L0",
+      "name": "isEkspres1Visible",
+      "symbol": "var_isekspres1visible_7"
+    },
+    {
+      "id": "745506a9-fec9-4fa7-b32d-aac579af74f3__L1",
+      "name": "isEkspres2Visible",
+      "symbol": "var_isekspres2visible_5"
+    },
+    {
+      "id": "d0070124-6e26-4164-8a6d-6893116466b0__L0",
+      "name": "isPointAdded",
+      "symbol": "var_ispointadded_3"
+    },
+    {
+      "id": "840cffbd-b815-462c-aa53-7662458968bf__L0",
+      "name": "isPointAdded",
+      "symbol": "var_ispointadded_4"
     }
   ]
 }

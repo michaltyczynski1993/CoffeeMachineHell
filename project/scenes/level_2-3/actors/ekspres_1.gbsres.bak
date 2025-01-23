@@ -111,11 +111,11 @@
         "actorId": "$self$",
         "x": {
           "type": "number",
-          "value": 2
+          "value": 12
         },
         "y": {
           "type": "number",
-          "value": 7
+          "value": 4
         },
         "__collapseElse": true,
         "__collapse": true,
@@ -229,14 +229,14 @@
                             {
                               "command": "EVENT_SWITCH_SCENE",
                               "args": {
-                                "sceneId": "0e61a26a-65fb-48c3-bc36-77a14ccb6942",
+                                "sceneId": "4e0e3c72-2307-4417-8a91-df46589e72b3",
                                 "x": {
                                   "type": "number",
-                                  "value": 8
+                                  "value": 14
                                 },
                                 "y": {
                                   "type": "number",
-                                  "value": 14
+                                  "value": 11
                                 },
                                 "direction": "",
                                 "fadeSpeed": "2"
@@ -306,11 +306,11 @@
         "actorId": "$self$",
         "x": {
           "type": "number",
-          "value": 10
+          "value": 14
         },
         "y": {
           "type": "number",
-          "value": 9
+          "value": 4
         },
         "__collapseElse": true,
         "__collapse": true,
@@ -423,14 +423,14 @@
                             {
                               "command": "EVENT_SWITCH_SCENE",
                               "args": {
-                                "sceneId": "0e61a26a-65fb-48c3-bc36-77a14ccb6942",
+                                "sceneId": "4e0e3c72-2307-4417-8a91-df46589e72b3",
                                 "x": {
                                   "type": "number",
-                                  "value": 8
+                                  "value": 14
                                 },
                                 "y": {
                                   "type": "number",
-                                  "value": 15
+                                  "value": 11
                                 },
                                 "direction": "",
                                 "fadeSpeed": "2"

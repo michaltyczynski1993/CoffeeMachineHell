@@ -85,7 +85,7 @@
         "duration": 0.5,
         "wait": true,
         "effect": 0,
-        "__collapse": true,
+        "__collapse": false,
         "__label": "play_interaction_sound"
       },
       "id": "a85e285d-f004-4019-9f2f-47c991775b01"
@@ -176,7 +176,7 @@
                 {
                   "command": "EVENT_GROUP",
                   "args": {
-                    "__collapse": true,
+                    "__collapse": false,
                     "__label": "Win Condition"
                   },
                   "children": {
@@ -195,7 +195,7 @@
                               "value": "1"
                             }
                           },
-                          "__collapseElse": true,
+                          "__collapseElse": false,
                           "__collapse": false
                         },
                         "children": {
@@ -229,17 +229,18 @@
                             {
                               "command": "EVENT_SWITCH_SCENE",
                               "args": {
-                                "sceneId": "4e0e3c72-2307-4417-8a91-df46589e72b3",
+                                "sceneId": "745506a9-fec9-4fa7-b32d-aac579af74f3",
                                 "x": {
                                   "type": "number",
-                                  "value": 14
+                                  "value": 2
                                 },
                                 "y": {
                                   "type": "number",
-                                  "value": 11
+                                  "value": 14
                                 },
                                 "direction": "",
-                                "fadeSpeed": "2"
+                                "fadeSpeed": "2",
+                                "__collapse": true
                               },
                               "id": "24b12355-5429-4803-8bfc-ef236ec2761f"
                             }
@@ -313,7 +314,7 @@
           "value": 4
         },
         "__collapseElse": true,
-        "__collapse": true,
+        "__collapse": false,
         "__comment": false
       },
       "children": {
@@ -370,7 +371,7 @@
                 {
                   "command": "EVENT_GROUP",
                   "args": {
-                    "__collapse": true,
+                    "__collapse": false,
                     "__label": "Win Condition"
                   },
                   "children": {
@@ -423,14 +424,14 @@
                             {
                               "command": "EVENT_SWITCH_SCENE",
                               "args": {
-                                "sceneId": "4e0e3c72-2307-4417-8a91-df46589e72b3",
+                                "sceneId": "745506a9-fec9-4fa7-b32d-aac579af74f3",
                                 "x": {
                                   "type": "number",
-                                  "value": 14
+                                  "value": 2
                                 },
                                 "y": {
                                   "type": "number",
-                                  "value": 11
+                                  "value": 15
                                 },
                                 "direction": "",
                                 "fadeSpeed": "2"
