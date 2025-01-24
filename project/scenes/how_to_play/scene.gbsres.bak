@@ -41,9 +41,17 @@
         "option8": "",
         "cancelOnB": false,
         "layout": "dialogue",
-        "__collapse": false
+        "__collapse": true
       },
       "id": "97bffade-aae0-41e3-8a9f-089be343b95a"
+    },
+    {
+      "command": "EVENT_MUSIC_PLAY",
+      "args": {
+        "musicId": "21da79de-20a6-45e9-af0b-a5f6c023b22a",
+        "__collapse": true
+      },
+      "id": "e7742fbf-0792-4a82-9d25-df844eab8fe9"
     },
     {
       "command": "EVENT_SWITCH",
@@ -83,7 +91,7 @@
         "__collapseCase15": false,
         "value15": 16,
         "__collapseElse": true,
-        "__collapse": false
+        "__collapse": true
       },
       "children": {
         "true0": [
@@ -138,5 +146,5 @@
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
-  "collisions": ""
+  "collisions": "00168+"
 }

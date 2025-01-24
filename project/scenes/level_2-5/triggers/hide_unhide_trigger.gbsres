@@ -2,24 +2,11 @@
   "_resourceType": "trigger",
   "id": "0c46f1e8-0aa9-4267-b465-34909f01c04e",
   "name": "hide_unhide_trigger",
-  "prefabId": "f8de9093-5789-4995-9aca-9a0f71d77393",
+  "prefabId": "",
   "x": 10,
   "y": 13,
   "symbol": "trigger_3",
-  "prefabScriptOverrides": {
-    "8601f970-6aac-4e1d-b5fa-0c8fa6bf0385": {
-      "id": "8601f970-6aac-4e1d-b5fa-0c8fa6bf0385",
-      "args": {
-        "actorId": "eb6162cc-cf5c-4c20-a573-ef4dd282ab49"
-      }
-    },
-    "1c2a1650-1b8a-44ae-bdff-a325609835d4": {
-      "id": "1c2a1650-1b8a-44ae-bdff-a325609835d4",
-      "args": {
-        "actorId": "eb6162cc-cf5c-4c20-a573-ef4dd282ab49"
-      }
-    }
-  },
+  "prefabScriptOverrides": {},
   "width": 2,
   "height": 2,
   "script": [
@@ -51,7 +38,8 @@
               },
               "__collapse": true
             },
-            "id": "c18ed557-2a38-4e3a-bcb7-267dd9c0377d"
+            "id": "c1e839cb-18f1-42d9-8768-51e3c265ef99",
+            "children": {}
           }
         ],
         "false": [
@@ -64,11 +52,12 @@
               },
               "__collapse": false
             },
-            "id": "3b1700a8-4f93-4564-87ea-628e475648ec"
+            "id": "3d25fe50-6cc3-4d6e-b3d3-9273b5d2e409",
+            "children": {}
           }
         ]
       },
-      "id": "548cad1d-eebb-4b07-870d-ab714cc77e4d"
+      "id": "2a3ba1f2-fcd4-4ab2-999a-923bd3104924"
     },
     {
       "command": "EVENT_IF",
@@ -84,7 +73,7 @@
           }
         },
         "__collapseElse": false,
-        "__collapse": true,
+        "__collapse": false,
         "__label": "Show and hide racks"
       },
       "children": {
@@ -92,18 +81,11 @@
           {
             "command": "EVENT_ACTOR_DEACTIVATE",
             "args": {
-              "actorId": "02be7dc8-5d07-4abb-bd1c-1431b9d57dc6",
+              "actorId": "eb6162cc-cf5c-4c20-a573-ef4dd282ab49",
               "__collapse": true
             },
-            "id": "67599ee6-32ae-428d-9b32-6b110e9c0003"
-          },
-          {
-            "command": "EVENT_ACTOR_DEACTIVATE",
-            "args": {
-              "actorId": "ac523e2d-d0b9-45c2-9e31-ebd58234722d",
-              "__collapse": true
-            },
-            "id": "7334ad61-9b52-454e-b9a3-4eae082bfa4f"
+            "id": "5d834785-f279-4f09-af4f-5cd536110745",
+            "children": {}
           },
           {
             "command": "EVENT_SOUND_PLAY_EFFECT",
@@ -118,25 +100,19 @@
               "__collapse": true,
               "__label": "hide_unhide sound"
             },
-            "id": "a2e76450-be4b-403a-933b-b160f649c77e"
+            "id": "b1bcf076-c158-4409-a87b-73652542c5d5",
+            "children": {}
           }
         ],
         "false": [
           {
             "command": "EVENT_ACTOR_ACTIVATE",
             "args": {
-              "actorId": "02be7dc8-5d07-4abb-bd1c-1431b9d57dc6",
+              "actorId": "eb6162cc-cf5c-4c20-a573-ef4dd282ab49",
               "__collapse": true
             },
-            "id": "019cdb2a-cc32-4103-a9ac-64ed4dc3c7f8"
-          },
-          {
-            "command": "EVENT_ACTOR_ACTIVATE",
-            "args": {
-              "actorId": "ac523e2d-d0b9-45c2-9e31-ebd58234722d",
-              "__collapse": true
-            },
-            "id": "4f65adcc-be64-47b5-9bd6-1b5b92f44c22"
+            "id": "adda069b-d4ad-4230-8d5c-829254d8142b",
+            "children": {}
           },
           {
             "command": "EVENT_SOUND_PLAY_EFFECT",
@@ -151,11 +127,12 @@
               "__collapse": true,
               "__label": "hide_unhide sound"
             },
-            "id": "f232c7f7-9766-4104-9531-2664a3ee309b"
+            "id": "3af38195-6f2a-4efc-8ba3-846e64ef2e31",
+            "children": {}
           }
         ]
       },
-      "id": "49223963-c6a3-42b7-8528-bca250da7635"
+      "id": "fdd14d17-9f80-4739-8ee6-f86882d52bab"
     }
   ],
   "leaveScript": [],

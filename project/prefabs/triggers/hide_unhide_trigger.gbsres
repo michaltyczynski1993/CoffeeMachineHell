@@ -68,7 +68,7 @@
           }
         },
         "__collapseElse": false,
-        "__collapse": true,
+        "__collapse": false,
         "__label": "Show and hide racks"
       },
       "children": {
@@ -80,6 +80,15 @@
               "__collapse": true
             },
             "id": "8601f970-6aac-4e1d-b5fa-0c8fa6bf0385",
+            "children": {}
+          },
+          {
+            "command": "EVENT_ACTOR_DEACTIVATE",
+            "args": {
+              "actorId": "02be7dc8-5d07-4abb-bd1c-1431b9d57dc6",
+              "__collapse": true
+            },
+            "id": "c4ba52a2-f8f5-4642-a3dc-f7992cab10d1",
             "children": {}
           },
           {
@@ -107,6 +116,15 @@
               "__collapse": true
             },
             "id": "1c2a1650-1b8a-44ae-bdff-a325609835d4",
+            "children": {}
+          },
+          {
+            "command": "EVENT_ACTOR_ACTIVATE",
+            "args": {
+              "actorId": "02be7dc8-5d07-4abb-bd1c-1431b9d57dc6",
+              "__collapse": true
+            },
+            "id": "05dbcd51-b5ca-4015-afa0-5bfcad73bca0",
             "children": {}
           },
           {

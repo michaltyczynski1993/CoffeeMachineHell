@@ -280,6 +280,11 @@
       "id": "44886b1c-70b5-439b-9a74-117f447c573b__L0",
       "name": "isPointAdded",
       "symbol": "var_ispointadded_18"
+    },
+    {
+      "id": "cb277a0a-fe42-4f80-9dba-dfcc10243a37__L0",
+      "name": "choice",
+      "symbol": "var_choice_1"
     }
   ]
 }

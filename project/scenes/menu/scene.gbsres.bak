@@ -19,6 +19,21 @@
   "autoFadeEventCollapse": true,
   "script": [
     {
+      "command": "EVENT_MUSIC_PLAY",
+      "args": {
+        "musicId": "21da79de-20a6-45e9-af0b-a5f6c023b22a",
+        "__collapse": true
+      },
+      "id": "77dd2f2a-fa07-4332-94dc-b2c27dbcb5bf"
+    },
+    {
+      "command": "EVENT_MUSIC_STOP",
+      "args": {
+        "__collapse": true
+      },
+      "id": "1b7348bb-d28b-42b5-b992-8faee3a6e3f1"
+    },
+    {
       "command": "EVENT_SET_VALUE",
       "args": {
         "variable": "L0",
@@ -43,7 +58,7 @@
       "args": {
         "saveSlot": 0,
         "__collapseElse": false,
-        "__collapse": false
+        "__collapse": true
       },
       "children": {
         "true": [
