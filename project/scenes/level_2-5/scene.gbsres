@@ -84,6 +84,17 @@
         "__collapse": true
       },
       "id": "811bac73-d7ca-4cee-9c1b-db461a26ba24"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "3",
+        "value": {
+          "type": "false"
+        },
+        "__collapse": true
+      },
+      "id": "f65ec1fd-a1b9-45cf-8311-1cd3556539d2"
     }
   ],
   "playerHit1Script": [],

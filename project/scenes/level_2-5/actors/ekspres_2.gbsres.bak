@@ -118,7 +118,7 @@
           "value": 4
         },
         "__collapseElse": true,
-        "__collapse": false,
+        "__collapse": true,
         "__comment": false
       },
       "children": {
@@ -229,7 +229,7 @@
                             {
                               "command": "EVENT_SWITCH_SCENE",
                               "args": {
-                                "sceneId": "cfdda88d-b394-4414-ae0e-844e2e5549fa",
+                                "sceneId": "cb277a0a-fe42-4f80-9dba-dfcc10243a37",
                                 "x": {
                                   "type": "number",
                                   "value": 11
@@ -423,7 +423,7 @@
                             {
                               "command": "EVENT_SWITCH_SCENE",
                               "args": {
-                                "sceneId": "cfdda88d-b394-4414-ae0e-844e2e5549fa",
+                                "sceneId": "cb277a0a-fe42-4f80-9dba-dfcc10243a37",
                                 "x": {
                                   "type": "number",
                                   "value": 11

@@ -285,6 +285,31 @@
       "id": "cb277a0a-fe42-4f80-9dba-dfcc10243a37__L0",
       "name": "choice",
       "symbol": "var_choice_1"
+    },
+    {
+      "id": "8d68d77e-ee34-4591-be96-875a358b0814__L0",
+      "name": "isEkspres1Visible",
+      "symbol": "var_isekspres1visible_14"
+    },
+    {
+      "id": "8d68d77e-ee34-4591-be96-875a358b0814__L1",
+      "name": "isEkspres2Visible",
+      "symbol": "var_isekspres2visible_12"
+    },
+    {
+      "id": "2915b862-6761-4981-8332-11c061b19b4e__L0",
+      "name": "isPointAdded",
+      "symbol": "var_ispointadded_17"
+    },
+    {
+      "id": "a9a3a05a-1372-41c7-aedc-e3b7d5e5698a__L0",
+      "name": "isPointAdded",
+      "symbol": "var_ispointadded_20"
+    },
+    {
+      "id": "1fa41bdd-138a-42d8-b3bc-49c3fe19ca65__L0",
+      "name": "isPointAdded",
+      "symbol": "var_ispointadded_21"
     }
   ]
 }

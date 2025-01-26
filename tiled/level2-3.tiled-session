@@ -79,7 +79,7 @@
             "selectedLayer": 3,
             "viewCenter": {
                 "x": 76.54545454545455,
-                "y": 72.90909090909092
+                "y": 48.90909090909092
             }
         },
         "level 3-1.tmx#Floor_small": {
@@ -95,7 +95,7 @@
             "scaleInDock": 3
         }
     },
-    "last.imagePath": "/home/michal-tyczynski/Dokumenty/GBStudioGames/CoffeeMachineHell/tiled",
+    "last.imagePath": "/home/michal-tyczynski/Dokumenty/GBStudioGames/CoffeeMachineHell/assets/sprites",
     "map.height": 18,
     "map.lastUsedFormat": "tmx",
     "map.tileHeight": 8,
