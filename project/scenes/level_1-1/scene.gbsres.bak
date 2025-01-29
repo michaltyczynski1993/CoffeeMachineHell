@@ -26,6 +26,13 @@
   "playerSpriteSheetId": "",
   "script": [
     {
+      "command": "EVENT_MUSIC_STOP",
+      "args": {
+        "__collapse": true
+      },
+      "id": "055b0211-6ab2-4b35-9109-83f914964dd6"
+    },
+    {
       "command": "EVENT_MUSIC_PLAY",
       "args": {
         "musicId": "553d20c4-d643-4a97-b54e-261861c9d8e2",

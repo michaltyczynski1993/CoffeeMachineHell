@@ -8,5 +8,6 @@
   "imageWidth": 160,
   "imageHeight": 144,
   "filename": "level 2-4.png",
-  "tileColors": "00132+012+0012+012+0020+"
+  "tileColors": "00132+012+0012+012+0020+",
+  "autoColor": false
 }

@@ -118,7 +118,7 @@
           "value": 4
         },
         "__collapseElse": true,
-        "__collapse": true,
+        "__collapse": false,
         "__comment": false
       },
       "children": {
@@ -176,7 +176,7 @@
                 {
                   "command": "EVENT_GROUP",
                   "args": {
-                    "__collapse": false,
+                    "__collapse": true,
                     "__label": "Win Condition"
                   },
                   "children": {
@@ -236,11 +236,11 @@
                                 },
                                 "y": {
                                   "type": "number",
-                                  "value": 14
+                                  "value": 15
                                 },
                                 "direction": "",
                                 "fadeSpeed": "2",
-                                "__collapse": true
+                                "__collapse": false
                               },
                               "id": "24b12355-5429-4803-8bfc-ef236ec2761f"
                             }

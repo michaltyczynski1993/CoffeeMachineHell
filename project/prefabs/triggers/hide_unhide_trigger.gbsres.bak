@@ -83,6 +83,15 @@
             "children": {}
           },
           {
+            "command": "EVENT_ACTOR_DEACTIVATE",
+            "args": {
+              "actorId": "02be7dc8-5d07-4abb-bd1c-1431b9d57dc6",
+              "__collapse": true
+            },
+            "id": "c4ba52a2-f8f5-4642-a3dc-f7992cab10d1",
+            "children": {}
+          },
+          {
             "command": "EVENT_SOUND_PLAY_EFFECT",
             "args": {
               "type": "dad1e18d-9f4d-4c92-a6a7-5539597ae723",
@@ -107,6 +116,15 @@
               "__collapse": true
             },
             "id": "1c2a1650-1b8a-44ae-bdff-a325609835d4",
+            "children": {}
+          },
+          {
+            "command": "EVENT_ACTOR_ACTIVATE",
+            "args": {
+              "actorId": "02be7dc8-5d07-4abb-bd1c-1431b9d57dc6",
+              "__collapse": true
+            },
+            "id": "05dbcd51-b5ca-4015-afa0-5bfcad73bca0",
             "children": {}
           },
           {

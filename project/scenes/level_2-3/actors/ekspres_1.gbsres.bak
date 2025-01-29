@@ -176,7 +176,7 @@
                 {
                   "command": "EVENT_GROUP",
                   "args": {
-                    "__collapse": true,
+                    "__collapse": false,
                     "__label": "Win Condition"
                   },
                   "children": {
@@ -236,7 +236,7 @@
                                 },
                                 "y": {
                                   "type": "number",
-                                  "value": 14
+                                  "value": 16
                                 },
                                 "direction": "",
                                 "fadeSpeed": "2"
@@ -313,7 +313,7 @@
           "value": 9
         },
         "__collapseElse": true,
-        "__collapse": true,
+        "__collapse": false,
         "__comment": false
       },
       "children": {
@@ -329,7 +329,7 @@
                 }
               },
               "__collapseElse": true,
-              "__collapse": true
+              "__collapse": false
             },
             "children": {
               "true": [
@@ -370,7 +370,7 @@
                 {
                   "command": "EVENT_GROUP",
                   "args": {
-                    "__collapse": true,
+                    "__collapse": false,
                     "__label": "Win Condition"
                   },
                   "children": {
@@ -430,7 +430,7 @@
                                 },
                                 "y": {
                                   "type": "number",
-                                  "value": 15
+                                  "value": 16
                                 },
                                 "direction": "",
                                 "fadeSpeed": "2"

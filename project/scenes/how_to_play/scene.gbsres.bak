@@ -19,6 +19,21 @@
   "autoFadeEventCollapse": true,
   "script": [
     {
+      "command": "EVENT_MUSIC_STOP",
+      "args": {
+        "__collapse": true
+      },
+      "id": "719e2d3b-89c5-4890-a867-c0e84760931d"
+    },
+    {
+      "command": "EVENT_MUSIC_PLAY",
+      "args": {
+        "musicId": "21da79de-20a6-45e9-af0b-a5f6c023b22a",
+        "__collapse": true
+      },
+      "id": "e7742fbf-0792-4a82-9d25-df844eab8fe9"
+    },
+    {
       "command": "EVENT_ACTOR_HIDE",
       "args": {
         "actorId": "$self$",
@@ -44,14 +59,6 @@
         "__collapse": true
       },
       "id": "97bffade-aae0-41e3-8a9f-089be343b95a"
-    },
-    {
-      "command": "EVENT_MUSIC_PLAY",
-      "args": {
-        "musicId": "21da79de-20a6-45e9-af0b-a5f6c023b22a",
-        "__collapse": true
-      },
-      "id": "e7742fbf-0792-4a82-9d25-df844eab8fe9"
     },
     {
       "command": "EVENT_SWITCH",

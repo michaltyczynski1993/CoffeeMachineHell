@@ -1,0 +1,86 @@
+{
+  "_resourceType": "scene",
+  "id": "69c62b1a-b93a-491f-9b8a-aaec5ce2bbb3",
+  "_index": 16,
+  "name": "Level 3-3",
+  "backgroundId": "102746ce-b14c-4da5-8413-d545a9935254",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "paletteIds": [
+    "2b646dce-cdfe-4f70-9888-f8183c5221ef",
+    "e446e7f5-fe78-4464-a6a0-d12aba54ebbf"
+  ],
+  "spritePaletteIds": [
+    "",
+    "e1892923-d141-40cf-8eac-d840088460d2"
+  ],
+  "collisions": "00b+0f8+00c+0f!004+0f!00!0f!00c+0f!004+0f!00!0f!00c+0f!004+0f!00!0f!00c+0f!004+0f!00!0f!00c+0f!004+0f3+00c+0f!004+0f3+00c+0f3+004+0f!00e+0f!004+0f!00e+0f!004+0f!005+0f8+00!0f!004+0f!005+0f!006+0f!00!0f!004+0f!005+0f!006+0f3+004+0f!005+0f!00d+0f!005+0f!00d+0f!005+0f!006+0f8+005+0f!006+0f!00c+0f8+008+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_17",
+  "x": 608,
+  "y": 368,
+  "autoFadeEventCollapse": true,
+  "playerSpriteSheetId": "d888bc5e-b692-4449-8a3c-67716e7f7b18",
+  "script": [
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "bae20c23-dc3f-4c92-9b3c-d3fc34ecc526",
+        "__collapse": true
+      },
+      "id": "f422ff2c-8a9f-42ed-9027-9f70779b87d6"
+    },
+    {
+      "command": "EVENT_SCENE_RESET_STATE",
+      "args": {
+        "__collapse": true
+      },
+      "id": "06ea7289-62fa-4855-8383-cedffbec45ca"
+    },
+    {
+      "command": "EVENT_SCENE_PUSH_STATE",
+      "args": {
+        "__collapse": true
+      },
+      "id": "f65b912f-a7e2-4baf-b354-853474ae0cad"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "0",
+        "value": {
+          "type": "number",
+          "value": 3
+        },
+        "__collapse": true
+      },
+      "id": "27e2b8ca-3ff6-4138-acef-51136f424df8"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "1",
+        "value": {
+          "type": "number",
+          "value": 0
+        },
+        "__collapse": true
+      },
+      "id": "8cb3f4c8-9ba7-489e-9389-07ac2e423154"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_MOVEMENT_SPEED",
+      "args": {
+        "actorId": "$self$",
+        "speed": 2,
+        "__collapse": true
+      },
+      "id": "60a0e851-3ab8-411d-b8ed-91fc17fe817d"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

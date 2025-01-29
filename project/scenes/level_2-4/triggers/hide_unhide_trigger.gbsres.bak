@@ -30,6 +30,18 @@
       "args": {
         "actorId": "c96c192e-94bd-490b-a2ae-8379cea6384e"
       }
+    },
+    "c4ba52a2-f8f5-4642-a3dc-f7992cab10d1": {
+      "id": "c4ba52a2-f8f5-4642-a3dc-f7992cab10d1",
+      "args": {
+        "actorId": "c96c192e-94bd-490b-a2ae-8379cea6384e"
+      }
+    },
+    "05dbcd51-b5ca-4015-afa0-5bfcad73bca0": {
+      "id": "05dbcd51-b5ca-4015-afa0-5bfcad73bca0",
+      "args": {
+        "actorId": "c96c192e-94bd-490b-a2ae-8379cea6384e"
+      }
     }
   },
   "width": 2,

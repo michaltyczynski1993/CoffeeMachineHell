@@ -19,6 +19,21 @@
   "autoFadeEventCollapse": true,
   "script": [
     {
+      "command": "EVENT_MUSIC_STOP",
+      "args": {
+        "__collapse": true
+      },
+      "id": "32fcc061-cf22-4e53-8b7d-98c937ca613c"
+    },
+    {
+      "command": "EVENT_MUSIC_PLAY",
+      "args": {
+        "musicId": "21da79de-20a6-45e9-af0b-a5f6c023b22a",
+        "__collapse": true
+      },
+      "id": "fb0555fe-d453-4e2d-a963-952d2bfdf558"
+    },
+    {
       "command": "EVENT_SCENE_PUSH_STATE",
       "args": {
         "__collapse": true
@@ -51,13 +66,6 @@
         "__collapse": true
       },
       "id": "c38dc275-0b5d-4a1f-a9f5-495834a7fcb0"
-    },
-    {
-      "command": "EVENT_MUSIC_PLAY",
-      "args": {
-        "musicId": "21da79de-20a6-45e9-af0b-a5f6c023b22a"
-      },
-      "id": "fb0555fe-d453-4e2d-a963-952d2bfdf558"
     }
   ],
   "playerHit1Script": [],
