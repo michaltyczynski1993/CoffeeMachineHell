@@ -310,6 +310,31 @@
       "id": "1fa41bdd-138a-42d8-b3bc-49c3fe19ca65__L0",
       "name": "isPointAdded",
       "symbol": "var_ispointadded_21"
+    },
+    {
+      "id": "69c62b1a-b93a-491f-9b8a-aaec5ce2bbb3__L0",
+      "name": "isEkspres1Visible",
+      "symbol": "var_isekspres1visible_15"
+    },
+    {
+      "id": "69c62b1a-b93a-491f-9b8a-aaec5ce2bbb3__L1",
+      "name": "isEkspres2Visible",
+      "symbol": "var_isekspres2visible_13"
+    },
+    {
+      "id": "e2103bd0-a0c1-43b6-9585-39fc5a23bd98__L0",
+      "name": "isPointAdded",
+      "symbol": "var_ispointadded_22"
+    },
+    {
+      "id": "01c30d69-913f-4340-9d76-e5394564f7f2__L0",
+      "name": "isPointAdded",
+      "symbol": "var_ispointadded_23"
+    },
+    {
+      "id": "01cce36e-497e-4be3-9e69-ee808b59f4a6__L0",
+      "name": "isPointAdded",
+      "symbol": "var_ispointadded_24"
     }
   ]
 }

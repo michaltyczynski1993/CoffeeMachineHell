@@ -1,16 +1,20 @@
 {
-  "_resourceType": "actorPrefab",
-  "id": "ff4baa1d-4cea-43bf-b844-5f1105405b00",
-  "name": "16 bit rack",
+  "_resourceType": "actor",
+  "id": "37d09914-6d21-490e-a7b8-f003873b2f74",
+  "name": "16 bit rack 1",
   "frame": 0,
   "animate": false,
   "spriteSheetId": "f2e274bf-56f0-429e-9a88-45167a3c3b30",
+  "prefabId": "",
+  "direction": "down",
   "moveSpeed": 1,
   "animSpeed": 15,
   "paletteId": "",
+  "isPinned": false,
   "persistent": false,
   "collisionGroup": "",
   "prefabScriptOverrides": {},
+  "symbol": "actor_37",
   "script": [],
   "startScript": [
     {
@@ -19,11 +23,14 @@
         "actorId": "$self$",
         "__collapse": true
       },
-      "id": "c3f7c294-69dd-414d-bf81-bfcdbd3b4ece"
+      "id": "2c62880a-4ed2-400b-a937-e83bcc67b494"
     }
   ],
   "updateScript": [],
   "hit1Script": [],
   "hit2Script": [],
-  "hit3Script": []
+  "hit3Script": [],
+  "x": 12,
+  "y": 5,
+  "_index": 3
 }
