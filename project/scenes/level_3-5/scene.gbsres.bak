@@ -25,6 +25,21 @@
   "playerSpriteSheetId": "d888bc5e-b692-4449-8a3c-67716e7f7b18",
   "script": [
     {
+      "command": "EVENT_MUSIC_STOP",
+      "args": {
+        "__collapse": true
+      },
+      "id": "b94b94e4-1d41-4ef1-9bea-a6cd37c521b0"
+    },
+    {
+      "command": "EVENT_MUSIC_PLAY",
+      "args": {
+        "musicId": "553d20c4-d643-4a97-b54e-261861c9d8e2",
+        "__collapse": true
+      },
+      "id": "a1b704f4-19aa-4a08-8f8c-232022083836"
+    },
+    {
       "command": "EVENT_CALL_CUSTOM_EVENT",
       "args": {
         "customEventId": "bae20c23-dc3f-4c92-9b3c-d3fc34ecc526",
