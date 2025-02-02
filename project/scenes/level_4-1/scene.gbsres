@@ -1,0 +1,137 @@
+{
+  "_resourceType": "scene",
+  "id": "988c0222-b0b0-48b8-83d6-9ffd11b0037d",
+  "_index": 19,
+  "name": "Level 4-1",
+  "backgroundId": "0da98439-9871-4b77-ac65-6eeb80869602",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "paletteIds": [
+    "2b646dce-cdfe-4f70-9888-f8183c5221ef",
+    "e446e7f5-fe78-4464-a6a0-d12aba54ebbf",
+    "695c6b90-9c36-4fc2-a8e0-ec9198470a9e"
+  ],
+  "spritePaletteIds": [
+    "",
+    "e1892923-d141-40cf-8eac-d840088460d2",
+    ""
+  ],
+  "collisions": "0f29+009+0f2+006+0f4+008+0f2+006+0f4+002+0f2+004+0f2+006+0f4+002+0f2+004+0f2+006+0f2+00a+0f2+006+0f2+00a+0f2+006+0f2+004+0f2+004+0f2+006+0f2+004+0f2+004+0f2+006+0f4+002+0f2+00c+0f4+002+0f2+00c+0f4+002+0f2+00c+0f3+003+0f2+00c+0f3+0011+0f3+0011+0f2a+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_20",
+  "x": 792,
+  "y": 32,
+  "autoFadeEventCollapse": true,
+  "playerSpriteSheetId": "",
+  "script": [
+    {
+      "command": "EVENT_MUSIC_STOP",
+      "args": {
+        "__collapse": true
+      },
+      "id": "351bc300-aee1-4724-a0c7-bae29716fe07"
+    },
+    {
+      "command": "EVENT_MUSIC_PLAY",
+      "args": {
+        "musicId": "553d20c4-d643-4a97-b54e-261861c9d8e2",
+        "__collapse": true
+      },
+      "id": "7d3bf3d6-27b4-4eb8-8e83-9873ba119392"
+    },
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "bae20c23-dc3f-4c92-9b3c-d3fc34ecc526",
+        "__collapse": true
+      },
+      "id": "89d52c6d-b24b-40c6-9dc2-21e2917dc6e6"
+    },
+    {
+      "command": "EVENT_SCENE_RESET_STATE",
+      "args": {
+        "__collapse": true
+      },
+      "id": "cb519e6f-6e76-47de-8074-a64d01d88557"
+    },
+    {
+      "command": "EVENT_GROUP",
+      "args": {
+        "__collapse": false,
+        "__label": "Rules explanation"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Oh... you are\nback!",
+                "This is time for\nnew challenge!"
+              ],
+              "avatarId": "fdf12627-85ca-4252-83b3-9a8a4b45722d",
+              "__collapse": false,
+              "__section": "text",
+              "closeWhen": "text",
+              "closeDelayTime": 0.7,
+              "minHeight": 4,
+              "maxHeight": 10,
+              "textHeight": 8
+            },
+            "id": "f35d215f-c18f-4f30-bdc5-ef8ed08646d4"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Do you see this\nannoying man?\nThis is Thomas -\nour technician.\n",
+                "He moves his way\nbut your task is\nto move machine\nwhen space\nis free.",
+                "Good luck!"
+              ],
+              "avatarId": "fdf12627-85ca-4252-83b3-9a8a4b45722d",
+              "__collapse": true,
+              "__section": "text",
+              "closeWhen": "text",
+              "closeDelayTime": 0.7
+            },
+            "id": "284635b4-1b10-481b-b918-bb2d978165e4"
+          }
+        ]
+      },
+      "id": "4b06fa56-d640-450c-8c08-04a8ebadfab7"
+    },
+    {
+      "command": "EVENT_SCENE_PUSH_STATE",
+      "args": {
+        "__collapse": true
+      },
+      "id": "5f98fd58-141b-4214-b272-bbf47dd03255"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "L0",
+        "value": {
+          "type": "number",
+          "value": 1
+        },
+        "__collapse": true
+      },
+      "id": "0a6431c3-5537-475c-ad2b-6424d75819db"
+    },
+    {
+      "command": "EVENT_VARIABLE_MATH_EVALUATE",
+      "args": {
+        "variable": "0",
+        "expression": "$L0$",
+        "__collapse": true
+      },
+      "id": "0b48da4d-f523-455c-b689-d972ac692734"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

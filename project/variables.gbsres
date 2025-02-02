@@ -360,6 +360,46 @@
       "id": "a849eb02-da75-4616-bbc8-e41d7b6e05f1__L0",
       "name": "isPointAdded",
       "symbol": "var_ispointadded_27"
+    },
+    {
+      "id": "2ad58704-4761-4354-b681-a79dd61122d9__L0",
+      "name": "isEkspres1Visible",
+      "symbol": "var_isekspres1visible_17"
+    },
+    {
+      "id": "2ad58704-4761-4354-b681-a79dd61122d9__L1",
+      "name": "isEkspres2Visible",
+      "symbol": "var_isekspres2visible_15"
+    },
+    {
+      "id": "3ae4055d-da5d-4f45-93d8-21929af215ec__L0",
+      "name": "isPointAdded",
+      "symbol": "var_ispointadded_28"
+    },
+    {
+      "id": "52f61fb5-9b75-487c-8d86-cb2ec02cc1bf__L0",
+      "name": "isPointAdded",
+      "symbol": "var_ispointadded_29"
+    },
+    {
+      "id": "0fb8f391-ffb0-4b56-aa9a-9d31c97b89da__L0",
+      "name": "isPointAdded",
+      "symbol": "var_ispointadded_30"
+    },
+    {
+      "id": "988c0222-b0b0-48b8-83d6-9ffd11b0037d__L0",
+      "name": "coffeeMachine_quantity",
+      "symbol": "var_coffeemachine_quantity_0"
+    },
+    {
+      "id": "56f4843d-fa98-4c71-aef3-cc374d204de7__L0",
+      "name": "Local 0",
+      "symbol": "var_local_1"
+    },
+    {
+      "id": "2299b706-19bd-4e0c-bf00-5e910555b9d1__L0",
+      "name": "is_moved",
+      "symbol": "var_is_moved"
     }
   ]
 }

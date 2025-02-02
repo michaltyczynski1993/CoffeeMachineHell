@@ -1,0 +1,55 @@
+{
+  "_resourceType": "actor",
+  "id": "94e429a9-6456-4b6e-8c42-ffc0baa99b38",
+  "name": "info_sign",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "118b22b0-d3a9-4567-a10c-bec7172cf886",
+  "prefabId": "7a2d79d1-ddc7-4e2d-95c2-6c81e8762737",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "symbol": "actor_47",
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Quick tip:\nTo select\ncoffee machine you \nwant to move just\npress A button.",
+          "Then you can start \npushing coffee \nmachine by pressing\nB button"
+        ],
+        "__section": "behavior",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 10,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 7,
+        "position": "top",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "text",
+        "closeButton": "a",
+        "closeDelayTime": 1,
+        "closeDelayFrames": 30,
+        "__collapse": true
+      },
+      "id": "d330f95c-7483-4fcb-accc-a2f1843c9d04"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "x": 14,
+  "y": 3,
+  "_index": 2
+}

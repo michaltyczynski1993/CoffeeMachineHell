@@ -111,11 +111,11 @@
         "actorId": "$self$",
         "x": {
           "type": "number",
-          "value": 9
+          "value": 14
         },
         "y": {
           "type": "number",
-          "value": 12
+          "value": 9
         },
         "__collapseElse": true,
         "__collapse": true,
@@ -305,11 +305,11 @@
         "actorId": "$self$",
         "x": {
           "type": "number",
-          "value": 9
+          "value": 16
         },
         "y": {
           "type": "number",
-          "value": 16
+          "value": 9
         },
         "__collapseElse": true,
         "__collapse": true,
@@ -500,11 +500,11 @@
         "actorId": "$self$",
         "x": {
           "type": "number",
-          "value": 5
+          "value": 16
         },
         "y": {
           "type": "number",
-          "value": 16
+          "value": 3
         },
         "__collapseElse": true,
         "__collapse": true,
