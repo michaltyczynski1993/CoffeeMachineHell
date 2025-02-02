@@ -21,7 +21,7 @@
   "collisions": "0f29+009+0f2+006+0f4+008+0f2+006+0f4+002+0f2+004+0f2+006+0f4+002+0f2+004+0f2+006+0f2+00a+0f2+006+0f2+00a+0f2+006+0f2+004+0f2+004+0f2+006+0f2+004+0f2+004+0f2+006+0f4+002+0f2+00c+0f4+002+0f2+00c+0f4+002+0f2+00c+0f3+003+0f2+00c+0f3+0011+0f3+0011+0f2a+",
   "autoFadeSpeed": 1,
   "symbol": "scene_20",
-  "x": 792,
+  "x": 784,
   "y": 32,
   "autoFadeEventCollapse": true,
   "playerSpriteSheetId": "",
@@ -59,7 +59,7 @@
     {
       "command": "EVENT_GROUP",
       "args": {
-        "__collapse": false,
+        "__collapse": true,
         "__label": "Rules explanation"
       },
       "children": {
@@ -69,7 +69,7 @@
             "args": {
               "text": [
                 "Oh... you are\nback!",
-                "This is time for\nnew challenge!"
+                "It's time for\nnew challenge!"
               ],
               "avatarId": "fdf12627-85ca-4252-83b3-9a8a4b45722d",
               "__collapse": false,

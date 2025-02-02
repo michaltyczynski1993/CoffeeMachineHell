@@ -21,7 +21,7 @@
   "collisions": "0f29+009+0f2+006+0f4+008+0f2+006+0f4+002+0f2+004+0f2+006+0f4+002+0f2+004+0f2+006+0f2+00a+0f2+006+0f2+00a+0f2+006+0f2+004+0f2+004+0f2+006+0f2+004+0f2+004+0f2+006+0f4+002+0f2+00c+0f4+002+0f2+00c+0f4+002+0f2+00c+0f3+003+0f2+00c+0f3+0011+0f3+0011+0f2a+",
   "autoFadeSpeed": 1,
   "symbol": "scene_20",
-  "x": 792,
+  "x": 784,
   "y": 32,
   "autoFadeEventCollapse": true,
   "playerSpriteSheetId": "",
@@ -59,7 +59,7 @@
     {
       "command": "EVENT_GROUP",
       "args": {
-        "__collapse": false,
+        "__collapse": true,
         "__label": "Rules explanation"
       },
       "children": {
@@ -112,7 +112,7 @@
     {
       "command": "EVENT_SET_VALUE",
       "args": {
-        "variable": "L0",
+        "variable": "0",
         "value": {
           "type": "number",
           "value": 1
@@ -122,13 +122,16 @@
       "id": "0a6431c3-5537-475c-ad2b-6424d75819db"
     },
     {
-      "command": "EVENT_VARIABLE_MATH_EVALUATE",
+      "command": "EVENT_SET_VALUE",
       "args": {
-        "variable": "0",
-        "expression": "$L0$",
+        "variable": "1",
+        "value": {
+          "type": "number",
+          "value": 0
+        },
         "__collapse": true
       },
-      "id": "0b48da4d-f523-455c-b689-d972ac692734"
+      "id": "c7de57b0-7a61-46d0-bffe-7c8e29e487ac"
     }
   ],
   "playerHit1Script": [],

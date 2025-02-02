@@ -111,11 +111,11 @@
         "actorId": "$self$",
         "x": {
           "type": "number",
-          "value": 14
+          "value": 12
         },
         "y": {
           "type": "number",
-          "value": 9
+          "value": 8
         },
         "__collapseElse": true,
         "__collapse": true,
@@ -134,7 +134,7 @@
                 }
               },
               "__collapseElse": true,
-              "__collapse": true
+              "__collapse": false
             },
             "children": {
               "true": [
@@ -231,14 +231,15 @@
                                 "sceneId": "cb277a0a-fe42-4f80-9dba-dfcc10243a37",
                                 "x": {
                                   "type": "number",
-                                  "value": 14
+                                  "value": 12
                                 },
                                 "y": {
                                   "type": "number",
-                                  "value": 11
+                                  "value": 8
                                 },
                                 "direction": "",
-                                "fadeSpeed": "2"
+                                "fadeSpeed": "2",
+                                "__collapse": true
                               },
                               "id": "832165f9-e25a-45d8-bbe8-8fc328c90d1a"
                             }
@@ -305,11 +306,11 @@
         "actorId": "$self$",
         "x": {
           "type": "number",
-          "value": 16
+          "value": 2
         },
         "y": {
           "type": "number",
-          "value": 9
+          "value": 12
         },
         "__collapseElse": true,
         "__collapse": true,
@@ -500,11 +501,11 @@
         "actorId": "$self$",
         "x": {
           "type": "number",
-          "value": 16
+          "value": 2
         },
         "y": {
           "type": "number",
-          "value": 3
+          "value": 15
         },
         "__collapseElse": true,
         "__collapse": true,
