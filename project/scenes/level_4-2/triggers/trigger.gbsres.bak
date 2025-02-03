@@ -4,7 +4,7 @@
   "name": "",
   "prefabId": "f8de9093-5789-4995-9aca-9a0f71d77393",
   "x": 24,
-  "y": 14,
+  "y": 2,
   "symbol": "trigger_6",
   "prefabScriptOverrides": {
     "8601f970-6aac-4e1d-b5fa-0c8fa6bf0385": {

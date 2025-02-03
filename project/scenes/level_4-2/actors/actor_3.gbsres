@@ -1,0 +1,93 @@
+{
+  "_resourceType": "actor",
+  "id": "95f460b6-4776-4d7a-bb46-39d2c2f68c49",
+  "name": "",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "118b22b0-d3a9-4567-a10c-bec7172cf886",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "symbol": "actor_54",
+  "script": [
+    {
+      "command": "EVENT_SOUND_PLAY_EFFECT",
+      "args": {
+        "type": "a14e9970-7d41-4d11-8a22-f4168ce0937c",
+        "priority": "medium",
+        "pitch": 4,
+        "frequency": 200,
+        "duration": 0.5,
+        "wait": true,
+        "effect": 0,
+        "__label": "play_interaction_sound",
+        "__collapse": true,
+        "text": [
+          "Quick tip:\nTo select\ncoffee machine you \nwant to move just\npress A button.",
+          "Then you can start \npushing coffee \nmachine by pressing\nB button"
+        ],
+        "__section": "behavior",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 10,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 7,
+        "position": "top",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 1.3,
+        "closeDelayFrames": 30
+      },
+      "id": "3848a759-6a63-4c0c-87c7-4ae3abb7b624"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Do you remember\nbutton from \nprevious levels?",
+          "great ...",
+          "Right now you have\na lever that\nhandles hiding \nracks! But be\ncarefoul ...",
+          "Thomas is annoying\nand he'll try to \nrevert it to \nprevious position."
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 10,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 7,
+        "position": "top",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 1.3,
+        "closeDelayFrames": 30,
+        "__collapse": false
+      },
+      "id": "f5016b94-8945-47c8-aaed-6718778164cd",
+      "children": {}
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "x": 12,
+  "y": 12,
+  "_index": 5
+}

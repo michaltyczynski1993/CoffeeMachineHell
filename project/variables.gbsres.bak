@@ -413,8 +413,13 @@
     },
     {
       "id": "3102b82d-eb26-4bff-9c71-07c64ca41b40__L0",
-      "name": "is_moved",
-      "symbol": "var_is_moved_0"
+      "name": "is_moving",
+      "symbol": "var_is_moving"
+    },
+    {
+      "id": "3102b82d-eb26-4bff-9c71-07c64ca41b40__L1",
+      "name": "x_pos",
+      "symbol": "var_x_pos"
     }
   ]
 }

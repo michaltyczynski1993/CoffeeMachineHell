@@ -89,13 +89,13 @@
     {
       "command": "EVENT_SET_VALUE",
       "args": {
-        "variable": "L0",
+        "variable": "3",
         "value": {
-          "type": "true"
+          "type": "false"
         },
         "__collapse": true
       },
-      "id": "c7399d9c-64b6-4e18-93c8-79e2f40a6130"
+      "id": "ebad837f-a7a6-4814-925d-98dc6675b474"
     }
   ],
   "playerHit1Script": [],
