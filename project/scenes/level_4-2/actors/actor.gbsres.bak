@@ -70,18 +70,15 @@
             "args": {
               "actorId": "$self$",
               "x": {
-                "type": "property",
-                "target": "6957750e-ebad-4500-9759-dc013dda164f",
-                "property": "xpos"
+                "type": "number",
+                "value": 0
               },
               "y": {
-                "type": "property",
-                "target": "6957750e-ebad-4500-9759-dc013dda164f",
-                "property": "ypos"
+                "type": "number",
+                "value": 0
               },
               "moveType": "horizontal",
-              "useCollisions": false,
-              "__collapse": true
+              "useCollisions": false
             },
             "id": "457e1a46-8fa1-4464-91a2-e7e4c199ad38"
           }

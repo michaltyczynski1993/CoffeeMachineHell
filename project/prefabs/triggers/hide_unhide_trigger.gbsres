@@ -77,19 +77,18 @@
             "command": "EVENT_ACTOR_DEACTIVATE",
             "args": {
               "actorId": "02be7dc8-5d07-4abb-bd1c-1431b9d57dc6",
-              "__collapse": true
+              "__collapse": false
             },
             "id": "8601f970-6aac-4e1d-b5fa-0c8fa6bf0385",
             "children": {}
           },
           {
-            "command": "EVENT_ACTOR_ACTIVATE",
+            "command": "EVENT_ACTOR_DEACTIVATE",
             "args": {
               "actorId": "02be7dc8-5d07-4abb-bd1c-1431b9d57dc6",
-              "__collapse": true,
-              "__label": ""
+              "__collapse": false
             },
-            "id": "a38b9e4e-9f8f-4e30-b17b-09958d17c685",
+            "id": "026ffe37-1ed8-4d09-976f-f5620ff288bc",
             "children": {}
           },
           {
@@ -120,12 +119,12 @@
             "children": {}
           },
           {
-            "command": "EVENT_ACTOR_DEACTIVATE",
+            "command": "EVENT_ACTOR_ACTIVATE",
             "args": {
               "actorId": "02be7dc8-5d07-4abb-bd1c-1431b9d57dc6",
               "__collapse": false
             },
-            "id": "16babcc5-6317-4141-ac0a-a5011c30d136",
+            "id": "1a308be6-dec0-4cf9-836b-73e1426320a3",
             "children": {}
           },
           {

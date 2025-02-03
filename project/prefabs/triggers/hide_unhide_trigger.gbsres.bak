@@ -87,7 +87,7 @@
             "args": {
               "actorId": "02be7dc8-5d07-4abb-bd1c-1431b9d57dc6",
               "__collapse": true,
-              "__label": "Activate 16bitrack_2"
+              "__label": ""
             },
             "id": "a38b9e4e-9f8f-4e30-b17b-09958d17c685",
             "children": {}
@@ -114,7 +114,7 @@
             "command": "EVENT_ACTOR_ACTIVATE",
             "args": {
               "actorId": "02be7dc8-5d07-4abb-bd1c-1431b9d57dc6",
-              "__collapse": true
+              "__collapse": false
             },
             "id": "1c2a1650-1b8a-44ae-bdff-a325609835d4",
             "children": {}
@@ -123,7 +123,7 @@
             "command": "EVENT_ACTOR_DEACTIVATE",
             "args": {
               "actorId": "02be7dc8-5d07-4abb-bd1c-1431b9d57dc6",
-              "__collapse": true
+              "__collapse": false
             },
             "id": "16babcc5-6317-4141-ac0a-a5011c30d136",
             "children": {}

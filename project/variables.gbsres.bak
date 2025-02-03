@@ -410,6 +410,11 @@
       "id": "8fca27bc-cf73-4acc-855a-2d8be6ebdc0a__L1",
       "name": "isEkspres2Visible",
       "symbol": "var_isekspres2visible_16"
+    },
+    {
+      "id": "3102b82d-eb26-4bff-9c71-07c64ca41b40__L0",
+      "name": "is_moved",
+      "symbol": "var_is_moved_0"
     }
   ]
 }
