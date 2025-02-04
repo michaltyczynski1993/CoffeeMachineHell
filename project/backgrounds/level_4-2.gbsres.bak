@@ -1,13 +1,12 @@
 {
   "_resourceType": "background",
-  "id": "edffdf2f-08be-464f-aea1-5df345f6cd76",
-  "name": "level 4-2",
-  "symbol": "bg_level_4_2",
+  "id": "99637bf9-5f40-454d-bf95-7f500c68e495",
+  "name": "level 4-2.",
+  "symbol": "bg_level_4_2_",
   "width": 28,
   "height": 18,
   "imageWidth": 224,
   "imageHeight": 144,
-  "filename": "level 4-2.png",
-  "tileColors": "",
-  "autoColor": false
+  "filename": "level 4-2..png",
+  "tileColors": ""
 }

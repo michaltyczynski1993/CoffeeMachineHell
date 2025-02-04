@@ -58,7 +58,7 @@
       "args": {
         "saveSlot": 0,
         "__collapseElse": false,
-        "__collapse": true
+        "__collapse": false
       },
       "children": {
         "true": [
@@ -133,7 +133,7 @@
                     "__collapseCase15": false,
                     "value15": 16,
                     "__collapseElse": true,
-                    "__collapse": true
+                    "__collapse": false
                   },
                   "children": {
                     "true0": [
@@ -170,14 +170,15 @@
                       {
                         "command": "EVENT_CLEAR_DATA",
                         "args": {
-                          "saveSlot": 0
+                          "saveSlot": 0,
+                          "__collapse": true
                         },
                         "id": "cff84b0b-912b-4692-83ca-3bbf05b5f050"
                       },
                       {
                         "command": "EVENT_SWITCH_SCENE",
                         "args": {
-                          "sceneId": "5ac31df9-32c0-40e2-9963-af0bcf063345",
+                          "sceneId": "1f09c685-5f9c-41bc-b571-93cdff86904a",
                           "x": {
                             "type": "number",
                             "value": 2
@@ -187,7 +188,8 @@
                             "value": 5
                           },
                           "direction": "",
-                          "fadeSpeed": "2"
+                          "fadeSpeed": "2",
+                          "__collapse": true
                         },
                         "id": "7e2f2fb3-8e7e-4b06-b14e-78003cfcb356"
                       }
@@ -219,7 +221,7 @@
             "command": "EVENT_LOOP_WHILE",
             "args": {
               "expression": "$L0$ == 0",
-              "__collapse": true,
+              "__collapse": false,
               "__label": "While (choice ==0)",
               "condition": {
                 "type": "expression",
@@ -287,14 +289,14 @@
                     "__collapseCase15": false,
                     "value15": 16,
                     "__collapseElse": true,
-                    "__collapse": false
+                    "__collapse": true
                   },
                   "children": {
                     "true0": [
                       {
                         "command": "EVENT_SWITCH_SCENE",
                         "args": {
-                          "sceneId": "5ac31df9-32c0-40e2-9963-af0bcf063345",
+                          "sceneId": "1f09c685-5f9c-41bc-b571-93cdff86904a",
                           "x": {
                             "type": "number",
                             "value": 2

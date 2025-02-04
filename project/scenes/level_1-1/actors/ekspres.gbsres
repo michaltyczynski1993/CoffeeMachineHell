@@ -27,7 +27,7 @@
         ],
         "override": true,
         "__scriptTabs": "press",
-        "__collapse": false
+        "__collapse": true
       },
       "children": {
         "true": [
@@ -42,7 +42,7 @@
               },
               "otherActorId": "player",
               "__collapseElse": true,
-              "__collapse": true
+              "__collapse": false
             },
             "children": {
               "true": [
@@ -204,7 +204,7 @@
                       {
                         "command": "EVENT_SWITCH_SCENE",
                         "args": {
-                          "sceneId": "a96ec659-0956-4385-a360-1980e7d770e9",
+                          "sceneId": "46e5127d-ec2a-4147-9241-2d6725873870",
                           "x": {
                             "type": "number",
                             "value": 15
