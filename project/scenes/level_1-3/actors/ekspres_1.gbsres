@@ -106,7 +106,7 @@
           "value": 10
         },
         "__collapseElse": true,
-        "__collapse": true
+        "__collapse": false
       },
       "children": {
         "true": [
@@ -121,7 +121,7 @@
           {
             "command": "EVENT_GROUP",
             "args": {
-              "__collapse": true,
+              "__collapse": false,
               "__label": "Win Condition"
             },
             "children": {
@@ -174,7 +174,7 @@
                       {
                         "command": "EVENT_SWITCH_SCENE",
                         "args": {
-                          "sceneId": "4e0e3c72-2307-4417-8a91-df46589e72b3",
+                          "sceneId": "43de4943-49cc-435b-9173-a06470fd2125",
                           "x": {
                             "type": "number",
                             "value": 17
