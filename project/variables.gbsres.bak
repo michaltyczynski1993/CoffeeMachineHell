@@ -455,6 +455,11 @@
       "id": "4",
       "name": "isTrigger2Fired",
       "symbol": "var_istrigger2fired"
+    },
+    {
+      "id": "5",
+      "name": "isTrigger3Fired",
+      "symbol": "var_istrigger3fired"
     }
   ]
 }
