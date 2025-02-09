@@ -1,0 +1,82 @@
+{
+  "_resourceType": "trigger",
+  "id": "249153cc-4b24-44ee-a5e4-b808441b6a3c",
+  "name": "",
+  "prefabId": "f8de9093-5789-4995-9aca-9a0f71d77393",
+  "x": 14,
+  "y": 14,
+  "symbol": "trigger_9",
+  "prefabScriptOverrides": {
+    "a58991b5-72fa-4968-9558-9e64c5489d18": {
+      "id": "a58991b5-72fa-4968-9558-9e64c5489d18",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "5"
+          },
+          "valueB": {
+            "type": "true"
+          }
+        }
+      }
+    },
+    "f6576828-7d61-46a6-815b-f3038ab5bf30": {
+      "id": "f6576828-7d61-46a6-815b-f3038ab5bf30",
+      "args": {
+        "variable": "5"
+      }
+    },
+    "e99a4c4f-b68d-49c5-9fd8-ca1634c8866b": {
+      "id": "e99a4c4f-b68d-49c5-9fd8-ca1634c8866b",
+      "args": {
+        "variable": "5"
+      }
+    },
+    "06fb5936-3a0f-43ac-a284-b45d4473c6df": {
+      "id": "06fb5936-3a0f-43ac-a284-b45d4473c6df",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "5"
+          },
+          "valueB": {
+            "type": "true"
+          }
+        }
+      }
+    },
+    "8601f970-6aac-4e1d-b5fa-0c8fa6bf0385": {
+      "id": "8601f970-6aac-4e1d-b5fa-0c8fa6bf0385",
+      "args": {
+        "actorId": "ddf5ffdc-9f72-44e3-a08d-f5e9c9085d10"
+      }
+    },
+    "026ffe37-1ed8-4d09-976f-f5620ff288bc": {
+      "id": "026ffe37-1ed8-4d09-976f-f5620ff288bc",
+      "args": {
+        "actorId": "1f324c35-09a6-4f10-876f-4333198e8904"
+      }
+    },
+    "1c2a1650-1b8a-44ae-bdff-a325609835d4": {
+      "id": "1c2a1650-1b8a-44ae-bdff-a325609835d4",
+      "args": {
+        "actorId": "ddf5ffdc-9f72-44e3-a08d-f5e9c9085d10"
+      }
+    },
+    "1a308be6-dec0-4cf9-836b-73e1426320a3": {
+      "id": "1a308be6-dec0-4cf9-836b-73e1426320a3",
+      "args": {
+        "actorId": "1f324c35-09a6-4f10-876f-4333198e8904"
+      }
+    }
+  },
+  "width": 2,
+  "height": 2,
+  "script": [],
+  "leaveScript": [],
+  "_index": 2
+}

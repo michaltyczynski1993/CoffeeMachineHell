@@ -1,31 +1,34 @@
 {
-  "_resourceType": "actorPrefab",
-  "id": "ff4baa1d-4cea-43bf-b844-5f1105405b00",
-  "name": "16 bit rack",
+  "_resourceType": "actor",
+  "id": "63ace4f8-d57a-4c68-ac71-7793c4df4704",
+  "name": "Lever",
   "frame": 0,
   "animate": false,
-  "spriteSheetId": "f2e274bf-56f0-429e-9a88-45167a3c3b30",
+  "spriteSheetId": "801b4c44-2581-4109-9c0c-e8655688b83b",
+  "prefabId": "50118199-63d4-42e5-b855-0160a83d1679",
+  "direction": "down",
   "moveSpeed": 1,
   "animSpeed": 15,
   "paletteId": "",
+  "isPinned": false,
   "persistent": false,
   "collisionGroup": "",
   "prefabScriptOverrides": {},
+  "symbol": "actor_60",
   "script": [
     {
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "This is just\na regular rack.",
-          "Try to use lever\nor button to see\nwhat can be \nchanged."
+          "Just stand next\nto activate\nthe lever."
         ],
         "__section": "text",
         "avatarId": "",
         "minHeight": 4,
-        "maxHeight": 10,
+        "maxHeight": 7,
         "textX": 1,
         "textY": 1,
-        "textHeight": 7,
+        "textHeight": 5,
         "position": "top",
         "clearPrevious": true,
         "showFrame": "true",
@@ -33,11 +36,10 @@
         "speedOut": -1,
         "closeWhen": "key",
         "closeButton": "a",
-        "closeDelayTime": 1.3,
-        "closeDelayFrames": 30,
-        "__collapse": false
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
       },
-      "id": "ee114c49-8555-41e7-838b-b2916960ec9d",
+      "id": "961661f1-898d-472d-8a12-7d1fb2977d79",
       "children": {}
     }
   ],
@@ -45,5 +47,8 @@
   "updateScript": [],
   "hit1Script": [],
   "hit2Script": [],
-  "hit3Script": []
+  "hit3Script": [],
+  "x": 9,
+  "y": 2,
+  "_index": 4
 }
