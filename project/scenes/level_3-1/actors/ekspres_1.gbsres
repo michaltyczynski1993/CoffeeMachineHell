@@ -228,7 +228,7 @@
                             {
                               "command": "EVENT_SWITCH_SCENE",
                               "args": {
-                                "sceneId": "8d68d77e-ee34-4591-be96-875a358b0814",
+                                "sceneId": "1fc60ad4-3778-4a86-ad0f-8cad23ca64ac",
                                 "x": {
                                   "type": "number",
                                   "value": 8
@@ -423,7 +423,7 @@
                             {
                               "command": "EVENT_SWITCH_SCENE",
                               "args": {
-                                "sceneId": "8d68d77e-ee34-4591-be96-875a358b0814",
+                                "sceneId": "1fc60ad4-3778-4a86-ad0f-8cad23ca64ac",
                                 "x": {
                                   "type": "number",
                                   "value": 8
@@ -617,7 +617,7 @@
                             {
                               "command": "EVENT_SWITCH_SCENE",
                               "args": {
-                                "sceneId": "8d68d77e-ee34-4591-be96-875a358b0814",
+                                "sceneId": "1fc60ad4-3778-4a86-ad0f-8cad23ca64ac",
                                 "x": {
                                   "type": "number",
                                   "value": 8

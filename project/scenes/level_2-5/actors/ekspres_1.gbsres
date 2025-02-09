@@ -229,7 +229,7 @@
                             {
                               "command": "EVENT_SWITCH_SCENE",
                               "args": {
-                                "sceneId": "cfdda88d-b394-4414-ae0e-844e2e5549fa",
+                                "sceneId": "6350b5a9-62cf-44b3-b567-7fa8511c7f3a",
                                 "x": {
                                   "type": "number",
                                   "value": 11
@@ -423,7 +423,7 @@
                             {
                               "command": "EVENT_SWITCH_SCENE",
                               "args": {
-                                "sceneId": "cfdda88d-b394-4414-ae0e-844e2e5549fa",
+                                "sceneId": "6350b5a9-62cf-44b3-b567-7fa8511c7f3a",
                                 "x": {
                                   "type": "number",
                                   "value": 11

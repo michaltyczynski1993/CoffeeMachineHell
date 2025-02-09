@@ -134,7 +134,7 @@
                 }
               },
               "__collapseElse": true,
-              "__collapse": true
+              "__collapse": false
             },
             "children": {
               "true": [
@@ -228,10 +228,10 @@
                             {
                               "command": "EVENT_SWITCH_SCENE",
                               "args": {
-                                "sceneId": "cb277a0a-fe42-4f80-9dba-dfcc10243a37",
+                                "sceneId": "d3008a63-b291-445b-941c-5c5ac792884e",
                                 "x": {
                                   "type": "number",
-                                  "value": 14
+                                  "value": 6
                                 },
                                 "y": {
                                   "type": "number",
@@ -312,7 +312,7 @@
           "value": 16
         },
         "__collapseElse": true,
-        "__collapse": true,
+        "__collapse": false,
         "__comment": false
       },
       "children": {
@@ -423,10 +423,10 @@
                             {
                               "command": "EVENT_SWITCH_SCENE",
                               "args": {
-                                "sceneId": "cb277a0a-fe42-4f80-9dba-dfcc10243a37",
+                                "sceneId": "d3008a63-b291-445b-941c-5c5ac792884e",
                                 "x": {
                                   "type": "number",
-                                  "value": 14
+                                  "value": 6
                                 },
                                 "y": {
                                   "type": "number",
@@ -507,7 +507,7 @@
           "value": 16
         },
         "__collapseElse": true,
-        "__collapse": true,
+        "__collapse": false,
         "__comment": false
       },
       "children": {
@@ -617,10 +617,10 @@
                             {
                               "command": "EVENT_SWITCH_SCENE",
                               "args": {
-                                "sceneId": "cb277a0a-fe42-4f80-9dba-dfcc10243a37",
+                                "sceneId": "d3008a63-b291-445b-941c-5c5ac792884e",
                                 "x": {
                                   "type": "number",
-                                  "value": 14
+                                  "value": 6
                                 },
                                 "y": {
                                   "type": "number",

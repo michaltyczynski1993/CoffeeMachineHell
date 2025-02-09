@@ -229,7 +229,7 @@
                             {
                               "command": "EVENT_SWITCH_SCENE",
                               "args": {
-                                "sceneId": "cfdda88d-b394-4414-ae0e-844e2e5549fa",
+                                "sceneId": "6350b5a9-62cf-44b3-b567-7fa8511c7f3a",
                                 "x": {
                                   "type": "number",
                                   "value": 11
@@ -239,7 +239,8 @@
                                   "value": 10
                                 },
                                 "direction": "",
-                                "fadeSpeed": "2"
+                                "fadeSpeed": "2",
+                                "__collapse": false
                               },
                               "id": "7b8eb471-ce1c-4a14-8cd4-7e9d48e762e8"
                             }
@@ -313,7 +314,7 @@
           "value": 12
         },
         "__collapseElse": true,
-        "__collapse": false,
+        "__collapse": true,
         "__comment": false
       },
       "children": {
@@ -423,7 +424,7 @@
                             {
                               "command": "EVENT_SWITCH_SCENE",
                               "args": {
-                                "sceneId": "cfdda88d-b394-4414-ae0e-844e2e5549fa",
+                                "sceneId": "6350b5a9-62cf-44b3-b567-7fa8511c7f3a",
                                 "x": {
                                   "type": "number",
                                   "value": 11
