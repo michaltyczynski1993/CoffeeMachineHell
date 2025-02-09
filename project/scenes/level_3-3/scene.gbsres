@@ -19,8 +19,8 @@
   "collisions": "00b+0f8+00c+0f!004+0f!00!0f!00c+0f!004+0f!00!0f!00c+0f!004+0f!00!0f!00c+0f!004+0f!00!0f!00c+0f!004+0f3+00c+0f!004+0f3+00c+0f3+004+0f!00e+0f!004+0f!00e+0f!004+0f!005+0f8+00!0f!004+0f!005+0f!006+0f!00!0f!004+0f!005+0f!006+0f3+004+0f!005+0f!00d+0f!005+0f!00d+0f!005+0f!006+0f8+005+0f!006+0f!00c+0f8+008+",
   "autoFadeSpeed": 1,
   "symbol": "scene_17",
-  "x": 776,
-  "y": 366,
+  "x": 968,
+  "y": 368,
   "autoFadeEventCollapse": true,
   "playerSpriteSheetId": "d888bc5e-b692-4449-8a3c-67716e7f7b18",
   "script": [

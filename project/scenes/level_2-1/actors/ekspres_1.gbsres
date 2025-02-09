@@ -134,7 +134,7 @@
                 }
               },
               "__collapseElse": true,
-              "__collapse": true
+              "__collapse": false
             },
             "children": {
               "true": [
@@ -176,7 +176,7 @@
                 {
                   "command": "EVENT_GROUP",
                   "args": {
-                    "__collapse": true,
+                    "__collapse": false,
                     "__label": "Win Condition"
                   },
                   "children": {
@@ -229,7 +229,7 @@
                             {
                               "command": "EVENT_SWITCH_SCENE",
                               "args": {
-                                "sceneId": "a388daaa-a775-48ec-9f73-191828793523",
+                                "sceneId": "47185f10-d46b-4e50-aa22-31ec24c47f93",
                                 "x": {
                                   "type": "number",
                                   "value": 8
@@ -240,7 +240,7 @@
                                 },
                                 "direction": "",
                                 "fadeSpeed": "2",
-                                "__collapse": true
+                                "__collapse": false
                               },
                               "id": "d750f536-d695-4c55-82c8-953058ccc32c"
                             }
@@ -424,7 +424,7 @@
                             {
                               "command": "EVENT_SWITCH_SCENE",
                               "args": {
-                                "sceneId": "a388daaa-a775-48ec-9f73-191828793523",
+                                "sceneId": "47185f10-d46b-4e50-aa22-31ec24c47f93",
                                 "x": {
                                   "type": "number",
                                   "value": 8
@@ -435,7 +435,7 @@
                                 },
                                 "direction": "",
                                 "fadeSpeed": "2",
-                                "__collapse": true
+                                "__collapse": false
                               },
                               "id": "b057dad8-baa6-491a-bd0a-08a3188ead18"
                             }

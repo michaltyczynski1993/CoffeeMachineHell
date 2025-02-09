@@ -118,7 +118,7 @@
           "value": 11
         },
         "__collapseElse": true,
-        "__collapse": false,
+        "__collapse": true,
         "__comment": false
       },
       "children": {
@@ -176,7 +176,7 @@
                 {
                   "command": "EVENT_GROUP",
                   "args": {
-                    "__collapse": true,
+                    "__collapse": false,
                     "__label": "Win Condition"
                   },
                   "children": {
@@ -229,7 +229,7 @@
                             {
                               "command": "EVENT_SWITCH_SCENE",
                               "args": {
-                                "sceneId": "97646796-fa39-4c7c-9ca9-2bc101bbc7c1",
+                                "sceneId": "e627db19-10ea-421e-b7c2-5e4f5b22ae58",
                                 "x": {
                                   "type": "number",
                                   "value": 4
@@ -313,7 +313,7 @@
           "value": 10
         },
         "__collapseElse": true,
-        "__collapse": false,
+        "__collapse": true,
         "__comment": false
       },
       "children": {
@@ -423,7 +423,7 @@
                             {
                               "command": "EVENT_SWITCH_SCENE",
                               "args": {
-                                "sceneId": "97646796-fa39-4c7c-9ca9-2bc101bbc7c1",
+                                "sceneId": "e627db19-10ea-421e-b7c2-5e4f5b22ae58",
                                 "x": {
                                   "type": "number",
                                   "value": 4

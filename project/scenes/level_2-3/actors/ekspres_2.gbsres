@@ -118,7 +118,7 @@
           "value": 9
         },
         "__collapseElse": true,
-        "__collapse": false,
+        "__collapse": true,
         "__comment": false
       },
       "children": {
@@ -134,7 +134,7 @@
                 }
               },
               "__collapseElse": true,
-              "__collapse": true
+              "__collapse": false
             },
             "children": {
               "true": [
@@ -229,7 +229,7 @@
                             {
                               "command": "EVENT_SWITCH_SCENE",
                               "args": {
-                                "sceneId": "0e61a26a-65fb-48c3-bc36-77a14ccb6942",
+                                "sceneId": "c0651cd2-7a2f-405a-9594-a0d858266d44",
                                 "x": {
                                   "type": "number",
                                   "value": 8
@@ -313,7 +313,7 @@
           "value": 7
         },
         "__collapseElse": true,
-        "__collapse": false,
+        "__collapse": true,
         "__comment": false
       },
       "children": {
@@ -423,7 +423,7 @@
                             {
                               "command": "EVENT_SWITCH_SCENE",
                               "args": {
-                                "sceneId": "0e61a26a-65fb-48c3-bc36-77a14ccb6942",
+                                "sceneId": "c0651cd2-7a2f-405a-9594-a0d858266d44",
                                 "x": {
                                   "type": "number",
                                   "value": 8
