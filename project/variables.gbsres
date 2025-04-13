@@ -22,6 +22,16 @@
       "symbol": "var_istriggerfired_0"
     },
     {
+      "id": "4",
+      "name": "isTrigger2Fired",
+      "symbol": "var_istrigger2fired"
+    },
+    {
+      "id": "5",
+      "name": "isTrigger3Fired",
+      "symbol": "var_istrigger3fired"
+    },
+    {
       "id": "5ac31df9-32c0-40e2-9963-af0bcf063345__L0",
       "name": "coffeeMachine_quantity",
       "symbol": "var_coffeemachine_quantity"
@@ -452,34 +462,24 @@
       "symbol": "var_x_pos_1"
     },
     {
-      "id": "4",
-      "name": "isTrigger2Fired",
-      "symbol": "var_istrigger2fired"
-    },
-    {
-      "id": "5",
-      "name": "isTrigger3Fired",
-      "symbol": "var_istrigger3fired"
-    },
-    {
       "id": "6420186b-fe92-41c4-b107-c23e40bfcd78__L0",
       "name": "is_moved",
-      "symbol": "var_is_moved_1"
+      "symbol": "var_is_moved_3"
     },
     {
       "id": "6420186b-fe92-41c4-b107-c23e40bfcd78__L1",
       "name": "x_pos",
-      "symbol": "var_x_pos_0"
+      "symbol": "var_x_pos_2"
     },
     {
       "id": "0f7c0f8a-c169-4626-83a2-f3fb933bdcd0__L0",
       "name": "is_moved",
-      "symbol": "var_is_moved_1"
+      "symbol": "var_is_moved_4"
     },
     {
       "id": "0f7c0f8a-c169-4626-83a2-f3fb933bdcd0__L1",
       "name": "x_pos",
-      "symbol": "var_x_pos_0"
+      "symbol": "var_x_pos_3"
     }
   ]
 }

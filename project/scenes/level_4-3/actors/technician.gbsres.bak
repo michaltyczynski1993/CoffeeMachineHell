@@ -196,8 +196,7 @@
                   "type": "true"
                 }
               },
-              "__collapseElse": true,
-              "__collapse": false
+              "__collapseElse": true
             },
             "children": {
               "true": [

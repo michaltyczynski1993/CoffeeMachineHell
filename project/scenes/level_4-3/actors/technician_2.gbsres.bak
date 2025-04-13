@@ -1,12 +1,12 @@
 {
   "_resourceType": "actor",
-  "id": "9248a4c1-2656-4ece-adf0-05cb150c7cbc",
-  "name": "Technician",
+  "id": "0f7c0f8a-c169-4626-83a2-f3fb933bdcd0",
+  "name": "technician 2",
   "frame": 0,
   "animate": false,
   "spriteSheetId": "c28ae661-ab39-4ae9-971a-adfe44e8ae63",
   "prefabId": "",
-  "direction": "down",
+  "direction": "up",
   "moveSpeed": 0.25,
   "animSpeed": 15,
   "paletteId": "",
@@ -14,7 +14,7 @@
   "persistent": false,
   "collisionGroup": "",
   "prefabScriptOverrides": {},
-  "symbol": "actor_56",
+  "symbol": "actor_63",
   "script": [],
   "startScript": [
     {
@@ -26,7 +26,7 @@
         },
         "__collapse": true
       },
-      "id": "82b613af-cf60-4466-bebc-47a5b25bdeef",
+      "id": "d5ca7a09-49cf-475c-99f4-02412b089e7b",
       "children": {}
     }
   ],
@@ -37,7 +37,7 @@
         "text": "Technician move AI\n1. if trigger == true {techncian starts moving up and down}\n2. ",
         "__collapse": true
       },
-      "id": "34acd151-2a2b-4c06-9607-99401c8b5717",
+      "id": "96f2f3f8-d147-4b7e-a9c0-8d198c1b74d8",
       "children": {}
     },
     {
@@ -47,7 +47,7 @@
           "type": "eq",
           "valueA": {
             "type": "variable",
-            "value": "3"
+            "value": "5"
           },
           "valueB": {
             "type": "true"
@@ -82,17 +82,17 @@
                     "actorId": "$self$",
                     "x": {
                       "type": "number",
-                      "value": 9
+                      "value": 14
                     },
                     "y": {
                       "type": "number",
-                      "value": 4
+                      "value": 15
                     },
                     "moveType": "vertical",
                     "useCollisions": true,
                     "__collapse": false
                   },
-                  "id": "228778bf-460c-4655-8e4a-57a47e3e3187",
+                  "id": "2fbf49e3-27ff-426a-86b7-14a23aa98266",
                   "children": {}
                 },
                 {
@@ -101,11 +101,11 @@
                     "actorId": "$self$",
                     "x": {
                       "type": "number",
-                      "value": 9
+                      "value": 14
                     },
                     "y": {
                       "type": "number",
-                      "value": 4
+                      "value": 15
                     },
                     "__collapseElse": true,
                     "__collapse": false
@@ -119,28 +119,37 @@
                           "frames": 30,
                           "__collapse": true
                         },
-                        "id": "2d77f4e5-aebd-4829-adb4-c29f55221b78",
+                        "id": "83fc7513-701d-4ac3-89cf-0a84a4559b9d",
                         "children": {}
                       },
                       {
                         "command": "EVENT_SET_VALUE",
                         "args": {
-                          "variable": "3",
+                          "variable": "5",
                           "value": {
                             "type": "false"
                           },
                           "__collapse": true
                         },
-                        "id": "02884bfa-e9ad-4279-8dec-fc95b3c938fa",
+                        "id": "ef460063-64ed-4094-a21b-7269b1d3f066",
                         "children": {}
                       },
                       {
                         "command": "EVENT_ACTOR_ACTIVATE",
                         "args": {
-                          "actorId": "eac30007-f4ca-47bd-ae73-ac97ec2b35ee",
+                          "actorId": "ddf5ffdc-9f72-44e3-a08d-f5e9c9085d10",
                           "__collapse": true
                         },
-                        "id": "116c93bf-5ab7-43a7-84c6-c310389b4b08",
+                        "id": "c179ef06-2185-4209-8586-c0f124fa5550",
+                        "children": {}
+                      },
+                      {
+                        "command": "EVENT_ACTOR_ACTIVATE",
+                        "args": {
+                          "actorId": "1f324c35-09a6-4f10-876f-4333198e8904",
+                          "__collapse": true
+                        },
+                        "id": "e1835517-9f33-4613-8b6d-4df8149886a9",
                         "children": {}
                       },
                       {
@@ -156,7 +165,7 @@
                           "__collapse": true,
                           "__label": "hide_unhide sound"
                         },
-                        "id": "70bc2bb6-a6ca-4cd4-8e3d-bb7b255b56ae",
+                        "id": "562dcc55-53e5-4489-84b1-fd18bced460b",
                         "children": {}
                       },
                       {
@@ -168,18 +177,18 @@
                           },
                           "__collapse": true
                         },
-                        "id": "af7a1312-1fd0-4c2c-a498-9090e3d4861c",
+                        "id": "a54df526-865b-4bdf-b418-6721e3e56b1e",
                         "children": {}
                       }
                     ],
                     "false": []
                   },
-                  "id": "d99effc8-6296-40b9-a995-4773167bbb04"
+                  "id": "1e6dbef3-ee57-4550-b803-28685489c82c"
                 }
               ],
               "false": []
             },
-            "id": "29727950-cf74-4385-950c-a7f3e32891b0"
+            "id": "0c510754-a1c1-4a83-af4f-69a9183550f2"
           }
         ],
         "false": [
@@ -196,8 +205,7 @@
                   "type": "true"
                 }
               },
-              "__collapseElse": true,
-              "__collapse": false
+              "__collapseElse": true
             },
             "children": {
               "true": [
@@ -207,17 +215,17 @@
                     "actorId": "$self$",
                     "x": {
                       "type": "number",
-                      "value": 9
+                      "value": 19
                     },
                     "y": {
                       "type": "number",
-                      "value": 14
+                      "value": 4
                     },
-                    "moveType": "vertical",
+                    "moveType": "horizontal",
                     "useCollisions": true,
-                    "__collapse": true
+                    "__collapse": false
                   },
-                  "id": "db6bee20-fc67-4aac-969e-d73f93e222c4"
+                  "id": "c6bef995-6482-42b2-bcdd-e622805982ea"
                 },
                 {
                   "command": "EVENT_IF_ACTOR_AT_POSITION",
@@ -225,11 +233,11 @@
                     "actorId": "$self$",
                     "x": {
                       "type": "number",
-                      "value": 9
+                      "value": 19
                     },
                     "y": {
                       "type": "number",
-                      "value": 14
+                      "value": 4
                     },
                     "__collapseElse": true
                   },
@@ -244,27 +252,27 @@
                           },
                           "__collapse": true
                         },
-                        "id": "8319ee46-f738-4c72-a19c-1d599b66f85f"
+                        "id": "69267d2b-0e87-492c-b03c-7cc7d18d7687"
                       }
                     ],
                     "false": []
                   },
-                  "id": "86f2b5e7-f4d9-413e-a057-6a34b6b6d242"
+                  "id": "a0c4be62-6866-427e-84e6-dd298c7dfcb2"
                 }
               ],
               "false": []
             },
-            "id": "5e54c57f-19c7-4ce2-96cc-4f5aae2ff8e5"
+            "id": "18fcf0cd-7e0d-48fa-acd6-7380e7ac89f5"
           }
         ]
       },
-      "id": "c0b48910-bcc8-452e-9992-ef4b1e4b4be1"
+      "id": "79c2ecfe-9ad5-43d2-b0f3-95ce174ed5f1"
     }
   ],
   "hit1Script": [],
   "hit2Script": [],
   "hit3Script": [],
-  "x": 9,
-  "y": 14,
-  "_index": 1
+  "x": 19,
+  "y": 4,
+  "_index": 8
 }

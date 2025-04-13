@@ -205,7 +205,8 @@
                   "type": "true"
                 }
               },
-              "__collapseElse": true
+              "__collapseElse": true,
+              "__collapse": true
             },
             "children": {
               "true": [
@@ -223,7 +224,7 @@
                     },
                     "moveType": "horizontal",
                     "useCollisions": true,
-                    "__collapse": false
+                    "__collapse": true
                   },
                   "id": "c6bef995-6482-42b2-bcdd-e622805982ea"
                 },

@@ -460,6 +460,26 @@
       "id": "5",
       "name": "isTrigger3Fired",
       "symbol": "var_istrigger3fired"
+    },
+    {
+      "id": "6420186b-fe92-41c4-b107-c23e40bfcd78__L0",
+      "name": "is_moved",
+      "symbol": "var_is_moved_1"
+    },
+    {
+      "id": "6420186b-fe92-41c4-b107-c23e40bfcd78__L1",
+      "name": "x_pos",
+      "symbol": "var_x_pos_0"
+    },
+    {
+      "id": "0f7c0f8a-c169-4626-83a2-f3fb933bdcd0__L0",
+      "name": "is_moved",
+      "symbol": "var_is_moved_1"
+    },
+    {
+      "id": "0f7c0f8a-c169-4626-83a2-f3fb933bdcd0__L1",
+      "name": "x_pos",
+      "symbol": "var_x_pos_0"
     }
   ]
 }

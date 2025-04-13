@@ -1,6 +1,6 @@
 {
   "_resourceType": "settings",
-  "worldScrollX": 2546.39990234375,
+  "worldScrollX": 2605.60009765625,
   "worldScrollY": 673.5999755859375,
   "zoom": 228.47956198453903,
   "navigatorSplitSizes": [
@@ -17,7 +17,8 @@
   "favoriteEvents": [
     "EVENT_TEXT",
     "EVENT_SWITCH_SCENE",
-    "EVENT_CALL_CUSTOM_EVENT"
+    "EVENT_CALL_CUSTOM_EVENT",
+    "EVENT_IF_ACTOR_AT_POSITION"
   ],
   "debuggerEnabled": false,
   "debuggerScriptType": "editor",
