@@ -72,7 +72,7 @@
                 }
               },
               "__collapseElse": true,
-              "__collapse": false
+              "__collapse": true
             },
             "children": {
               "true": [
@@ -206,7 +206,7 @@
                 }
               },
               "__collapseElse": true,
-              "__collapse": true
+              "__collapse": false
             },
             "children": {
               "true": [
@@ -220,7 +220,7 @@
                     },
                     "y": {
                       "type": "number",
-                      "value": 4
+                      "value": 5
                     },
                     "moveType": "horizontal",
                     "useCollisions": true,
@@ -238,7 +238,7 @@
                     },
                     "y": {
                       "type": "number",
-                      "value": 4
+                      "value": 5
                     },
                     "__collapseElse": true
                   },
