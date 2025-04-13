@@ -20,7 +20,7 @@
   "autoFadeSpeed": 1,
   "symbol": "scene_18",
   "x": 1128,
-  "y": 534,
+  "y": 536,
   "autoFadeEventCollapse": true,
   "playerSpriteSheetId": "d888bc5e-b692-4449-8a3c-67716e7f7b18",
   "script": [

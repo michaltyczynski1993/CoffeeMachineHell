@@ -99,11 +99,11 @@
         "actorId": "$self$",
         "x": {
           "type": "number",
-          "value": 7
+          "value": 14
         },
         "y": {
           "type": "number",
-          "value": 10
+          "value": 3
         },
         "__collapseElse": true,
         "__collapse": false
@@ -121,7 +121,7 @@
           {
             "command": "EVENT_GROUP",
             "args": {
-              "__collapse": true,
+              "__collapse": false,
               "__label": "Win Condition"
             },
             "children": {
@@ -174,14 +174,14 @@
                       {
                         "command": "EVENT_SWITCH_SCENE",
                         "args": {
-                          "sceneId": "4e0e3c72-2307-4417-8a91-df46589e72b3",
+                          "sceneId": "4dd63dc4-3ed1-4aea-a06b-8e659c095ea3",
                           "x": {
                             "type": "number",
-                            "value": 17
+                            "value": 8
                           },
                           "y": {
                             "type": "number",
-                            "value": 1
+                            "value": 4
                           },
                           "direction": "",
                           "fadeSpeed": "2",
