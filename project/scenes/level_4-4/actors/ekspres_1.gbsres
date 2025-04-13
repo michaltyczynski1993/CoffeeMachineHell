@@ -1,6 +1,6 @@
 {
   "_resourceType": "actor",
-  "id": "9d6b7cbf-5352-495d-b77b-2e0d0719d7ea",
+  "id": "2ef3dfbe-31fa-4fb1-b7f8-1a6cbdac5ee2",
   "name": "Ekspres 1",
   "frame": 0,
   "animate": false,
@@ -14,7 +14,7 @@
   "persistent": false,
   "collisionGroup": "",
   "prefabScriptOverrides": {},
-  "symbol": "actor_55",
+  "symbol": "actor_64",
   "script": [
     {
       "command": "EVENT_SET_INPUT_SCRIPT",
@@ -56,7 +56,7 @@
                     "__label": "play_push_sound",
                     "__collapse": true
                   },
-                  "id": "66d19cba-c6d6-4969-a9db-deec1850c5a3"
+                  "id": "c1967e91-352e-4995-8570-08cdac66c311"
                 },
                 {
                   "command": "EVENT_ACTOR_PUSH",
@@ -64,16 +64,16 @@
                     "continue": false,
                     "__collapse": true
                   },
-                  "id": "fce522d6-ce73-41c4-84e5-2ceb42d71773"
+                  "id": "a8666b95-72ff-4032-aa7c-370a288ca0a9"
                 }
               ],
               "false": []
             },
-            "id": "42227787-d06c-4c50-a858-b69062d6d1ae"
+            "id": "49b8367b-96b3-4a00-980a-1eb48382e892"
           }
         ]
       },
-      "id": "bd54e632-071d-4231-8662-5d58065c9e88"
+      "id": "2c211b06-6b31-4b2f-bcf9-0334c97cae21"
     },
     {
       "command": "EVENT_SOUND_PLAY_EFFECT",
@@ -88,7 +88,7 @@
         "__collapse": true,
         "__label": "play_interaction_sound"
       },
-      "id": "464f5acc-2314-4897-b2ba-b82f77de495f"
+      "id": "f1c1ad91-ddf1-4612-8c48-19d2302bbed4"
     }
   ],
   "startScript": [],
@@ -116,7 +116,7 @@
               "variable": "1",
               "__collapse": true
             },
-            "id": "3071bc45-8bcd-4ecd-84b9-51f2adf006ea"
+            "id": "60d01698-3674-4f03-bbd6-9696df442277"
           },
           {
             "command": "EVENT_GROUP",
@@ -169,7 +169,7 @@
                           "closeDelayFrames": 30,
                           "__collapse": true
                         },
-                        "id": "b0bd8ee3-c78e-49f4-80b4-c4f3e6690282"
+                        "id": "3999ab39-6ef0-4bf2-81f5-289f3a925e58"
                       },
                       {
                         "command": "EVENT_SWITCH_SCENE",
@@ -177,17 +177,17 @@
                           "sceneId": "4dd63dc4-3ed1-4aea-a06b-8e659c095ea3",
                           "x": {
                             "type": "number",
-                            "value": 8
+                            "value": 2
                           },
                           "y": {
                             "type": "number",
-                            "value": 4
+                            "value": 2
                           },
                           "direction": "",
                           "fadeSpeed": "2",
                           "__collapse": false
                         },
-                        "id": "4f2071b0-8389-4b5b-a127-88ff989c099a"
+                        "id": "f26088a2-e428-48ca-8388-3cefd829aced"
                       }
                     ],
                     "false": [
@@ -215,26 +215,26 @@
                           "closeDelayFrames": 30,
                           "__collapse": true
                         },
-                        "id": "c874954f-6b28-4adb-a19a-c13ba8880b55"
+                        "id": "76e56ee5-38d7-44b3-a79e-aa55cf9c1ecf"
                       }
                     ]
                   },
-                  "id": "22bae21b-7937-4cc7-8d7d-0eb8bae8313d"
+                  "id": "ad198c09-8089-498a-bafb-3fa9992cbb15"
                 }
               ]
             },
-            "id": "10f1fd64-1f26-4009-b8d7-6bb6207fcdf3"
+            "id": "23629963-1dfc-4afa-9677-e8d7f9b0dc9a"
           }
         ],
         "false": []
       },
-      "id": "e2439181-00d7-4f2a-ac73-0079f1a36113"
+      "id": "244db3ef-b22e-494c-a351-de909c55d519"
     }
   ],
   "hit1Script": [],
   "hit2Script": [],
   "hit3Script": [],
-  "x": 4,
-  "y": 4,
+  "x": 8,
+  "y": 12,
   "_index": 0
 }

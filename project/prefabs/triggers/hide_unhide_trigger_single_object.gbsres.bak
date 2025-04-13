@@ -92,7 +92,7 @@
               "duration": 0.5,
               "wait": true,
               "effect": 10,
-              "__collapse": true,
+              "__collapse": false,
               "__label": "hide_unhide sound"
             },
             "id": "52d7505c-022c-4442-a7bf-cba18660b641",
@@ -119,7 +119,7 @@
               "duration": 0.5,
               "wait": true,
               "effect": 10,
-              "__collapse": true,
+              "__collapse": false,
               "__label": "hide_unhide sound"
             },
             "id": "454e52fa-0e60-40eb-a62f-882a85efac8b",

@@ -1,0 +1,196 @@
+{
+  "_resourceType": "actor",
+  "id": "737924e3-3c13-4222-91b5-5ed4e0c20730",
+  "name": "Technician",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "c28ae661-ab39-4ae9-971a-adfe44e8ae63",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 0.25,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "symbol": "actor_65",
+  "script": [],
+  "startScript": [
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "L0",
+        "value": {
+          "type": "false"
+        },
+        "__collapse": true
+      },
+      "id": "37923dd4-7caf-4ba2-80a3-cb84a3e834f9",
+      "children": {}
+    }
+  ],
+  "updateScript": [
+    {
+      "command": "EVENT_COMMENT",
+      "args": {
+        "text": "Technician move AI\n1. if trigger == true {techncian starts moving up and down}\n2. ",
+        "__collapse": true
+      },
+      "id": "113b28a4-7224-4788-95b9-dfa3863aaaa2",
+      "children": {}
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "3"
+          },
+          "valueB": {
+            "type": "true"
+          }
+        },
+        "__collapseElse": false,
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_IF",
+            "args": {
+              "condition": {
+                "type": "eq",
+                "valueA": {
+                  "type": "variable",
+                  "value": "L0"
+                },
+                "valueB": {
+                  "type": "false"
+                }
+              },
+              "__collapseElse": true,
+              "__collapse": false
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_ACTOR_MOVE_TO",
+                  "args": {
+                    "actorId": "$self$",
+                    "x": {
+                      "type": "number",
+                      "value": 12
+                    },
+                    "y": {
+                      "type": "number",
+                      "value": 15
+                    },
+                    "moveType": "vertical",
+                    "useCollisions": true,
+                    "__collapse": true
+                  },
+                  "id": "1b680aa3-9a3e-443c-b757-489780a7bdea",
+                  "children": {}
+                },
+                {
+                  "command": "EVENT_IF_ACTOR_AT_POSITION",
+                  "args": {
+                    "actorId": "$self$",
+                    "x": {
+                      "type": "number",
+                      "value": 12
+                    },
+                    "y": {
+                      "type": "number",
+                      "value": 15
+                    },
+                    "__collapseElse": true,
+                    "__collapse": false
+                  },
+                  "children": {
+                    "true": [
+                      {
+                        "command": "EVENT_WAIT",
+                        "args": {
+                          "time": 1,
+                          "frames": 30,
+                          "__collapse": true
+                        },
+                        "id": "81750d94-a3e4-40ed-81de-c7f872c95da6",
+                        "children": {}
+                      },
+                      {
+                        "command": "EVENT_SET_VALUE",
+                        "args": {
+                          "variable": "3",
+                          "value": {
+                            "type": "false"
+                          },
+                          "__collapse": true
+                        },
+                        "id": "e5c986cf-7d72-4ac1-9517-4b97ae924164",
+                        "children": {}
+                      },
+                      {
+                        "command": "EVENT_ACTOR_ACTIVATE",
+                        "args": {
+                          "actorId": "eac30007-f4ca-47bd-ae73-ac97ec2b35ee",
+                          "__collapse": true
+                        },
+                        "id": "db4004a3-0c84-4f20-a91c-78acca7ecabb",
+                        "children": {}
+                      },
+                      {
+                        "command": "EVENT_SOUND_PLAY_EFFECT",
+                        "args": {
+                          "type": "dad1e18d-9f4d-4c92-a6a7-5539597ae723",
+                          "priority": "medium",
+                          "pitch": 4,
+                          "frequency": 200,
+                          "duration": 0.5,
+                          "wait": true,
+                          "effect": 10,
+                          "__collapse": true,
+                          "__label": "hide_unhide sound"
+                        },
+                        "id": "a5b1c377-8bbe-4dc4-b90f-23b03d4cef9c",
+                        "children": {}
+                      },
+                      {
+                        "command": "EVENT_SET_VALUE",
+                        "args": {
+                          "variable": "L0",
+                          "value": {
+                            "type": "true"
+                          },
+                          "__collapse": true
+                        },
+                        "id": "38387c54-24a1-46ac-a71a-ad9d90deeeef",
+                        "children": {}
+                      }
+                    ],
+                    "false": []
+                  },
+                  "id": "c7c097f1-6063-4815-8aeb-14448923646c"
+                }
+              ],
+              "false": []
+            },
+            "id": "0fa8a438-fefc-450b-9a2f-beb3b50f22c9"
+          }
+        ],
+        "false": []
+      },
+      "id": "e4c144bd-d717-4318-b19c-5105cb4f10b3"
+    }
+  ],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "x": 12,
+  "y": 2,
+  "_index": 1
+}

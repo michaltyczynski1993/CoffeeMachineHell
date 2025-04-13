@@ -1,9 +1,27 @@
 {
-  "_resourceType": "triggerPrefab",
-  "id": "8d039a46-482f-47f2-9a9d-e0be2e184cd1",
+  "_resourceType": "trigger",
+  "id": "a8da15bc-88e7-4655-9dc7-8c37d5fe8527",
   "name": "hide_unhide_trigger_single_object",
-  "prefabScriptOverrides": {},
-  "_index": 0,
+  "prefabId": "8d039a46-482f-47f2-9a9d-e0be2e184cd1",
+  "x": 6,
+  "y": 1,
+  "symbol": "trigger_10",
+  "prefabScriptOverrides": {
+    "42e4c745-9c55-4999-9b88-18bae5098705": {
+      "id": "42e4c745-9c55-4999-9b88-18bae5098705",
+      "args": {
+        "actorId": "dddefaa6-d75e-4630-8e45-d6fec5cce534"
+      }
+    },
+    "b07b0acd-71ac-4e6b-bd80-70a779bca58e": {
+      "id": "b07b0acd-71ac-4e6b-bd80-70a779bca58e",
+      "args": {
+        "actorId": "dddefaa6-d75e-4630-8e45-d6fec5cce534"
+      }
+    }
+  },
+  "width": 2,
+  "height": 2,
   "script": [
     {
       "command": "EVENT_IF",
@@ -31,9 +49,9 @@
               "value": {
                 "type": "false"
               },
-              "__collapse": false
+              "__collapse": true
             },
-            "id": "28bcf92b-d012-4c23-ac40-206ecee611ab",
+            "id": "25c83f1d-6824-470d-83ef-e898886dac8e",
             "children": {}
           }
         ],
@@ -47,12 +65,12 @@
               },
               "__collapse": false
             },
-            "id": "01b7eea7-01dc-4436-be12-acebf419de48",
+            "id": "9a8b6dfd-a49e-4e0d-a595-1292550721a5",
             "children": {}
           }
         ]
       },
-      "id": "fdbfe523-a4e6-4bc0-a0bf-3d4a8c5646cd"
+      "id": "16db2717-69ac-43c6-945c-353f4c212a2c"
     },
     {
       "command": "EVENT_IF",
@@ -79,7 +97,7 @@
               "actorId": "eac30007-f4ca-47bd-ae73-ac97ec2b35ee",
               "__collapse": true
             },
-            "id": "42e4c745-9c55-4999-9b88-18bae5098705",
+            "id": "f10a7512-8a1b-4c24-b80b-ddbbc6cceccb",
             "children": {}
           },
           {
@@ -95,7 +113,7 @@
               "__collapse": true,
               "__label": "hide_unhide sound"
             },
-            "id": "52d7505c-022c-4442-a7bf-cba18660b641",
+            "id": "5fccc160-eb00-4067-a904-868240f4b164",
             "children": {}
           }
         ],
@@ -106,7 +124,7 @@
               "actorId": "eac30007-f4ca-47bd-ae73-ac97ec2b35ee",
               "__collapse": true
             },
-            "id": "b07b0acd-71ac-4e6b-bd80-70a779bca58e",
+            "id": "0dbafea6-e365-4267-8007-7222e9173f8e",
             "children": {}
           },
           {
@@ -122,13 +140,14 @@
               "__collapse": true,
               "__label": "hide_unhide sound"
             },
-            "id": "454e52fa-0e60-40eb-a62f-882a85efac8b",
+            "id": "ad99667e-1a88-4e5f-99a8-3672275933c2",
             "children": {}
           }
         ]
       },
-      "id": "1c3fba41-24e2-4fd5-923c-878f0d976400"
+      "id": "cf72b665-3dcf-461a-8c8c-b83bd7cc227e"
     }
   ],
-  "leaveScript": []
+  "leaveScript": [],
+  "_index": 0
 }
