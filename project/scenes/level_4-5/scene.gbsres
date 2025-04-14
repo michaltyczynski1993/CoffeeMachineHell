@@ -1,0 +1,109 @@
+{
+  "_resourceType": "scene",
+  "id": "5c414c99-bcbf-48f7-ba31-800747c8d49b",
+  "_index": 38,
+  "name": "Level 4-5",
+  "backgroundId": "1e5f9d6a-bdbc-43e6-8c34-22f5bb5dea05",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "paletteIds": [
+    "2b646dce-cdfe-4f70-9888-f8183c5221ef"
+  ],
+  "spritePaletteIds": [],
+  "collisions": "00168+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_39",
+  "x": 1336,
+  "y": 704,
+  "script": [
+    {
+      "command": "EVENT_MUSIC_STOP",
+      "args": {
+        "__collapse": true
+      },
+      "id": "3e220646-2d09-473d-ad17-8468c0521e62"
+    },
+    {
+      "command": "EVENT_MUSIC_PLAY",
+      "args": {
+        "musicId": "553d20c4-d643-4a97-b54e-261861c9d8e2",
+        "__collapse": true
+      },
+      "id": "4f71dbb9-13fe-4b8e-811d-4ed030e96656"
+    },
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "bae20c23-dc3f-4c92-9b3c-d3fc34ecc526",
+        "__collapse": true
+      },
+      "id": "cb4c74cb-8d2f-41c5-9ef0-ed54454fc9d3"
+    },
+    {
+      "command": "EVENT_SCENE_RESET_STATE",
+      "args": {
+        "__collapse": true
+      },
+      "id": "af6f4bec-0878-4ae3-b10f-ca9475fc898a"
+    },
+    {
+      "command": "EVENT_SCENE_PUSH_STATE",
+      "args": {
+        "__collapse": true
+      },
+      "id": "d8c7723b-f0eb-459b-abbb-653f0f1e9d4e"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "0",
+        "value": {
+          "type": "number",
+          "value": 1
+        },
+        "__collapse": true
+      },
+      "id": "adbc1ca9-49d9-4359-8ce4-34080f4c9cbf"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "1",
+        "value": {
+          "type": "number",
+          "value": 0
+        },
+        "__collapse": true
+      },
+      "id": "9ae1421d-524a-4f4f-929f-49c6c6458c95"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "3",
+        "value": {
+          "type": "false"
+        },
+        "__collapse": true
+      },
+      "id": "ef74b569-6092-426d-a4c9-459f1e020e7f"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "4",
+        "value": {
+          "type": "false"
+        },
+        "__collapse": true
+      },
+      "id": "b7e13e1d-51a1-401b-806b-d282e44af2ab"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "autoFadeEventCollapse": true
+}

@@ -1,9 +1,14 @@
 {
-  "_resourceType": "triggerPrefab",
-  "id": "8d039a46-482f-47f2-9a9d-e0be2e184cd1",
+  "_resourceType": "trigger",
+  "id": "ff462c31-2829-4e86-819d-6cc14942a303",
   "name": "hide_unhide_trigger_single_object",
+  "prefabId": "8d039a46-482f-47f2-9a9d-e0be2e184cd1",
+  "x": 6,
+  "y": 1,
+  "symbol": "trigger_12",
   "prefabScriptOverrides": {},
-  "_index": 0,
+  "width": 2,
+  "height": 2,
   "script": [
     {
       "command": "EVENT_IF",
@@ -31,9 +36,9 @@
               "value": {
                 "type": "false"
               },
-              "__collapse": false
+              "__collapse": true
             },
-            "id": "28bcf92b-d012-4c23-ac40-206ecee611ab",
+            "id": "c2ed0e86-6e2e-482b-96b8-0d46c5c20a5a",
             "children": {}
           }
         ],
@@ -47,12 +52,12 @@
               },
               "__collapse": false
             },
-            "id": "01b7eea7-01dc-4436-be12-acebf419de48",
+            "id": "94e47394-c20a-4b00-b01b-15b0e096af63",
             "children": {}
           }
         ]
       },
-      "id": "fdbfe523-a4e6-4bc0-a0bf-3d4a8c5646cd"
+      "id": "8a98cd2e-377b-4714-9472-672ed0df91dd"
     },
     {
       "command": "EVENT_IF",
@@ -79,7 +84,7 @@
               "actorId": "eac30007-f4ca-47bd-ae73-ac97ec2b35ee",
               "__collapse": true
             },
-            "id": "42e4c745-9c55-4999-9b88-18bae5098705",
+            "id": "ae241cc4-0b52-419d-bd8b-a60bab907213",
             "children": {}
           },
           {
@@ -95,7 +100,7 @@
               "__collapse": true,
               "__label": "hide_unhide sound"
             },
-            "id": "52d7505c-022c-4442-a7bf-cba18660b641",
+            "id": "7e3f3fb0-4652-41fc-94e2-f62b978dea5a",
             "children": {}
           }
         ],
@@ -106,7 +111,7 @@
               "actorId": "eac30007-f4ca-47bd-ae73-ac97ec2b35ee",
               "__collapse": true
             },
-            "id": "b07b0acd-71ac-4e6b-bd80-70a779bca58e",
+            "id": "a7acbfaf-b6e5-4dbd-b5eb-39518083ad3c",
             "children": {}
           },
           {
@@ -122,13 +127,14 @@
               "__collapse": true,
               "__label": "hide_unhide sound"
             },
-            "id": "454e52fa-0e60-40eb-a62f-882a85efac8b",
+            "id": "34ccb2a5-7d56-47e1-8389-f535ca5b1264",
             "children": {}
           }
         ]
       },
-      "id": "1c3fba41-24e2-4fd5-923c-878f0d976400"
+      "id": "483cd0c5-c04d-4f24-9adf-7ce9b97d7cec"
     }
   ],
-  "leaveScript": []
+  "leaveScript": [],
+  "_index": 0
 }

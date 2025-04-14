@@ -500,6 +500,26 @@
       "id": "3ffe8a7f-5ac0-41cc-ab3d-ef50cc2783ee__L1",
       "name": "x_pos",
       "symbol": "var_x_pos_5"
+    },
+    {
+      "id": "b3bdd84d-4c51-4bd9-a6ae-4613428fd572__L0",
+      "name": "is_moved",
+      "symbol": "var_is_moved_7"
+    },
+    {
+      "id": "b3bdd84d-4c51-4bd9-a6ae-4613428fd572__L1",
+      "name": "x_pos",
+      "symbol": "var_x_pos_6"
+    },
+    {
+      "id": "f545b505-7a15-4b59-bb9b-83d4550d7cde__L0",
+      "name": "is_moved",
+      "symbol": "var_is_moved_8"
+    },
+    {
+      "id": "f545b505-7a15-4b59-bb9b-83d4550d7cde__L1",
+      "name": "x_pos",
+      "symbol": "var_x_pos_7"
     }
   ]
 }

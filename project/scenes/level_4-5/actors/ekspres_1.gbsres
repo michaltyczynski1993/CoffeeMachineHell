@@ -1,6 +1,6 @@
 {
   "_resourceType": "actor",
-  "id": "2ef3dfbe-31fa-4fb1-b7f8-1a6cbdac5ee2",
+  "id": "e73c7083-bb1a-4e6f-bc14-99d26f0fb77e",
   "name": "Ekspres 1",
   "frame": 0,
   "animate": false,
@@ -14,7 +14,7 @@
   "persistent": false,
   "collisionGroup": "",
   "prefabScriptOverrides": {},
-  "symbol": "actor_64",
+  "symbol": "actor_73",
   "script": [
     {
       "command": "EVENT_SET_INPUT_SCRIPT",
@@ -56,7 +56,7 @@
                     "__label": "play_push_sound",
                     "__collapse": true
                   },
-                  "id": "c1967e91-352e-4995-8570-08cdac66c311"
+                  "id": "b905461a-f413-4a8e-ba1e-15cfc77ac682"
                 },
                 {
                   "command": "EVENT_ACTOR_PUSH",
@@ -64,16 +64,16 @@
                     "continue": false,
                     "__collapse": true
                   },
-                  "id": "a8666b95-72ff-4032-aa7c-370a288ca0a9"
+                  "id": "61e09f56-822d-4279-ba5f-c8647a3d72fe"
                 }
               ],
               "false": []
             },
-            "id": "49b8367b-96b3-4a00-980a-1eb48382e892"
+            "id": "e3783a72-f0f4-4311-bdbb-3c684e31f69a"
           }
         ]
       },
-      "id": "2c211b06-6b31-4b2f-bcf9-0334c97cae21"
+      "id": "ae991f2b-539e-4fb2-97a4-9221d989cff4"
     },
     {
       "command": "EVENT_SOUND_PLAY_EFFECT",
@@ -88,7 +88,7 @@
         "__collapse": true,
         "__label": "play_interaction_sound"
       },
-      "id": "f1c1ad91-ddf1-4612-8c48-19d2302bbed4"
+      "id": "590d1b28-d6b5-4a79-87fd-d53b57b95ce9"
     }
   ],
   "startScript": [],
@@ -99,11 +99,11 @@
         "actorId": "$self$",
         "x": {
           "type": "number",
-          "value": 24
+          "value": 14
         },
         "y": {
           "type": "number",
-          "value": 16
+          "value": 3
         },
         "__collapseElse": true,
         "__collapse": false
@@ -116,7 +116,7 @@
               "variable": "1",
               "__collapse": true
             },
-            "id": "60d01698-3674-4f03-bbd6-9696df442277"
+            "id": "b8711158-555d-44cd-8765-2a8b1ad14344"
           },
           {
             "command": "EVENT_GROUP",
@@ -169,12 +169,12 @@
                           "closeDelayFrames": 30,
                           "__collapse": true
                         },
-                        "id": "3999ab39-6ef0-4bf2-81f5-289f3a925e58"
+                        "id": "c2fecb63-db99-484b-955d-0adbc53d92af"
                       },
                       {
                         "command": "EVENT_SWITCH_SCENE",
                         "args": {
-                          "sceneId": "5c414c99-bcbf-48f7-ba31-800747c8d49b",
+                          "sceneId": "4dd63dc4-3ed1-4aea-a06b-8e659c095ea3",
                           "x": {
                             "type": "number",
                             "value": 2
@@ -185,9 +185,9 @@
                           },
                           "direction": "",
                           "fadeSpeed": "2",
-                          "__collapse": true
+                          "__collapse": false
                         },
-                        "id": "f26088a2-e428-48ca-8388-3cefd829aced"
+                        "id": "5d27e298-a58b-4a01-b3ac-9d3a69e2d88d"
                       }
                     ],
                     "false": [
@@ -215,20 +215,20 @@
                           "closeDelayFrames": 30,
                           "__collapse": true
                         },
-                        "id": "76e56ee5-38d7-44b3-a79e-aa55cf9c1ecf"
+                        "id": "fe8369ed-b22b-40d9-93ef-815b38f4f646"
                       }
                     ]
                   },
-                  "id": "ad198c09-8089-498a-bafb-3fa9992cbb15"
+                  "id": "c53d799f-8904-4355-a28b-a99e312d07a7"
                 }
               ]
             },
-            "id": "23629963-1dfc-4afa-9677-e8d7f9b0dc9a"
+            "id": "6c47f0dc-1e65-492e-b6be-c79de9ba22a5"
           }
         ],
         "false": []
       },
-      "id": "244db3ef-b22e-494c-a351-de909c55d519"
+      "id": "ecb19e4d-9653-4ef4-9c73-245af33c5370"
     }
   ],
   "hit1Script": [],

@@ -1,7 +1,7 @@
 {
   "_resourceType": "actor",
-  "id": "008866f3-2525-4a39-8e48-9166541fef3b",
-  "name": "",
+  "id": "f18bd7e1-c107-430b-b6b6-de900a14b30b",
+  "name": "Ekspres 4",
   "frame": 0,
   "animate": false,
   "spriteSheetId": "98d62603-ff8c-422a-8d99-f24773b1ec51",
@@ -14,14 +14,14 @@
   "persistent": false,
   "collisionGroup": "",
   "prefabScriptOverrides": {},
-  "symbol": "actor_70",
+  "symbol": "actor_81",
   "script": [],
   "startScript": [],
   "updateScript": [],
   "hit1Script": [],
   "hit2Script": [],
   "hit3Script": [],
-  "x": 24,
-  "y": 14,
-  "_index": 6
+  "x": 18,
+  "y": 16,
+  "_index": 8
 }

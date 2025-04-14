@@ -47,7 +47,7 @@
           "type": "eq",
           "valueA": {
             "type": "variable",
-            "value": "4"
+            "value": "3"
           },
           "valueB": {
             "type": "true"
@@ -82,11 +82,11 @@
                     "actorId": "$self$",
                     "x": {
                       "type": "number",
-                      "value": 20
+                      "value": 9
                     },
                     "y": {
                       "type": "number",
-                      "value": 3
+                      "value": 4
                     },
                     "moveType": "vertical",
                     "useCollisions": true,
@@ -101,11 +101,11 @@
                     "actorId": "$self$",
                     "x": {
                       "type": "number",
-                      "value": 20
+                      "value": 9
                     },
                     "y": {
                       "type": "number",
-                      "value": 3
+                      "value": 4
                     },
                     "__collapseElse": true,
                     "__collapse": false
@@ -125,7 +125,7 @@
                       {
                         "command": "EVENT_SET_VALUE",
                         "args": {
-                          "variable": "4",
+                          "variable": "3",
                           "value": {
                             "type": "false"
                           },
@@ -137,25 +137,7 @@
                       {
                         "command": "EVENT_ACTOR_ACTIVATE",
                         "args": {
-                          "actorId": "008866f3-2525-4a39-8e48-9166541fef3b",
-                          "__collapse": true
-                        },
-                        "id": "f496394e-738a-48e8-b1ce-f87accca7eee",
-                        "children": {}
-                      },
-                      {
-                        "command": "EVENT_ACTOR_ACTIVATE",
-                        "args": {
-                          "actorId": "f3b7a1b1-2fbd-4bf3-a05d-f91b995cb41a",
-                          "__collapse": true
-                        },
-                        "id": "467098e0-2f97-4ba8-8236-15f9372e56e8",
-                        "children": {}
-                      },
-                      {
-                        "command": "EVENT_ACTOR_ACTIVATE",
-                        "args": {
-                          "actorId": "82551888-1b9a-44e7-8e1f-3427ca5687d2",
+                          "actorId": "eac30007-f4ca-47bd-ae73-ac97ec2b35ee",
                           "__collapse": true
                         },
                         "id": "0b8e485f-d48a-4ae7-b1e9-a373ea1371f1",
@@ -215,7 +197,7 @@
                 }
               },
               "__collapseElse": true,
-              "__collapse": true
+              "__collapse": false
             },
             "children": {
               "true": [
@@ -225,11 +207,11 @@
                     "actorId": "$self$",
                     "x": {
                       "type": "number",
-                      "value": 20
+                      "value": 9
                     },
                     "y": {
                       "type": "number",
-                      "value": 16
+                      "value": 14
                     },
                     "moveType": "vertical",
                     "useCollisions": true,
@@ -243,14 +225,13 @@
                     "actorId": "$self$",
                     "x": {
                       "type": "number",
-                      "value": 20
+                      "value": 9
                     },
                     "y": {
                       "type": "number",
-                      "value": 16
+                      "value": 14
                     },
-                    "__collapseElse": true,
-                    "__collapse": true
+                    "__collapseElse": true
                   },
                   "children": {
                     "true": [
