@@ -19,7 +19,7 @@
           }
         },
         "__collapseElse": false,
-        "__collapse": true,
+        "__collapse": false,
         "__label": "set is TriggerFired variable to false/true"
       },
       "children": {
@@ -31,7 +31,7 @@
               "value": {
                 "type": "false"
               },
-              "__collapse": false
+              "__collapse": true
             },
             "id": "28bcf92b-d012-4c23-ac40-206ecee611ab",
             "children": {}
@@ -45,7 +45,7 @@
               "value": {
                 "type": "true"
               },
-              "__collapse": false
+              "__collapse": true
             },
             "id": "01b7eea7-01dc-4436-be12-acebf419de48",
             "children": {}
@@ -68,7 +68,7 @@
           }
         },
         "__collapseElse": false,
-        "__collapse": true,
+        "__collapse": false,
         "__label": "Show and hide racks"
       },
       "children": {
@@ -77,7 +77,7 @@
             "command": "EVENT_ACTOR_DEACTIVATE",
             "args": {
               "actorId": "eac30007-f4ca-47bd-ae73-ac97ec2b35ee",
-              "__collapse": true
+              "__collapse": false
             },
             "id": "42e4c745-9c55-4999-9b88-18bae5098705",
             "children": {}

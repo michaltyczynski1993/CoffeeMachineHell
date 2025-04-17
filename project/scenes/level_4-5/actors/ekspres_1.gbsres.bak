@@ -99,11 +99,11 @@
         "actorId": "$self$",
         "x": {
           "type": "number",
-          "value": 23
+          "value": 14
         },
         "y": {
           "type": "number",
-          "value": 15
+          "value": 3
         },
         "__collapseElse": true,
         "__collapse": false
@@ -174,7 +174,7 @@
                       {
                         "command": "EVENT_SWITCH_SCENE",
                         "args": {
-                          "sceneId": "cb277a0a-fe42-4f80-9dba-dfcc10243a37",
+                          "sceneId": "4dd63dc4-3ed1-4aea-a06b-8e659c095ea3",
                           "x": {
                             "type": "number",
                             "value": 2

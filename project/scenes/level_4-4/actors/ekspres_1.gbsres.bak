@@ -99,11 +99,11 @@
         "actorId": "$self$",
         "x": {
           "type": "number",
-          "value": 14
+          "value": 24
         },
         "y": {
           "type": "number",
-          "value": 3
+          "value": 16
         },
         "__collapseElse": true,
         "__collapse": false
@@ -174,7 +174,7 @@
                       {
                         "command": "EVENT_SWITCH_SCENE",
                         "args": {
-                          "sceneId": "4dd63dc4-3ed1-4aea-a06b-8e659c095ea3",
+                          "sceneId": "5c414c99-bcbf-48f7-ba31-800747c8d49b",
                           "x": {
                             "type": "number",
                             "value": 2
@@ -185,7 +185,7 @@
                           },
                           "direction": "",
                           "fadeSpeed": "2",
-                          "__collapse": false
+                          "__collapse": true
                         },
                         "id": "f26088a2-e428-48ca-8388-3cefd829aced"
                       }

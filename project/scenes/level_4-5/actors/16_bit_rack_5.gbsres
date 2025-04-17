@@ -1,11 +1,11 @@
 {
   "_resourceType": "actor",
-  "id": "9c3af5f7-da4d-4a20-92c5-549af5a83f06",
-  "name": "Lever 2",
+  "id": "f59da730-d22d-4994-836d-90c51bcf64cf",
+  "name": "16 bit rack 5",
   "frame": 0,
   "animate": false,
   "spriteSheetId": "98d62603-ff8c-422a-8d99-f24773b1ec51",
-  "prefabId": "50118199-63d4-42e5-b855-0160a83d1679",
+  "prefabId": "ff4baa1d-4cea-43bf-b844-5f1105405b00",
   "direction": "down",
   "moveSpeed": 1,
   "animSpeed": 15,
@@ -14,14 +14,14 @@
   "persistent": false,
   "collisionGroup": "",
   "prefabScriptOverrides": {},
-  "symbol": "actor_81",
+  "symbol": "actor_78",
   "script": [],
   "startScript": [],
   "updateScript": [],
   "hit1Script": [],
   "hit2Script": [],
   "hit3Script": [],
-  "x": 25,
-  "y": 4,
-  "_index": 8
+  "x": 21,
+  "y": 15,
+  "_index": 5
 }

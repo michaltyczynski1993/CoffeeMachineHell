@@ -1,6 +1,6 @@
 {
   "_resourceType": "actor",
-  "id": "f2d677fb-3da9-48d2-b23e-98a1323e57c9",
+  "id": "20f3eb4a-ed41-4593-b764-e52b6f60698c",
   "name": "Lever 1",
   "frame": 0,
   "animate": false,
@@ -14,7 +14,7 @@
   "persistent": false,
   "collisionGroup": "",
   "prefabScriptOverrides": {},
-  "symbol": "actor_75",
+  "symbol": "actor_80",
   "script": [],
   "startScript": [],
   "updateScript": [],
@@ -22,6 +22,6 @@
   "hit2Script": [],
   "hit3Script": [],
   "x": 12,
-  "y": 17,
-  "_index": 2
+  "y": 3,
+  "_index": 7
 }

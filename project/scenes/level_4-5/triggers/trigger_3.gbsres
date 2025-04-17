@@ -1,0 +1,70 @@
+{
+  "_resourceType": "trigger",
+  "id": "fd59d552-c6d9-420a-b514-1383a4838430",
+  "name": "",
+  "prefabId": "8d039a46-482f-47f2-9a9d-e0be2e184cd1",
+  "x": 24,
+  "y": 9,
+  "symbol": "trigger_14",
+  "prefabScriptOverrides": {
+    "fdbfe523-a4e6-4bc0-a0bf-3d4a8c5646cd": {
+      "id": "fdbfe523-a4e6-4bc0-a0bf-3d4a8c5646cd",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "5"
+          },
+          "valueB": {
+            "type": "true"
+          }
+        }
+      }
+    },
+    "28bcf92b-d012-4c23-ac40-206ecee611ab": {
+      "id": "28bcf92b-d012-4c23-ac40-206ecee611ab",
+      "args": {
+        "variable": "5"
+      }
+    },
+    "01b7eea7-01dc-4436-be12-acebf419de48": {
+      "id": "01b7eea7-01dc-4436-be12-acebf419de48",
+      "args": {
+        "variable": "5"
+      }
+    },
+    "1c3fba41-24e2-4fd5-923c-878f0d976400": {
+      "id": "1c3fba41-24e2-4fd5-923c-878f0d976400",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "5"
+          },
+          "valueB": {
+            "type": "true"
+          }
+        }
+      }
+    },
+    "42e4c745-9c55-4999-9b88-18bae5098705": {
+      "id": "42e4c745-9c55-4999-9b88-18bae5098705",
+      "args": {
+        "actorId": "d1df3878-ddbe-4845-a7bf-85fbcab5d14f"
+      }
+    },
+    "b07b0acd-71ac-4e6b-bd80-70a779bca58e": {
+      "id": "b07b0acd-71ac-4e6b-bd80-70a779bca58e",
+      "args": {
+        "actorId": "d1df3878-ddbe-4845-a7bf-85fbcab5d14f"
+      }
+    }
+  },
+  "width": 2,
+  "height": 2,
+  "script": [],
+  "leaveScript": [],
+  "_index": 2
+}

@@ -1,12 +1,12 @@
 {
   "_resourceType": "actor",
-  "id": "b3bdd84d-4c51-4bd9-a6ae-4613428fd572",
-  "name": "Technician",
+  "id": "bf10a5c0-3cec-4dc4-bee6-6eb00857c60f",
+  "name": "",
   "frame": 0,
   "animate": false,
   "spriteSheetId": "c28ae661-ab39-4ae9-971a-adfe44e8ae63",
   "prefabId": "",
-  "direction": "down",
+  "direction": "up",
   "moveSpeed": 0.25,
   "animSpeed": 15,
   "paletteId": "",
@@ -14,7 +14,7 @@
   "persistent": false,
   "collisionGroup": "",
   "prefabScriptOverrides": {},
-  "symbol": "actor_74",
+  "symbol": "actor_82",
   "script": [],
   "startScript": [
     {
@@ -26,7 +26,7 @@
         },
         "__collapse": true
       },
-      "id": "45491ad8-f44d-4bef-9333-7cd436fb38a3",
+      "id": "d079d3d2-9fa7-4b95-bc86-ba59edcc3670",
       "children": {}
     }
   ],
@@ -37,7 +37,7 @@
         "text": "Technician move AI\n1. if trigger == true {techncian starts moving up and down}\n2. ",
         "__collapse": true
       },
-      "id": "8c6d40ed-c90d-44c1-bb7a-6ecbac3568f5",
+      "id": "ce00396a-209b-41a9-a8f1-c471560bcec7",
       "children": {}
     },
     {
@@ -47,7 +47,7 @@
           "type": "eq",
           "valueA": {
             "type": "variable",
-            "value": "3"
+            "value": "4"
           },
           "valueB": {
             "type": "true"
@@ -86,13 +86,13 @@
                     },
                     "y": {
                       "type": "number",
-                      "value": 15
+                      "value": 5
                     },
-                    "moveType": "vertical",
+                    "moveType": "horizontal",
                     "useCollisions": true,
-                    "__collapse": true
+                    "__collapse": false
                   },
-                  "id": "ddb08134-060f-4f1f-b0f4-320634892f3d",
+                  "id": "dbf7a73e-2f03-4104-b906-c19628e131ec",
                   "children": {}
                 },
                 {
@@ -101,11 +101,11 @@
                     "actorId": "$self$",
                     "x": {
                       "type": "number",
-                      "value": 12
+                      "value": 9
                     },
                     "y": {
                       "type": "number",
-                      "value": 15
+                      "value": 4
                     },
                     "__collapseElse": true,
                     "__collapse": false
@@ -119,7 +119,7 @@
                           "frames": 30,
                           "__collapse": true
                         },
-                        "id": "658872f8-5973-4219-9dea-2886cad31975",
+                        "id": "4b4cce8f-878f-4ecb-95a1-efd980c01446",
                         "children": {}
                       },
                       {
@@ -131,16 +131,25 @@
                           },
                           "__collapse": true
                         },
-                        "id": "afd9b7bc-c188-4334-8530-967e7e2d3c05",
+                        "id": "2fcab734-ed35-485b-b9d6-6dd18df33a97",
                         "children": {}
                       },
                       {
                         "command": "EVENT_ACTOR_ACTIVATE",
                         "args": {
-                          "actorId": "f268d933-66b9-4ff2-a8cc-bdb5c97cc56e",
-                          "__collapse": false
+                          "actorId": "eac30007-f4ca-47bd-ae73-ac97ec2b35ee",
+                          "__collapse": true
                         },
-                        "id": "59f7cead-20f1-43f7-9600-09f8b27d4f57",
+                        "id": "34983649-ddae-4078-8fc8-f7a557f45ea3",
+                        "children": {}
+                      },
+                      {
+                        "command": "EVENT_ACTOR_ACTIVATE",
+                        "args": {
+                          "actorId": "eac30007-f4ca-47bd-ae73-ac97ec2b35ee",
+                          "__collapse": true
+                        },
+                        "id": "8768e2f8-3f15-44e2-8b15-039b313c59f0",
                         "children": {}
                       },
                       {
@@ -156,7 +165,7 @@
                           "__collapse": true,
                           "__label": "hide_unhide sound"
                         },
-                        "id": "ca4faa7f-903e-4c39-8731-323390638780",
+                        "id": "080d31b7-ef10-4a69-82ab-d19e4bc065c5",
                         "children": {}
                       },
                       {
@@ -168,29 +177,52 @@
                           },
                           "__collapse": true
                         },
-                        "id": "b5ea48cd-180a-440d-acf1-a07fe7344773",
+                        "id": "575c3523-1060-4adf-aa22-6bb16b26f606",
                         "children": {}
                       }
                     ],
                     "false": []
                   },
-                  "id": "0182c2ce-84b2-4462-8372-0e07f1a31ab6"
+                  "id": "50b38f4b-2f9a-496f-8bcd-c66431744cdb"
                 }
               ],
               "false": []
             },
-            "id": "8d116852-4dd9-480b-97f6-db9f1b1f324f"
+            "id": "cb69b4c6-167d-421b-9c81-c094d32e352c"
           }
         ],
-        "false": []
+        "false": [
+          {
+            "command": "EVENT_IF",
+            "args": {
+              "condition": {
+                "type": "eq",
+                "valueA": {
+                  "type": "variable",
+                  "value": "L0"
+                },
+                "valueB": {
+                  "type": "true"
+                }
+              },
+              "__collapseElse": true,
+              "__collapse": false
+            },
+            "children": {
+              "true": [],
+              "false": []
+            },
+            "id": "a74bff0f-146f-457f-a32e-54671f27aa65"
+          }
+        ]
       },
-      "id": "1f7958d2-d396-4b24-ae13-77f67c74973b"
+      "id": "8ed2b343-82d0-497e-9f29-2f608d30ec45"
     }
   ],
   "hit1Script": [],
   "hit2Script": [],
   "hit3Script": [],
-  "x": 12,
-  "y": 2,
-  "_index": 1
+  "x": 10,
+  "y": 15,
+  "_index": 9
 }

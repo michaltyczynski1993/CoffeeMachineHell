@@ -19,7 +19,7 @@
     {
       "id": "3",
       "name": "isTriggerFired",
-      "symbol": "var_istriggerfired_0"
+      "symbol": "var_istriggerfired"
     },
     {
       "id": "4",
@@ -520,6 +520,31 @@
       "id": "f545b505-7a15-4b59-bb9b-83d4550d7cde__L1",
       "name": "x_pos",
       "symbol": "var_x_pos_7"
+    },
+    {
+      "id": "6",
+      "name": "isTriggerFired4",
+      "symbol": "var_istriggerfired4"
+    },
+    {
+      "id": "bf10a5c0-3cec-4dc4-bee6-6eb00857c60f__L0",
+      "name": "is_moved",
+      "symbol": "var_is_moved_3"
+    },
+    {
+      "id": "bf10a5c0-3cec-4dc4-bee6-6eb00857c60f__L1",
+      "name": "x_pos",
+      "symbol": "var_x_pos_2"
+    },
+    {
+      "id": "ac83691c-9ec0-4b66-9ae2-8ea44198a857__L0",
+      "name": "is_moved",
+      "symbol": "var_is_moved_3"
+    },
+    {
+      "id": "ac83691c-9ec0-4b66-9ae2-8ea44198a857__L1",
+      "name": "x_pos",
+      "symbol": "var_x_pos_2"
     }
   ]
 }
