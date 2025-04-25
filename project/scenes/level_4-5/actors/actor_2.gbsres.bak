@@ -1,12 +1,12 @@
 {
   "_resourceType": "actor",
-  "id": "bf10a5c0-3cec-4dc4-bee6-6eb00857c60f",
+  "id": "ac83691c-9ec0-4b66-9ae2-8ea44198a857",
   "name": "",
   "frame": 0,
   "animate": false,
   "spriteSheetId": "c28ae661-ab39-4ae9-971a-adfe44e8ae63",
   "prefabId": "",
-  "direction": "up",
+  "direction": "down",
   "moveSpeed": 0.25,
   "animSpeed": 15,
   "paletteId": "",
@@ -14,7 +14,7 @@
   "persistent": false,
   "collisionGroup": "",
   "prefabScriptOverrides": {},
-  "symbol": "actor_82",
+  "symbol": "actor_83",
   "script": [],
   "startScript": [
     {
@@ -26,7 +26,7 @@
         },
         "__collapse": true
       },
-      "id": "d079d3d2-9fa7-4b95-bc86-ba59edcc3670",
+      "id": "96da3f1b-5155-4d3d-95ac-d72a3fb992c6",
       "children": {}
     }
   ],
@@ -37,7 +37,7 @@
         "text": "Technician move AI\n1. if trigger == true {techncian starts moving up and down}\n2. ",
         "__collapse": true
       },
-      "id": "ce00396a-209b-41a9-a8f1-c471560bcec7",
+      "id": "374773d0-4396-4742-9b98-ae8d4e364847",
       "children": {}
     },
     {
@@ -47,7 +47,7 @@
           "type": "eq",
           "valueA": {
             "type": "variable",
-            "value": "4"
+            "value": "3"
           },
           "valueB": {
             "type": "true"
@@ -77,31 +77,22 @@
             "children": {
               "true": [
                 {
-                  "command": "EVENT_WAIT",
-                  "args": {
-                    "time": 0.5,
-                    "frames": 30,
-                    "__collapse": true
-                  },
-                  "id": "cc1a7578-3121-4d6b-af48-2d2581e78bd8"
-                },
-                {
                   "command": "EVENT_ACTOR_MOVE_TO",
                   "args": {
                     "actorId": "$self$",
                     "x": {
                       "type": "number",
-                      "value": 12
+                      "value": 9
                     },
                     "y": {
                       "type": "number",
-                      "value": 5
+                      "value": 4
                     },
-                    "moveType": "horizontal",
+                    "moveType": "vertical",
                     "useCollisions": true,
-                    "__collapse": true
+                    "__collapse": false
                   },
-                  "id": "dbf7a73e-2f03-4104-b906-c19628e131ec",
+                  "id": "22a17266-185e-48a3-9bc3-9860c5d8e975",
                   "children": {}
                 },
                 {
@@ -110,11 +101,11 @@
                     "actorId": "$self$",
                     "x": {
                       "type": "number",
-                      "value": 12
+                      "value": 9
                     },
                     "y": {
                       "type": "number",
-                      "value": 5
+                      "value": 4
                     },
                     "__collapseElse": true,
                     "__collapse": false
@@ -128,7 +119,7 @@
                           "frames": 30,
                           "__collapse": true
                         },
-                        "id": "4b4cce8f-878f-4ecb-95a1-efd980c01446",
+                        "id": "5633310c-f2a3-459f-a841-a28c97c7e957",
                         "children": {}
                       },
                       {
@@ -140,16 +131,25 @@
                           },
                           "__collapse": true
                         },
-                        "id": "2fcab734-ed35-485b-b9d6-6dd18df33a97",
+                        "id": "dbaf158e-a82a-421e-87a3-b9f5fbd72b1f",
                         "children": {}
                       },
                       {
                         "command": "EVENT_ACTOR_ACTIVATE",
                         "args": {
-                          "actorId": "1011259f-5c12-459c-b166-4d34e0a5d0f2",
+                          "actorId": "eac30007-f4ca-47bd-ae73-ac97ec2b35ee",
                           "__collapse": true
                         },
-                        "id": "34983649-ddae-4078-8fc8-f7a557f45ea3",
+                        "id": "6fd8d4ca-b8ef-402d-9f49-994cb7967362",
+                        "children": {}
+                      },
+                      {
+                        "command": "EVENT_ACTOR_ACTIVATE",
+                        "args": {
+                          "actorId": "eac30007-f4ca-47bd-ae73-ac97ec2b35ee",
+                          "__collapse": true
+                        },
+                        "id": "f0c86465-4819-4512-a4c3-5c29a2bc4033",
                         "children": {}
                       },
                       {
@@ -165,7 +165,7 @@
                           "__collapse": true,
                           "__label": "hide_unhide sound"
                         },
-                        "id": "080d31b7-ef10-4a69-82ab-d19e4bc065c5",
+                        "id": "787b2555-5745-4c6d-b924-3a6a69d0c158",
                         "children": {}
                       },
                       {
@@ -177,18 +177,18 @@
                           },
                           "__collapse": true
                         },
-                        "id": "575c3523-1060-4adf-aa22-6bb16b26f606",
+                        "id": "c464aa65-b4c4-4c19-aa34-e84c3d5bc8d2",
                         "children": {}
                       }
                     ],
                     "false": []
                   },
-                  "id": "50b38f4b-2f9a-496f-8bcd-c66431744cdb"
+                  "id": "5cf79f1b-1762-4e18-8b23-08a4b6aba73e"
                 }
               ],
               "false": []
             },
-            "id": "cb69b4c6-167d-421b-9c81-c094d32e352c"
+            "id": "ae950aae-4471-4ffe-9f67-c2a205bede67"
           }
         ],
         "false": [
@@ -212,17 +212,17 @@
               "true": [],
               "false": []
             },
-            "id": "a74bff0f-146f-457f-a32e-54671f27aa65"
+            "id": "d36ddfe9-84c3-4d73-8ee6-88532c4c0967"
           }
         ]
       },
-      "id": "8ed2b343-82d0-497e-9f29-2f608d30ec45"
+      "id": "a4294800-e4af-4a3e-9d76-cd32ba0c066e"
     }
   ],
   "hit1Script": [],
   "hit2Script": [],
   "hit3Script": [],
-  "x": 10,
-  "y": 15,
-  "_index": 9
+  "x": 17,
+  "y": 4,
+  "_index": 10
 }

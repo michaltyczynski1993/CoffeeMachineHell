@@ -77,20 +77,29 @@
             "children": {
               "true": [
                 {
+                  "command": "EVENT_WAIT",
+                  "args": {
+                    "time": 1,
+                    "frames": 30,
+                    "__collapse": true
+                  },
+                  "id": "cc1a7578-3121-4d6b-af48-2d2581e78bd8"
+                },
+                {
                   "command": "EVENT_ACTOR_MOVE_TO",
                   "args": {
                     "actorId": "$self$",
                     "x": {
                       "type": "number",
-                      "value": 9
+                      "value": 12
                     },
                     "y": {
                       "type": "number",
-                      "value": 4
+                      "value": 5
                     },
-                    "moveType": "vertical",
+                    "moveType": "horizontal",
                     "useCollisions": true,
-                    "__collapse": false
+                    "__collapse": true
                   },
                   "id": "dbf7a73e-2f03-4104-b906-c19628e131ec",
                   "children": {}
@@ -108,7 +117,7 @@
                       "value": 4
                     },
                     "__collapseElse": true,
-                    "__collapse": false
+                    "__collapse": true
                   },
                   "children": {
                     "true": [
@@ -222,7 +231,7 @@
   "hit1Script": [],
   "hit2Script": [],
   "hit3Script": [],
-  "x": 12,
+  "x": 10,
   "y": 15,
   "_index": 9
 }
