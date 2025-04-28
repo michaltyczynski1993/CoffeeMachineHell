@@ -108,7 +108,7 @@
                       "value": 4
                     },
                     "__collapseElse": true,
-                    "__collapse": false
+                    "__collapse": true
                   },
                   "children": {
                     "true": [
@@ -218,7 +218,57 @@
               "__collapse": false
             },
             "children": {
-              "true": [],
+              "true": [
+                {
+                  "command": "EVENT_ACTOR_MOVE_TO",
+                  "args": {
+                    "actorId": "$self$",
+                    "x": {
+                      "type": "number",
+                      "value": 17
+                    },
+                    "y": {
+                      "type": "number",
+                      "value": 4
+                    },
+                    "moveType": "horizontal",
+                    "useCollisions": true,
+                    "__collapse": false
+                  },
+                  "id": "d7821e7f-3999-4c5a-a42b-28a4b74fb7b5"
+                },
+                {
+                  "command": "EVENT_IF_ACTOR_AT_POSITION",
+                  "args": {
+                    "actorId": "$self$",
+                    "x": {
+                      "type": "number",
+                      "value": 17
+                    },
+                    "y": {
+                      "type": "number",
+                      "value": 4
+                    },
+                    "__collapseElse": true
+                  },
+                  "children": {
+                    "true": [
+                      {
+                        "command": "EVENT_SET_VALUE",
+                        "args": {
+                          "variable": "L0",
+                          "value": {
+                            "type": "false"
+                          }
+                        },
+                        "id": "4de65493-4a75-476c-862a-42d045a29483"
+                      }
+                    ],
+                    "false": []
+                  },
+                  "id": "f2b69101-09de-4ba4-86a9-8bfa8946f481"
+                }
+              ],
               "false": []
             },
             "id": "d36ddfe9-84c3-4d73-8ee6-88532c4c0967"

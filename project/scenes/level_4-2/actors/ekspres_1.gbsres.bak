@@ -141,7 +141,7 @@
                       }
                     },
                     "__collapseElse": true,
-                    "__collapse": true
+                    "__collapse": false
                   },
                   "children": {
                     "true": [
@@ -177,11 +177,11 @@
                           "sceneId": "2f9bc711-6cbb-4a38-8927-776131937d07",
                           "x": {
                             "type": "number",
-                            "value": 17
+                            "value": 9
                           },
                           "y": {
                             "type": "number",
-                            "value": 1
+                            "value": 9
                           },
                           "direction": "",
                           "fadeSpeed": "2",

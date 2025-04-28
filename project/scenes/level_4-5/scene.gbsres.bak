@@ -106,7 +106,7 @@
       "args": {
         "variable": "5",
         "value": {
-          "type": "false"
+          "type": "true"
         },
         "__collapse": true
       },
@@ -122,6 +122,15 @@
         "__collapse": true
       },
       "id": "a0513062-cd32-4609-9b08-854bca7c1af1"
+    },
+    {
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "d1df3878-ddbe-4845-a7bf-85fbcab5d14f",
+        "__collapse": true
+      },
+      "id": "4c613142-bbfa-4aed-8fb8-e886b9a1d328",
+      "children": {}
     }
   ],
   "playerHit1Script": [],

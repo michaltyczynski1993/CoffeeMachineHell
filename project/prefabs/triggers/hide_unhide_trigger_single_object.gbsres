@@ -45,7 +45,7 @@
               "value": {
                 "type": "true"
               },
-              "__collapse": true
+              "__collapse": false
             },
             "id": "01b7eea7-01dc-4436-be12-acebf419de48",
             "children": {}
@@ -68,7 +68,7 @@
           }
         },
         "__collapseElse": false,
-        "__collapse": true,
+        "__collapse": false,
         "__label": "Show and hide racks"
       },
       "children": {

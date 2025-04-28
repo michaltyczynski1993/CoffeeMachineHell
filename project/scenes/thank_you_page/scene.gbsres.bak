@@ -13,8 +13,8 @@
   "collisions": "00168+",
   "autoFadeSpeed": 1,
   "symbol": "scene_15",
-  "x": 1352,
-  "y": 848,
+  "x": 1336,
+  "y": 872,
   "script": [
     {
       "command": "EVENT_ACTOR_HIDE",

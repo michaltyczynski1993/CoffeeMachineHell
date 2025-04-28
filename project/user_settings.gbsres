@@ -1,8 +1,8 @@
 {
   "_resourceType": "settings",
-  "worldScrollX": 5272,
-  "worldScrollY": 2836.800048828125,
-  "zoom": 400,
+  "worldScrollX": 0,
+  "worldScrollY": 0,
+  "zoom": 51.09933325648217,
   "navigatorSplitSizes": [
     256,
     187,
@@ -20,7 +20,7 @@
     "EVENT_CALL_CUSTOM_EVENT",
     "EVENT_IF_ACTOR_AT_POSITION"
   ],
-  "debuggerEnabled": false,
+  "debuggerEnabled": true,
   "debuggerScriptType": "editor",
   "debuggerVariablesFilter": "all",
   "debuggerCollapsedPanes": [],

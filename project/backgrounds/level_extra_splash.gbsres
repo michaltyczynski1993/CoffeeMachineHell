@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "bb35cc6e-b0e0-4186-9ac8-5c3d9ab05e90",
+  "name": "level extra splash",
+  "symbol": "bg_level_extra_splash",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "level extra splash.png",
+  "tileColors": ""
+}
