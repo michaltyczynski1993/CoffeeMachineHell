@@ -81,7 +81,7 @@
   "customControlsSelect": [
     "Shift"
   ],
-  "colorMode": "mixed",
+  "colorMode": "color",
   "generateDebugFilesEnabled": true,
   "compilerPreset": 3000,
   "scriptEventPresets": {},

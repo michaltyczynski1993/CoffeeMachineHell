@@ -19,7 +19,7 @@
           }
         },
         "__collapseElse": false,
-        "__collapse": false,
+        "__collapse": true,
         "__label": "set is TriggerFired variable to false/true"
       },
       "children": {
@@ -113,7 +113,7 @@
             "command": "EVENT_ACTOR_ACTIVATE",
             "args": {
               "actorId": "02be7dc8-5d07-4abb-bd1c-1431b9d57dc6",
-              "__collapse": false
+              "__collapse": true
             },
             "id": "1c2a1650-1b8a-44ae-bdff-a325609835d4",
             "children": {}
@@ -122,7 +122,7 @@
             "command": "EVENT_ACTOR_ACTIVATE",
             "args": {
               "actorId": "02be7dc8-5d07-4abb-bd1c-1431b9d57dc6",
-              "__collapse": false
+              "__collapse": true
             },
             "id": "1a308be6-dec0-4cf9-836b-73e1426320a3",
             "children": {}

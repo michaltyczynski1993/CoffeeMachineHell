@@ -8,5 +8,6 @@
   "imageWidth": 400,
   "imageHeight": 280,
   "filename": "level Extra 1.png",
-  "tileColors": ""
+  "tileColors": "008c+022+0030+022+0057c+032+0030+032+0066+",
+  "autoColor": false
 }

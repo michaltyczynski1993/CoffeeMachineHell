@@ -565,6 +565,16 @@
       "id": "c29c11a7-9004-481a-93fd-4df919e18318__L1",
       "name": "x_pos",
       "symbol": "var_x_pos_11"
+    },
+    {
+      "id": "ff4baa1d-4cea-43bf-b844-5f1105405b00__L0",
+      "name": "deactivate",
+      "symbol": "var_deactivate"
+    },
+    {
+      "id": "799b0546-a61b-4869-82fa-666d419e8345__L0",
+      "name": "deactivate",
+      "symbol": "var_deactivate"
     }
   ]
 }
