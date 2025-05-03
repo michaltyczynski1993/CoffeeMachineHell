@@ -545,6 +545,26 @@
       "id": "ac83691c-9ec0-4b66-9ae2-8ea44198a857__L1",
       "name": "x_pos",
       "symbol": "var_x_pos_9"
+    },
+    {
+      "id": "2a6edc3b-0c01-4f38-aded-2d98dbbe24cb__L0",
+      "name": "is_moved",
+      "symbol": "var_is_moved_11"
+    },
+    {
+      "id": "2a6edc3b-0c01-4f38-aded-2d98dbbe24cb__L1",
+      "name": "x_pos",
+      "symbol": "var_x_pos_10"
+    },
+    {
+      "id": "c29c11a7-9004-481a-93fd-4df919e18318__L0",
+      "name": "is_moved",
+      "symbol": "var_is_moved_12"
+    },
+    {
+      "id": "c29c11a7-9004-481a-93fd-4df919e18318__L1",
+      "name": "x_pos",
+      "symbol": "var_x_pos_11"
     }
   ]
 }

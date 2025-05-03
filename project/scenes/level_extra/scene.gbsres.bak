@@ -1,0 +1,140 @@
+{
+  "_resourceType": "scene",
+  "id": "7e305b2e-f210-4ec1-a600-b60228a7a86f",
+  "_index": 44,
+  "name": "Level Extra",
+  "backgroundId": "d8e70969-7d89-4155-a20e-4fa63d0dc5ef",
+  "tilesetId": "",
+  "width": 50,
+  "height": 35,
+  "type": "TOPDOWN",
+  "paletteIds": [
+    "2b646dce-cdfe-4f70-9888-f8183c5221ef"
+  ],
+  "spritePaletteIds": [],
+  "collisions": "0034+0f8+006+0f16+002+0f9+002+0f!008+0f!004+0f!00f+0f2+005+0f2+008+0f!002+0f!008+0f6+0016+0f2+008+0f!002+0f!0024+0f2+008+0f!002+0f!0024+0f2+008+0f!002+0f!008+0f6+002+0f2+001c+0f!002+0f!008+0f!004+0f!002+0f2+001c+0f!003+0f8+005+0f!002+0f2+001c+0f!0011+0f2+002+0f5+00d+0f2+008+0f!003+0fb+00c+0f2+003+0f8+00!0f!008+0f!002+0f!00b+0f3+00a+0f!003+0f!009+0f8+003+0f!00d+0f!00a+0f!003+0f!009+0f8+003+0f!002+0f3+002+0f2+004+0f!00a+0f!003+0f!007+0f2+008+0f!002+0f!002+0f3+002+0f2+004+0f!00a+0f!003+0f!006+0f!00a+0f!002+0f!002+0f3+002+0f2+004+0f!00a+0f!003+0f!006+0f!00a+0f!002+0f!002+0f3+002+0f2+004+0f!00a+0f!003+0f!006+0f!00a+0f!002+0f!002+0f3+002+0f2+004+0f!00a+0f!003+0f!006+0f!00a+0f!002+0f!002+0f3+002+0f2+004+0f!00a+0f!003+0f!006+0f!00a+0f!002+0f!002+0f3+002+0f2+004+0fc+003+0f8+00a+0f!002+0f!002e+0f!002+0f!002e+0f!003+0f19+0015+0f!003+0f19+0015+0f!002+0f!002e+0f!002+0f!002e+0f!002+0f!002+0f17+008+0f9+004+0f!002+0f!002+0f17+008+0f!007+0f!004+0f!002+0f!0021+0f!007+0f!004+0f!002+0f!001d+0f4+008+0f!004+0f!003+0f19+004+0f!00b+0f!004+0f!001b+0f!004+0f!00b+0f!004+0f!001b+0f!004+0f!00b+0f!004+0f!001c+0f4+00d+0f4+0034+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_45",
+  "x": 1784,
+  "y": 288,
+  "script": [
+    {
+      "command": "EVENT_MUSIC_STOP",
+      "args": {
+        "__collapse": true
+      },
+      "id": "b02074ec-76a9-44e8-b9f5-ad31365b1036"
+    },
+    {
+      "command": "EVENT_MUSIC_PLAY",
+      "args": {
+        "musicId": "553d20c4-d643-4a97-b54e-261861c9d8e2",
+        "__collapse": true
+      },
+      "id": "d9b004a1-d966-4440-87b7-5f848ce57bf5"
+    },
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "bae20c23-dc3f-4c92-9b3c-d3fc34ecc526",
+        "__collapse": true
+      },
+      "id": "e9060b4c-1b74-4b9f-bb77-1c6055973798"
+    },
+    {
+      "command": "EVENT_SCENE_RESET_STATE",
+      "args": {
+        "__collapse": true
+      },
+      "id": "1adef92d-5f11-417e-a170-6812a8cbd06a"
+    },
+    {
+      "command": "EVENT_SCENE_PUSH_STATE",
+      "args": {
+        "__collapse": true
+      },
+      "id": "36726ac2-f270-4655-ae8f-a75a3aeb6c7d"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "0",
+        "value": {
+          "type": "number",
+          "value": 1
+        },
+        "__collapse": true
+      },
+      "id": "05684fe6-e326-4d31-a0df-48a81db3e35a"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "1",
+        "value": {
+          "type": "number",
+          "value": 0
+        },
+        "__collapse": true
+      },
+      "id": "e2f2d4c3-021c-4d17-9eee-b667168aef54"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "3",
+        "value": {
+          "type": "false"
+        },
+        "__collapse": true
+      },
+      "id": "af51d5c3-2999-4f9a-a7ea-973ec43b00ec"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "4",
+        "value": {
+          "type": "false"
+        },
+        "__collapse": true
+      },
+      "id": "79a91197-23ee-43aa-a312-84fe21e37e4e"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "5",
+        "value": {
+          "type": "true"
+        },
+        "__collapse": true
+      },
+      "id": "3deef0fc-c6a2-4c98-89ea-b2506a90e34e"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "6",
+        "value": {
+          "type": "false"
+        },
+        "__collapse": true
+      },
+      "id": "6ed51df9-480e-4acd-9276-eb551620b93d"
+    },
+    {
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "812266f7-1bbc-400d-908c-42adda8d9109",
+        "__collapse": true
+      },
+      "id": "f86c859e-1f70-4a78-b320-230b507ea8f9",
+      "children": {}
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "autoFadeEventCollapse": true
+}

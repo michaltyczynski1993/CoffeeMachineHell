@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "d8e70969-7d89-4155-a20e-4fa63d0dc5ef",
+  "name": "level Extra 1",
+  "symbol": "bg_level_extra_1",
+  "width": 50,
+  "height": 35,
+  "imageWidth": 400,
+  "imageHeight": 280,
+  "filename": "level Extra 1.png",
+  "tileColors": ""
+}
