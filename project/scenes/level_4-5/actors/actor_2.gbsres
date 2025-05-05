@@ -233,7 +233,7 @@
                     },
                     "moveType": "horizontal",
                     "useCollisions": true,
-                    "__collapse": false
+                    "__collapse": true
                   },
                   "id": "d7821e7f-3999-4c5a-a42b-28a4b74fb7b5"
                 },
@@ -249,7 +249,8 @@
                       "type": "number",
                       "value": 4
                     },
-                    "__collapseElse": true
+                    "__collapseElse": true,
+                    "__collapse": true
                   },
                   "children": {
                     "true": [

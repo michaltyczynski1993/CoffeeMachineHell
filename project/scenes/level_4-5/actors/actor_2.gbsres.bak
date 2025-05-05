@@ -232,7 +232,7 @@
                       "value": 4
                     },
                     "moveType": "horizontal",
-                    "useCollisions": false,
+                    "useCollisions": true,
                     "__collapse": false
                   },
                   "id": "d7821e7f-3999-4c5a-a42b-28a4b74fb7b5"

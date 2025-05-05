@@ -45,7 +45,7 @@
               "value": {
                 "type": "true"
               },
-              "__collapse": false
+              "__collapse": true
             },
             "id": "01b7eea7-01dc-4436-be12-acebf419de48",
             "children": {}
@@ -53,81 +53,6 @@
         ]
       },
       "id": "fdbfe523-a4e6-4bc0-a0bf-3d4a8c5646cd"
-    },
-    {
-      "command": "EVENT_IF",
-      "args": {
-        "condition": {
-          "type": "eq",
-          "valueA": {
-            "type": "variable",
-            "value": "3"
-          },
-          "valueB": {
-            "type": "true"
-          }
-        },
-        "__collapseElse": false,
-        "__collapse": false,
-        "__label": "Show and hide racks"
-      },
-      "children": {
-        "true": [
-          {
-            "command": "EVENT_ACTOR_DEACTIVATE",
-            "args": {
-              "actorId": "eac30007-f4ca-47bd-ae73-ac97ec2b35ee",
-              "__collapse": true
-            },
-            "id": "42e4c745-9c55-4999-9b88-18bae5098705",
-            "children": {}
-          },
-          {
-            "command": "EVENT_SOUND_PLAY_EFFECT",
-            "args": {
-              "type": "dad1e18d-9f4d-4c92-a6a7-5539597ae723",
-              "priority": "medium",
-              "pitch": 4,
-              "frequency": 200,
-              "duration": 0.5,
-              "wait": true,
-              "effect": 10,
-              "__collapse": true,
-              "__label": "hide_unhide sound"
-            },
-            "id": "52d7505c-022c-4442-a7bf-cba18660b641",
-            "children": {}
-          }
-        ],
-        "false": [
-          {
-            "command": "EVENT_ACTOR_ACTIVATE",
-            "args": {
-              "actorId": "eac30007-f4ca-47bd-ae73-ac97ec2b35ee",
-              "__collapse": true
-            },
-            "id": "b07b0acd-71ac-4e6b-bd80-70a779bca58e",
-            "children": {}
-          },
-          {
-            "command": "EVENT_SOUND_PLAY_EFFECT",
-            "args": {
-              "type": "dad1e18d-9f4d-4c92-a6a7-5539597ae723",
-              "priority": "medium",
-              "pitch": 4,
-              "frequency": 200,
-              "duration": 0.5,
-              "wait": true,
-              "effect": 10,
-              "__collapse": true,
-              "__label": "hide_unhide sound"
-            },
-            "id": "454e52fa-0e60-40eb-a62f-882a85efac8b",
-            "children": {}
-          }
-        ]
-      },
-      "id": "1c3fba41-24e2-4fd5-923c-878f0d976400"
     }
   ],
   "leaveScript": []

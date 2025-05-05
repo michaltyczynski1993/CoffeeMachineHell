@@ -1,0 +1,85 @@
+{
+  "_resourceType": "trigger",
+  "id": "f30d0c9a-bc11-4730-bc3a-ef539977d7a3",
+  "name": "",
+  "prefabId": "8d039a46-482f-47f2-9a9d-e0be2e184cd1",
+  "x": 16,
+  "y": 7,
+  "symbol": "trigger_18",
+  "prefabScriptOverrides": {
+    "fdbfe523-a4e6-4bc0-a0bf-3d4a8c5646cd": {
+      "id": "fdbfe523-a4e6-4bc0-a0bf-3d4a8c5646cd",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "4"
+          },
+          "valueB": {
+            "type": "true"
+          }
+        }
+      }
+    },
+    "28bcf92b-d012-4c23-ac40-206ecee611ab": {
+      "id": "28bcf92b-d012-4c23-ac40-206ecee611ab",
+      "args": {
+        "variable": "4"
+      }
+    },
+    "01b7eea7-01dc-4436-be12-acebf419de48": {
+      "id": "01b7eea7-01dc-4436-be12-acebf419de48",
+      "args": {
+        "variable": "4"
+      }
+    },
+    "1c3fba41-24e2-4fd5-923c-878f0d976400": {
+      "id": "1c3fba41-24e2-4fd5-923c-878f0d976400",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "4"
+          },
+          "valueB": {
+            "type": "true"
+          }
+        }
+      }
+    },
+    "e1b67a40-b414-4844-a0bd-a6ff41e46b31": {
+      "id": "e1b67a40-b414-4844-a0bd-a6ff41e46b31",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "4"
+          },
+          "valueB": {
+            "type": "true"
+          }
+        }
+      }
+    },
+    "dd9c29be-2c50-43ad-9631-672a891592b5": {
+      "id": "dd9c29be-2c50-43ad-9631-672a891592b5",
+      "args": {
+        "actorId": "799b0546-a61b-4869-82fa-666d419e8345"
+      }
+    },
+    "1a0cc157-c08c-4254-9eed-2de5f4fc3f22": {
+      "id": "1a0cc157-c08c-4254-9eed-2de5f4fc3f22",
+      "args": {
+        "actorId": "799b0546-a61b-4869-82fa-666d419e8345"
+      }
+    }
+  },
+  "width": 2,
+  "height": 2,
+  "script": [],
+  "leaveScript": [],
+  "_index": 2
+}

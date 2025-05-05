@@ -45,7 +45,7 @@
               "value": {
                 "type": "true"
               },
-              "__collapse": false
+              "__collapse": true
             },
             "id": "01b7eea7-01dc-4436-be12-acebf419de48",
             "children": {}
@@ -68,7 +68,7 @@
           }
         },
         "__collapseElse": false,
-        "__collapse": true,
+        "__collapse": false,
         "__label": "Show and hide racks"
       },
       "children": {
@@ -76,10 +76,10 @@
           {
             "command": "EVENT_ACTOR_DEACTIVATE",
             "args": {
-              "actorId": "eac30007-f4ca-47bd-ae73-ac97ec2b35ee",
+              "actorId": "02be7dc8-5d07-4abb-bd1c-1431b9d57dc6",
               "__collapse": true
             },
-            "id": "42e4c745-9c55-4999-9b88-18bae5098705",
+            "id": "dd9c29be-2c50-43ad-9631-672a891592b5",
             "children": {}
           },
           {
@@ -95,7 +95,7 @@
               "__collapse": true,
               "__label": "hide_unhide sound"
             },
-            "id": "52d7505c-022c-4442-a7bf-cba18660b641",
+            "id": "30fe5f5a-f9d6-4616-9c96-4be6c2d2bcd6",
             "children": {}
           }
         ],
@@ -103,10 +103,10 @@
           {
             "command": "EVENT_ACTOR_ACTIVATE",
             "args": {
-              "actorId": "eac30007-f4ca-47bd-ae73-ac97ec2b35ee",
+              "actorId": "02be7dc8-5d07-4abb-bd1c-1431b9d57dc6",
               "__collapse": true
             },
-            "id": "b07b0acd-71ac-4e6b-bd80-70a779bca58e",
+            "id": "1a0cc157-c08c-4254-9eed-2de5f4fc3f22",
             "children": {}
           },
           {
@@ -122,12 +122,12 @@
               "__collapse": true,
               "__label": "hide_unhide sound"
             },
-            "id": "454e52fa-0e60-40eb-a62f-882a85efac8b",
+            "id": "47f8ad14-9327-4feb-a71c-142a18f5d60a",
             "children": {}
           }
         ]
       },
-      "id": "1c3fba41-24e2-4fd5-923c-878f0d976400"
+      "id": "e1b67a40-b414-4844-a0bd-a6ff41e46b31"
     }
   ],
   "leaveScript": []

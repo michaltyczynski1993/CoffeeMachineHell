@@ -11,7 +11,7 @@
   "animSpeed": 15,
   "paletteId": "",
   "isPinned": false,
-  "persistent": false,
+  "persistent": true,
   "collisionGroup": "",
   "prefabScriptOverrides": {},
   "symbol": "actor_95",
@@ -53,8 +53,15 @@
         "condition": {
           "type": "eq",
           "valueA": {
-            "type": "variable",
-            "value": "3"
+            "type": "or",
+            "valueA": {
+              "type": "variable",
+              "value": "3"
+            },
+            "valueB": {
+              "type": "variable",
+              "value": "4"
+            }
           },
           "valueB": {
             "type": "true"
@@ -107,12 +114,63 @@
             "type": "true"
           }
         },
-        "__collapseElse": true,
-        "__collapse": false
+        "__collapseElse": false,
+        "__collapse": true
       },
       "children": {
-        "true": [],
-        "false": []
+        "true": [
+          {
+            "command": "EVENT_ACTOR_DEACTIVATE",
+            "args": {
+              "actorId": "$self$",
+              "__collapse": true
+            },
+            "id": "38295991-52bc-42b8-bf44-5abdff8702af",
+            "children": {}
+          },
+          {
+            "command": "EVENT_SOUND_PLAY_EFFECT",
+            "args": {
+              "type": "dad1e18d-9f4d-4c92-a6a7-5539597ae723",
+              "priority": "medium",
+              "pitch": 4,
+              "frequency": 200,
+              "duration": 0.5,
+              "wait": true,
+              "effect": 10,
+              "__collapse": true,
+              "__label": "hide_unhide sound"
+            },
+            "id": "c5ca6dc2-907a-469a-aca2-b619dcf3d5d1",
+            "children": {}
+          }
+        ],
+        "false": [
+          {
+            "command": "EVENT_ACTOR_ACTIVATE",
+            "args": {
+              "actorId": "$self$",
+              "__collapse": true
+            },
+            "id": "9c71f41e-65fb-492b-9f55-abd062d8864c"
+          },
+          {
+            "command": "EVENT_SOUND_PLAY_EFFECT",
+            "args": {
+              "type": "dad1e18d-9f4d-4c92-a6a7-5539597ae723",
+              "priority": "medium",
+              "pitch": 4,
+              "frequency": 200,
+              "duration": 0.5,
+              "wait": true,
+              "effect": 10,
+              "__collapse": true,
+              "__label": "hide_unhide sound"
+            },
+            "id": "bab737eb-c8f2-4473-92f2-12b1c38504c9",
+            "children": {}
+          }
+        ]
       },
       "id": "08c8c6a3-46c4-4a8b-972c-124447115bd7"
     }
