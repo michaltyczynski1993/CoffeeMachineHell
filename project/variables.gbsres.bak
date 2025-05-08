@@ -605,6 +605,16 @@
       "id": "572ae58f-68d5-47bd-8c3c-b86ee55e9f8c__L0",
       "name": "isPointAdded",
       "symbol": "var_ispointadded_33"
+    },
+    {
+      "id": "34739231-33c8-4838-8852-4ad4dd5a3c6f__L0",
+      "name": "is_moved",
+      "symbol": "var_is_moved_3"
+    },
+    {
+      "id": "34739231-33c8-4838-8852-4ad4dd5a3c6f__L1",
+      "name": "x_pos",
+      "symbol": "var_x_pos_2"
     }
   ]
 }

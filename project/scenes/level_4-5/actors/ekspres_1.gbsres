@@ -106,7 +106,7 @@
           "value": 15
         },
         "__collapseElse": true,
-        "__collapse": false
+        "__collapse": true
       },
       "children": {
         "true": [
@@ -141,7 +141,7 @@
                       }
                     },
                     "__collapseElse": true,
-                    "__collapse": false
+                    "__collapse": true
                   },
                   "children": {
                     "true": [
@@ -174,7 +174,7 @@
                       {
                         "command": "EVENT_SWITCH_SCENE",
                         "args": {
-                          "sceneId": "cb277a0a-fe42-4f80-9dba-dfcc10243a37",
+                          "sceneId": "7e305b2e-f210-4ec1-a600-b60228a7a86f",
                           "x": {
                             "type": "number",
                             "value": 2

@@ -239,7 +239,7 @@
                                 },
                                 "direction": "",
                                 "fadeSpeed": "2",
-                                "__collapse": true
+                                "__collapse": false
                               },
                               "id": "6bab9707-3da3-4448-bb54-4dc807262b59"
                             }
